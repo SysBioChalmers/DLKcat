@@ -1,6 +1,5 @@
 
 
-|Current Version| |Build Status| |PyPI Version| |Docs Status| |Gitter|
 
 About MLkcat:
 -----------
