@@ -7,6 +7,7 @@ Required software
 - The `RAVEN toolbox for MATLAB <https://github.com/SysBioChalmers/RAVEN>`_.
 - The `libSBML MATLAB API <https://sourceforge.net/projects/sbml/files/libsbml/MATLAB%20Interface>`_ (version 5.17.0 is recommended).
 - For ploting violin plots, The toolbox `Violinplot-Matlab <https://github.com/bastibe/Violinplot-Matlab>`_
+- For calculating Adjusted P value, function `PVAL_ADJUST <https://github.com/fakenmc/pval_adjust>`_
 - In the Bayesian process, `IBM CPLEX 12.10 <https://www.ibm.com/products/ilog-cplex-optimization-studio>`_ is used, `gurobi <https://www.gurobi.com>`_  can also be used after adapting the function ``abc_matlab_max.m`` with replacing ``ibm_cplex`` to ``gurobi`` when calling th function ``solveModel``.
 
 - For othe process, default cobra solver would be used, either `IBM CPLEX 12.10 <https://www.ibm.com/products/ilog-cplex-optimization-studio>`_ or `gurobi <https://www.gurobi.com>`_  is ok.
