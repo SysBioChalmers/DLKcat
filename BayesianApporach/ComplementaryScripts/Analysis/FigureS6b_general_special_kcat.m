@@ -1,10 +1,9 @@
-%% this function is for figure S5b 
+%% this function is for figure S6b
 
 currentpath = pwd;
-inputpath = '/Users/feiranl/Documents/GitHub/MLKcat/ComplementaryScripts/ForKcatPrediction/343species_0314'
 load('conserveMets.mat')
-cd ../KcatTuning/model_dl/
-fid2 = fopen('../../../ComplementaryData/physiology/343_phenotype_clade.tsv');
+cd ../../Results/model_dl/
+fid2 = fopen('343_phenotype_clade.tsv');
 format = '%s %s %s';
 temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',1);
 for i = 1:length(temp)
@@ -17,9 +16,7 @@ group = [];
 clade_av = [];
 %% sort all OG groups for all species
 
-
 load('ecdata.mat')
-mkdir splitedresult
 for k = 1:length(clades)
     species = Strain_information(ismember(Strain_information(:,2),clades(k)),1);
 % define specialist & genralist
@@ -27,7 +24,6 @@ kcat_general = [];
 kcat_special = [];
 
 for i = 1:length(species)
-    inputpath
     disp([num2str(i),'/343 species'])
     z = load([species{i},'_dl.mat']);
     model = z.model;

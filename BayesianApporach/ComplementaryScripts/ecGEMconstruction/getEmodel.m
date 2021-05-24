@@ -1,7 +1,7 @@
 function getEmodel(species)
 currentpath = pwd;
 cd ../../Results/
-for i = 259:length(species)
+for i = 1:length(species)
     display([num2str(i) '/' num2str(length(species))]);
     cd('model_auto')
     z = load([species{i},'_dl.mat']);
@@ -40,12 +40,12 @@ for i = 259:length(species)
     emodel = convertToGeckoModel(model_DL,enzymedata_DL,tot_prot_weight);
     save([emodel.id,'_Bayesian_DL_mean.mat'],'emodel');
     
-%     %for m = 1:length(kcat_posterior(1,:))
-%     for m = 1:5
-%         enzymedata.kcat = kcat_posterior(:,m);
-%         emodel = convertToGeckoModel(model,enzymedata,tot_prot_weight);
-%         save([emodel.id,num2str(m),'.mat'],'emodel');
-%     end
+    %for m = 1:length(kcat_posterior(1,:))
+    for m = 1:5
+        enzymedata_DL.kcat = kcat_posterior(:,m);
+        emodel = convertToGeckoModel(model_DL,enzymedata_DL,tot_prot_weight);
+        save([emodel.id,num2str(m),'.mat'],'emodel');
+    end
     cd ../../
 end
 cd(currentpath)

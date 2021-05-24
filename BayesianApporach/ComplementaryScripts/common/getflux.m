@@ -9,20 +9,22 @@ end
 current_path = pwd;
 cd(inputpath)
 
-if strcmp(state,'prior') || strcmp(state,'auto') || strcmp(state,'median')
+if strcmp(state,'DL') || strcmp(state,'auto') || strcmp(state,'median')|| strcmp(state,'Bayesian_DL_mean')
     num = 1;
-elseif strcmp(state,'posterior')
+elseif strcmp(state,'Bayesian_DL')
     num = 5;
 end
 for m = 1:num
     m
-    if strcmp(state,'prior')
-        load(['ecmodel_',strain,'_prior.mat'])
-    elseif strcmp(state,'posterior')
-        load(['ecmodel_',strain,num2str(m),'.mat'])
+    if strcmp(state,'DL')
+        load(['emodel_',strain,'_DL.mat'])
+    elseif strcmp(state,'Bayesian_DL')
+        load(['emodel_',strain,num2str(m),'.mat'])
+    elseif strcmp(state,'Bayesian_DL_mean')
+        load(['emodel_',strain,'_Bayesian_DL_mean.mat'])
     elseif strcmp(state,'median')
-        cd('../model_auto')
-        z = load([strain,'.mat']);
+        cd('../../model_auto')
+        z = load([strain,'_auto.mat']);
         if strcmp(strain,'Kluyveromyces_marxianus')
             tot_prot = 0.325;
         elseif strcmp(strain,'Kluyveromyces_lactis')
@@ -33,8 +35,8 @@ for m = 1:num
         z.enzymedata.kcat(1:length(z.enzymedata.kcat)) = median(z.enzymedata.kcat);
         emodel = convertToGeckoModel(z.model,z.enzymedata,tot_prot);
     else
-        cd('../model_auto')
-        z = load([strain,'.mat']);
+        cd('../../model_auto')
+        z = load([strain,'_auto.mat']);
         if strcmp(strain,'Kluyveromyces_marxianus')
             tot_prot = 0.325;
         elseif strcmp(strain,'Kluyveromyces_lactis')

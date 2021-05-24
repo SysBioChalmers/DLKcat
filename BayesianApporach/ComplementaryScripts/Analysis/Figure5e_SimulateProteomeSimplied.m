@@ -2,19 +2,18 @@
 % measured proteome
 current_path = pwd;
 % load proteome data
-[~,~,raw_proteome] = xlsread('../../ComplementaryData/proteome/Proteome_ref_new.xlsx','alldata');
+[~,~,raw_proteome] = xlsread('Proteome_ref.xlsx','alldata');
 raw_proteome = raw_proteome(2:end,:); % the first is the head line
 cond = unique(raw_proteome(1,:),'stable');
 lable  = unique(raw_proteome(2,:),'stable');
 speciesid = {'Sce','Kma','Kla','Yli'};
 species = {'Saccharomyces_cerevisiae','Kluyveromyces_marxianus','Kluyveromyces_lactis','Yarrowia_lipolytica'};
-%inputpath = {'../KcatTuning/yeast8_witheclimit_abcmax_clean_more_var1','../KcatTuning/kmx_var1','../KcatTuning/kla_var1','../KcatTuning/yli_var1'};
 
-states = {'median','auto','prior','posterior'};
+states = {'median','auto','DL','Bayesian_DL','Bayesian_DL_mean'};
 
-
+cd ../../Results
 for i = 1:length(cond)
-    for k = 1:4
+    for k = 1:5
         k
         state = states{k};
         disp([num2str(i),'/',num2str(length(cond))])
@@ -23,7 +22,7 @@ for i = 1:length(cond)
         code = split(code,'_');
         [~,idx] = ismember(code(1),speciesid);
         code(end+1) = species(idx);
-        code(end+1) = {['../KcatTuning/model_bayesian/',code{7}]};
+        code(end+1) = {['model_bayesian/',code{7}]};
         % get flux
         [model,sol_result_mean] = getflux(code{7},code{2},code{3},code{4},code{5},code{8},state); % species chemostat/batch media o2 carbon inputpath
         sol_result{i,k} = sol_result_mean;

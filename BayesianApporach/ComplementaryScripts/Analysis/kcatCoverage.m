@@ -3,10 +3,10 @@ function kcatCoverage(species,version1)
 
 current_path = pwd;
 if strcmp(version1,'dl')
-    inputpath = '../KcatTuning/model_dl_new';
+    inputpath = '../../Results/model_dl';
     cd(inputpath)
 else
-    inputpath = '../KcatTuning/model_auto';
+    inputpath = '..../Results/model_auto';
     cd(inputpath)
 end
 % load model
@@ -39,4 +39,4 @@ end
 clearvars -except species res_enzyme res_rxn current_path version1
 
 cd(current_path)
-save(['Results/res_kcatcoverage',version1,'.mat'])
+save(['../../Results/res_kcatcoverage',version1,'.mat'])

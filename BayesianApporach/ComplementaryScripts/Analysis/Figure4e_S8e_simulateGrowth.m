@@ -1,4 +1,4 @@
-function simulateGrowth(species,carbonsource,aerobic)
+function Figure4e_S8e_simulateGrowth(species,carbonsource,aerobic)
 if nargin < 3
     aerobic = 1;
 end
@@ -6,7 +6,7 @@ if nargin < 2
     carbonsource = 'D-glucose';
 end
 current_path= pwd;
-cd ../KcatTuning/model_bayesian/
+cd ../../Results/model_bayesian/
 
 for i = 1:length(species)
     cd(species{i})
@@ -14,9 +14,10 @@ for i = 1:length(species)
     dilutionrate = [0.05:0.05:0.9];
     
     %for m = 1:length(kcat_posterior(1,:))
-    for m = 1:100
-        
-        load(['emodel_',species{i},num2str(m),'.mat']);
+    %for m = 1:100
+       % load(['emodel_',species{i},num2str(m),'.mat']);
+       m = 1
+        load(['emodel_',species{i},'_Bayesian_DL_mean.mat']);
         if ~aerobic
             emodel = anaerobicModel(emodel);
         end
