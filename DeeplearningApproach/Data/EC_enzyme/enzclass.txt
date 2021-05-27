@@ -1,0 +1,418 @@
+---------------------------------------------------------------------------
+        ENZYME nomenclature database
+        SIB Swiss Institute of Bioinformatics; Geneva, Switzerland
+---------------------------------------------------------------------------
+
+Description: ENZYME class hierarchy
+Name:        enzclass.txt
+Release:     17-Jun-2020
+
+---------------------------------------------------------------------------
+
+1. -. -.-  Oxidoreductases.
+1. 1. -.-   Acting on the CH-OH group of donors.
+1. 1. 1.-    With NAD(+) or NADP(+) as acceptor.
+1. 1. 2.-    With a cytochrome as acceptor.
+1. 1. 3.-    With oxygen as acceptor.
+1. 1. 4.-    With a disulfide as acceptor.
+1. 1. 5.-    With a quinone or similar compound as acceptor.
+1. 1. 9.-    With a copper protein as acceptor.
+1. 1.98.-    With other, known, acceptors.
+1. 1.99.-    With other acceptors.
+1. 2. -.-   Acting on the aldehyde or oxo group of donors.
+1. 2. 1.-    With NAD(+) or NADP(+) as acceptor.
+1. 2. 2.-    With a cytochrome as acceptor.
+1. 2. 3.-    With oxygen as acceptor.
+1. 2. 4.-    With a disulfide as acceptor.
+1. 2. 5.-    With a quinone or similar compound as acceptor.
+1. 2. 7.-    With an iron-sulfur protein as acceptor.
+1. 2.98.-    With other, known, acceptors.
+1. 2.99.-    With other acceptors.
+1. 3. -.-   Acting on the CH-CH group of donors.
+1. 3. 1.-    With NAD(+) or NADP(+) as acceptor.
+1. 3. 2.-    With a cytochrome as acceptor.
+1. 3. 3.-    With oxygen as acceptor.
+1. 3. 4.-    With a disulfide as acceptor.
+1. 3. 5.-    With a quinone or related compound as acceptor.
+1. 3. 7.-    With an iron-sulfur protein as acceptor.
+1. 3. 8.-    With a flavin as acceptor.
+1. 3.98.-    With other, known, acceptors.
+1. 3.99.-    With other acceptors.
+1. 4. -.-   Acting on the CH-NH(2) group of donors.
+1. 4. 1.-    With NAD(+) or NADP(+) as acceptor.
+1. 4. 2.-    With a cytochrome as acceptor.
+1. 4. 3.-    With oxygen as acceptor.
+1. 4. 4.-    With a disulfide as acceptor.
+1. 4. 5.-    With a quinone or similar compound as acceptor.
+1. 4. 7.-    With an iron-sulfur protein as acceptor.
+1. 4. 9.-    With a copper protein as acceptor.
+1. 4.98.-    With other, known, acceptors.
+1. 4.99.-    With other acceptors.
+1. 5. -.-   Acting on the CH-NH group of donors.
+1. 5. 1.-    With NAD(+) or NADP(+) as acceptor.
+1. 5. 3.-    With oxygen as acceptor.
+1. 5. 4.-    With a disulfide as acceptor.
+1. 5. 5.-    With a quinone or similar compound as acceptor.
+1. 5. 7.-    With an iron-sulfur protein as acceptor.
+1. 5. 8.-    With a flavin as acceptor.
+1. 5.98.-    With other, known, acceptors.
+1. 5.99.-    With other acceptors.
+1. 6. -.-   Acting on NADH or NADPH.
+1. 6. 1.-    With NAD(+) or NADP(+) as acceptor.
+1. 6. 2.-    With a heme protein as acceptor.
+1. 6. 3.-    With oxygen as acceptor.
+1. 6. 4.-    With a disulfide as acceptor.
+1. 6. 5.-    With a quinone or similar compound as acceptor.
+1. 6. 6.-    With a nitrogenous group as acceptor.
+1. 6. 7.-    With a iron-sulfur protein as acceptor.
+1. 6. 8.-    With a flavin as acceptor.
+1. 6.99.-    With other acceptors.
+1. 7. -.-   Acting on other nitrogenous compounds as donors.
+1. 7. 1.-    With NAD(+) or NADP(+) as acceptor.
+1. 7. 2.-    With a cytochrome as acceptor.
+1. 7. 3.-    With oxygen as acceptor.
+1. 7. 5.-    With a quinone or similar compound as acceptor.
+1. 7. 6.-    With a nitrogenous group as acceptor.
+1. 7. 7.-    With an iron-sulfur protein as acceptor.
+1. 7. 9.-    With a copper protein as acceptor.
+1. 7.99.-    With other acceptors.
+1. 8. -.-   Acting on a sulfur group of donors.
+1. 8. 1.-    With NAD(+) or NADP(+) as acceptor.
+1. 8. 2.-    With a cytochrome as acceptor.
+1. 8. 3.-    With oxygen as acceptor.
+1. 8. 4.-    With a disulfide as acceptor.
+1. 8. 5.-    With a quinone or similar compound as acceptor.
+1. 8. 6.-    With an nitrogenous group as acceptor.
+1. 8. 7.-    With an iron-sulfur protein as acceptor.
+1. 8.98.-    With other, known, acceptors.
+1. 8.99.-    With other acceptors.
+1. 9. -.-   Acting on a heme group of donors.
+1. 9. 3.-    With oxygen as acceptor.
+1. 9. 6.-    With a nitrogenous group as acceptor.
+1. 9.98.-    With other, known, acceptors.
+1. 9.99.-    With other acceptors.
+1.10. -.-   Acting on diphenols and related substances as donors.
+1.10. 1.-    With NAD(+) or NADP(+) as acceptor.
+1.10. 2.-    With a cytochrome as acceptor.
+1.10. 3.-    With oxygen as acceptor.
+1.10. 5.-    With a quinone or related compound as acceptor.
+1.10. 9.-    With a copper protein as acceptor.
+1.10.98.-    With other, known, acceptors.
+1.10.99.-    With other acceptors.
+1.11. -.-   Acting on a peroxide as acceptor.
+1.11. 1.-    Peroxidases.
+1.11. 2.-    With H(2)O(2) as acceptor, one oxygen atom of which is incorporated into the product.
+1.12. -.-   Acting on hydrogen as donors.
+1.12. 1.-    With NAD(+) or NADP(+) as acceptor.
+1.12. 2.-    With a cytochrome as acceptor.
+1.12. 5.-    With a quinone or similar compound as acceptor.
+1.12. 7.-    With an iron-sulfur protein as acceptor.
+1.12.98.-    With other, known, acceptors.
+1.12.99.-    With other acceptors.
+1.13. -.-   Acting on single donors with incorporation of molecular oxygen (oxygenases). The oxygen incorporated need not be derived from O(2).
+1.13. 1.-    With NADH or NADPH as one donor.
+1.13.11.-    With incorporation of two atoms of oxygen.
+1.13.12.-    With incorporation of one atom of oxygen (internal monooxygenases or internal mixed function oxidases).
+1.13.99.-    Miscellaneous.
+1.14. -.-   Acting on paired donors, with incorporation or reduction of molecular oxygen. The oxygen incorporated need not be derived from O(2).
+1.14. 1.-    With NADH or NADPH as one donor.
+1.14. 2.-    With ascorbate as one donor.
+1.14. 3.-    With reduced pteridine as one donor.
+1.14.11.-    With 2-oxoglutarate as one donor, and incorporation of one atom each of oxygen into both donors.
+1.14.12.-    With NADH or NADPH as one donor, and incorporation of two atoms of oxygen into one donor.
+1.14.13.-    With NADH or NADPH as one donor, and incorporation of one atom of oxygen.
+1.14.14.-    With reduced flavin or flavoprotein as one donor, and incorporation of one atom of oxygen.
+1.14.15.-    With reduced iron-sulfur protein as one donor, and incorporation of one atom of oxygen.
+1.14.16.-    With reduced pteridine as one donor, and incorporation of one atom of oxygen.
+1.14.17.-    With reduced ascorbate as one donor, and incorporation of one atom of oxygen.
+1.14.18.-    With another compound as one donor, and incorporation of one atom of oxygen.
+1.14.19.-    With oxidation of a pair of donors resulting in the reduction of molecular oxygen to two molecules of water.
+1.14.20.-    With 2-oxoglutarate as one donor, and the other dehydrogenated.
+1.14.21.-    With NADH or NADPH as one donor, and the other dehydrogenated.
+1.14.99.-    Miscellaneous.
+1.15. -.-   Acting on superoxide as acceptor.
+1.15. 1.-    Acting on superoxide as acceptor.
+1.16. -.-   Oxidizing metal ions.
+1.16. 1.-    With NAD(+) or NADP(+) as acceptor.
+1.16. 3.-    With oxygen as acceptor.
+1.16. 5.-    With a quinone or similar compound as acceptor.
+1.16. 8.-    With a flavin as acceptor.
+1.16. 9.-    With a copper protein as acceptor.
+1.16.98.-    With other known acceptors.
+1.17. -.-   Acting on CH or CH(2) groups.
+1.17. 1.-    With NAD(+) or NADP(+) as acceptor.
+1.17. 2.-    With a cytochrome as acceptor.
+1.17. 3.-    With oxygen as acceptor.
+1.17. 4.-    With a disulfide as acceptor.
+1.17. 5.-    With a quinone or similar compound as acceptor.
+1.17. 7.-    With an iron-sulfur protein as acceptor.
+1.17. 8.-    With a flavin as acceptor.
+1.17. 9.-    With a copper protein as acceptor.
+1.17.98.-    With other, known, acceptors.
+1.17.99.-    With other acceptors.
+1.18. -.-   Acting on iron-sulfur proteins as donors.
+1.18. 1.-    With NAD(+) or NADP(+) as acceptor.
+1.18. 2.-    With dinitrogen as acceptor.
+1.18. 3.-    With H(+) as acceptor.
+1.18. 6.-    With dinitrogen as acceptor.
+1.18.96.-    With other, known, acceptors.
+1.18.99.-    With H(+) as acceptor.
+1.19. -.-   Acting on reduced flavodoxin as donor.
+1.19. 1.-    With NAD(+) or NADP(+) as acceptor.
+1.19. 6.-    With dinitrogen as acceptor.
+1.20. -.-   Acting on phosphorus or arsenic in donors.
+1.20. 1.-    With NAD(+) or NADP(+) as acceptor.
+1.20. 2.-    With a cytochrome as acceptor.
+1.20. 4.-    With disulfide as acceptor.
+1.20. 9.-    With a copper protein as acceptor.
+1.20.98.-    With other, known acceptors.
+1.20.99.-    With other acceptors.
+1.21. -.-   Catalyzing the reaction X-H + Y-H = 'X-Y'.
+1.21. 1.-    With NAD(+) or NADP(+) as acceptor.
+1.21. 3.-    With oxygen as acceptor.
+1.21. 4.-    With a disulfide as acceptor.
+1.21.98.-    With other, known acceptors.
+1.21.99.-    With other acceptors.
+1.22. -.-   Acting on halogen in donors.
+1.22. 1.-    With NAD(+) or NADP(+) as acceptor.
+1.23. -.-   Reducing C-O-C group as acceptor.
+1.23. 1.-    With NADH or NADPH as donor.
+1.23. 5.-    With a quinone or similar compound as acceptor.
+1.97. -.-   Other oxidoreductases.
+1.97. 1.-    Other oxidoreductases.
+1.98. -.-   Enzymes using H(2) as reductant.
+1.98. 1.-    Other oxidoreductases.
+1.99. -.-   Other enzymes using O(2) as oxidant.
+1.99. 1.-    Hydroxylases.
+1.99. 2.-    Oxygenases.
+
+2. -. -.-  Transferases.
+2. 1. -.-   Transferring one-carbon groups.
+2. 1. 1.-    Methyltransferases.
+2. 1. 2.-    Hydroxymethyl-, formyl- and related transferases.
+2. 1. 3.-    Carboxy- and carbamoyltransferases.
+2. 1. 4.-    Amidinotransferases.
+2. 1. 5.-    Methylenetransferases.
+2. 2. -.-   Transferring aldehyde or ketonic groups.
+2. 2. 1.-    Transketolases and transaldolases.
+2. 3. -.-   Acyltransferases.
+2. 3. 1.-    Transferring groups other than amino-acyl groups.
+2. 3. 2.-    Aminoacyltransferases.
+2. 3. 3.-    Acyl groups converted into alkyl groups on transfer.
+2. 4. -.-   Glycosyltransferases.
+2. 4. 1.-    Hexosyltransferases.
+2. 4. 2.-    Pentosyltransferases.
+2. 4.99.-    Transferring other glycosyl groups.
+2. 5. -.-   Transferring alkyl or aryl groups, other than methyl groups.
+2. 5. 1.-    Transferring alkyl or aryl groups, other than methyl groups.
+2. 6. -.-   Transferring nitrogenous groups.
+2. 6. 1.-    Transaminases.
+2. 6. 2.-    Amidinotransferases.
+2. 6. 3.-    Oximinotransferases.
+2. 6.99.-    Transferring other nitrogenous groups.
+2. 7. -.-   Transferring phosphorus-containing groups.
+2. 7. 1.-    Phosphotransferases with an alcohol group as acceptor.
+2. 7. 2.-    Phosphotransferases with a carboxy group as acceptor.
+2. 7. 3.-    Phosphotransferases with a nitrogenous group as acceptor.
+2. 7. 4.-    Phosphotransferases with a phosphate group as acceptor.
+2. 7. 5.-    Phosphotransferases with regeneration of donors, apparently catalyzing intramolecular transfers.
+2. 7. 6.-    Diphosphotransferases.
+2. 7. 7.-    Nucleotidyltransferases.
+2. 7. 8.-    Transferases for other substituted phosphate groups.
+2. 7. 9.-    Phosphotransferases with paired acceptors.
+2. 7.10.-    Protein-tyrosine kinases.
+2. 7.11.-    Protein-serine/threonine kinases.
+2. 7.12.-    Dual-specificity kinases (those acting on Ser/Thr and Tyr residues).
+2. 7.13.-    Protein-histidine kinases.
+2. 7.14.-    Protein-arginine kinases.
+2. 7.99.-    Other protein kinases.
+2. 8. -.-   Transferring sulfur-containing groups.
+2. 8. 1.-    Sulfurtransferases.
+2. 8. 2.-    Sulfotransferases.
+2. 8. 3.-    CoA-transferases.
+2. 8. 4.-    Transferring alkylthio groups.
+2. 8. 5.-    Thiosulfotransferases.
+2. 9. -.-   Transferring selenium-containing groups.
+2. 9. 1.-    Selenotransferases.
+2.10. -.-   Transferring molybdenum- or tungsten-containing groups.
+2.10. 1.-    Molybdenumtransferases or tungstentransferases with sulfide groups as acceptors.
+
+3. -. -.-  Hydrolases.
+3. 1. -.-   Acting on ester bonds.
+3. 1. 1.-    Carboxylic ester hydrolases.
+3. 1. 2.-    Thiolester hydrolases.
+3. 1. 3.-    Phosphoric monoester hydrolases.
+3. 1. 4.-    Phosphoric diester hydrolases.
+3. 1. 5.-    Triphosphoric monoester hydrolases.
+3. 1. 6.-    Sulfuric ester hydrolases.
+3. 1. 7.-    Diphosphoric monoester hydrolases.
+3. 1. 8.-    Phosphoric triester hydrolases.
+3. 1.11.-    Exodeoxyribonucleases producing 5'-phosphomonoesters.
+3. 1.12.-    Exodeoxyribonucleases producing 3'-phosphomonoesters.
+3. 1.13.-    Exoribonucleases producing 5'-phosphomonoesters.
+3. 1.14.-    Exoribonucleases producing 3'-phosphomonoesters.
+3. 1.15.-    Exonucleases active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters.
+3. 1.16.-    Exonucleases active with either ribo- or deoxyribonucleic acids and producing 3'-phosphomonoesters.
+3. 1.21.-    Endodeoxyribonucleases producing 5'-phosphomonoesters.
+3. 1.22.-    Endodeoxyribonucleases producing other than 5'-phosphomonoesters.
+3. 1.23.-    Site specific endodeoxyribonucleases: cleavage is sequence specific.
+3. 1.24.-    Site specific endodeoxyribonucleases: cleavage is not sequence specific.
+3. 1.25.-    Site-specific endodeoxyribonucleases specific for altered bases.
+3. 1.26.-    Endoribonucleases producing 5'-phosphomonoesters.
+3. 1.27.-    Endoribonucleases producing other than 5'-phosphomonoesters.
+3. 1.30.-    Endoribonucleases active with either ribo- or deoxyribonucleic acids and producing 5'-phosphomonoesters.
+3. 1.31.-    Endoribonucleases active with either ribo- or deoxyribonucleic acids and producing 3'-phosphomonoesters.
+3. 2. -.-   Glycosylases.
+3. 2. 1.-    Glycosidases, i.e. enzymes hydrolyzing O- and S-glycosyl compounds.
+3. 2. 2.-    Hydrolyzing N-glycosyl compounds.
+3. 2. 3.-    Hydrolyzing S-glycosyl compounds.
+3. 3. -.-   Acting on ether bonds.
+3. 3. 1.-    Thioether and trialkylsulfonium hydrolases.
+3. 3. 2.-    Ether hydrolases.
+3. 4. -.-   Acting on peptide bonds (peptidases).
+3. 4. 1.-    alpha-Amino-acyl-peptide hydrolases.
+3. 4. 2.-    Peptidyl-amino-acid hydrolases.
+3. 4. 3.-    Dipeptide hydrolases.
+3. 4. 4.-    Peptidyl peptide hydrolases.
+3. 4.11.-    Aminopeptidases.
+3. 4.12.-    Peptidylamino-acid hydrolases or acylamino-acid hydrolases.
+3. 4.13.-    Dipeptidases.
+3. 4.14.-    Dipeptidyl-peptidases and tripeptidyl-peptidases.
+3. 4.15.-    Peptidyl-dipeptidases.
+3. 4.16.-    Serine-type carboxypeptidases.
+3. 4.17.-    Metallocarboxypeptidases.
+3. 4.18.-    Cysteine-type carboxypeptidases.
+3. 4.19.-    Omega peptidases.
+3. 4.21.-    Serine endopeptidases.
+3. 4.22.-    Cysteine endopeptidases.
+3. 4.23.-    Aspartic endopeptidases.
+3. 4.24.-    Metalloendopeptidases.
+3. 4.25.-    Threonine endopeptidases.
+3. 4.99.-    Endopeptidases of unknown catalytic mechanism.
+3. 5. -.-   Acting on carbon-nitrogen bonds, other than peptide bonds.
+3. 5. 1.-    In linear amides.
+3. 5. 2.-    In cyclic amides.
+3. 5. 3.-    In linear amidines.
+3. 5. 4.-    In cyclic amidines.
+3. 5. 5.-    In nitriles.
+3. 5.99.-    In other compounds.
+3. 6. -.-   Acting on acid anhydrides.
+3. 6. 1.-    In phosphorus-containing anhydrides.
+3. 6. 2.-    In sulfonyl-containing anhydrides.
+3. 6. 3.-    Acting on acid anhydrides; catalyzing transmembrane movement of substances.
+3. 6. 4.-    Acting on ATP; involved in cellular and subcellular movement.
+3. 6. 5.-    Acting on GTP; involved in cellular and subcellular movement.
+3. 7. -.-   Acting on carbon-carbon bonds.
+3. 7. 1.-    In ketonic substances.
+3. 8. -.-   Acting on halide bonds.
+3. 8. 1.-    In C-halide compounds.
+3. 8. 2.-    In P-halide compounds.
+3. 9. -.-   Acting on phosphorus-nitrogen bonds.
+3. 9. 1.-    Acting on phosphorus-nitrogen bonds.
+3.10. -.-   Acting on sulfur-nitrogen bonds.
+3.10. 1.-    Acting on sulfur-nitrogen bonds.
+3.11. -.-   Acting on carbon-phosphorus bonds.
+3.11. 1.-    Acting on carbon-phosphorus bonds.
+3.12. -.-   Acting on sulfur-sulfur bonds.
+3.12. 1.-    Acting on sulfur-sulfur bonds.
+3.13. -.-   Acting on carbon-sulfur bonds.
+3.13. 1.-    Acting on carbon-sulfur bonds.
+
+4. -. -.-  Lyases.
+4. 1. -.-   Carbon-carbon lyases.
+4. 1. 1.-    Carboxy-lyases.
+4. 1. 2.-    Aldehyde-lyases.
+4. 1. 3.-    Oxo-acid-lyases.
+4. 1.99.-    Other carbon-carbon lyases.
+4. 2. -.-   Carbon-oxygen lyases.
+4. 2. 1.-    Hydro-lyases.
+4. 2. 2.-    Acting on polysaccharides.
+4. 2. 3.-    Acting on phosphates.
+4. 2.99.-    Other carbon-oxygen lyases.
+4. 3. -.-   Carbon-nitrogen lyases.
+4. 3. 1.-    Ammonia-lyases.
+4. 3. 2.-    Lyases acting on amides, amidines, etc.
+4. 3. 3.-    Amine-lyases.
+4. 3.99.-    Other carbon-nitrogen lyases.
+4. 4. -.-   Carbon-sulfur lyases.
+4. 4. 1.-    Carbon-sulfur lyases.
+4. 5. -.-   Carbon-halide lyases.
+4. 5. 1.-    Carbon-halide lyases.
+4. 6. -.-   Phosphorus-oxygen lyases.
+4. 6. 1.-    Phosphorus-oxygen lyases.
+4. 7. -.-   Carbon-phosphorus lyases.
+4. 7. 1.-    Carbon-phosphorus lyases.
+4.99. -.-   Other lyases.
+4.99. 1.-    Other lyases.
+
+5. -. -.-  Isomerases.
+5. 1. -.-   Racemases and epimerases.
+5. 1. 1.-    Acting on amino acids and derivatives.
+5. 1. 2.-    Acting on hydroxy acids and derivatives.
+5. 1. 3.-    Acting on carbohydrates and derivatives.
+5. 1.99.-    Acting on other compounds.
+5. 2. -.-   Cis-trans-isomerases.
+5. 2. 1.-    Cis-trans isomerases.
+5. 3. -.-   Intramolecular oxidoreductases.
+5. 3. 1.-    Interconverting aldoses and ketoses.
+5. 3. 2.-    Interconverting keto- and enol-groups.
+5. 3. 3.-    Transposing C=C bonds.
+5. 3. 4.-    Transposing S-S bonds.
+5. 3.99.-    Other intramolecular oxidoreductases.
+5. 4. -.-   Intramolecular transferases.
+5. 4. 1.-    Transferring acyl groups.
+5. 4. 2.-    Phosphotransferases (phosphomutases).
+5. 4. 3.-    Transferring amino groups.
+5. 4. 4.-    Transferring hydroxy groups.
+5. 4.99.-    Transferring other groups.
+5. 5. -.-   Intramolecular lyases.
+5. 5. 1.-    Intramolecular lyases.
+5. 6. -.-   Isomerases altering macromolecular conformation.
+5. 6. 1.-    Enzymes altering polypeptide conformation or assembly.
+5. 6. 2.-    Enzymes altering nucleic acid conformation.
+5.99. -.-   Other isomerases.
+5.99. 1.-    Other isomerases.
+
+6. -. -.-  Ligases.
+6. 1. -.-   Forming carbon-oxygen bonds.
+6. 1. 1.-    Ligases forming aminoacyl-tRNA and related compounds.
+6. 1. 2.-    Acid--alcohol ligases (ester synthases).
+6. 1. 3.-    Cyclo-ligases.
+6. 2. -.-   Forming carbon-sulfur bonds.
+6. 2. 1.-    Acid--thiol ligases.
+6. 3. -.-   Forming carbon-nitrogen bonds.
+6. 3. 1.-    Acid--ammonia (or amine) ligases (amide synthases).
+6. 3. 2.-    Acid--amino-acid ligases (peptide synthases).
+6. 3. 3.-    Cyclo-ligases.
+6. 3. 4.-    Other carbon--nitrogen ligases.
+6. 3. 5.-    Carbon--nitrogen ligases with glutamine as amido-N-donor.
+6. 4. -.-   Forming carbon-carbon bonds.
+6. 4. 1.-    Forming carbon-carbon bonds.
+6. 5. -.-   Forming phosphoric ester bonds.
+6. 5. 1.-    Forming phosphoric ester bonds.
+6. 6. -.-   Forming nitrogen-metal bonds.
+6. 6. 1.-    Forming coordination complexes.
+
+7. -. -.-  Translocases.
+7. 1. -.-   Catalysing the translocation of hydrons.
+7. 1. 1.-    Hydron translocation or charge separation linked to oxidoreductase reactions.
+7. 1. 2.-    Hydron translocation linked to the hydrolysis of a nucleoside triphosphate.
+7. 1. 3.-    Hydron translocation linked to the hydrolysis of diphosphate.
+7. 2. -.-   Catalysing the translocation of inorganic cations.
+7. 2. 1.-    Linked to oxidoreductase reactions.
+7. 2. 2.-    Linked to the hydrolysis of a nucleoside triphosphate.
+7. 2. 3.-    Linked to the hydrolysis of diphosphate.
+7. 2. 4.-    Linked to decarboxylation.
+7. 3. -.-   Catalysing the translocation of inorganic anions and their chelates.
+7. 3. 2.-    Linked to the hydrolysis of a nucleoside triphosphate.
+7. 4. -.-   Catalysing the translocation amino acids and peptides.
+7. 4. 2.-    Linked to the hydrolysis of a nucleoside triphosphate.
+7. 5. -.-   Catalysing the translocation carbohydrates and their derivatives.
+7. 5. 2.-    Linked to the hydrolysis of a nucleoside triphosphate.
+7. 6. -.-   Catalysing the translocation of other compounds.
+7. 6. 2.-    Linked to the hydrolysis of a nucleoside triphosphate.
+
+---------------------------------------------------------------------------
+Copyrighted by the SIB Swiss Institute of Bioinformatics and
+distributed under the Creative Commons Attribution (CC BY 4.0) License
+---------------------------------------------------------------------------
