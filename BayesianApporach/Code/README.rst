@@ -39,11 +39,11 @@ Usage
 
 - **For running analysis of enzyme-constrained model and regenerate all figures:**
   
-  - To regenerate all figures, run the correponding figure function in the ``Analysis``
+  - To regenerate all figures, run the corresponding figure functions in the ``Analysis``
   
   
 Note
 ~~~~~
 
-- If all you need is ecGEMs, please find the ecGEMs in the folder: ``Results/ecGEMs``. There are three version of ecGEMs available for each species. ``Bayesian-DL-ecGEMs`` version is recommanded.
+- If all you need is ecGEMs, please find the ecGEMs in the folder: ``Results/ecGEMs``. There are three version of ecGEMs available for each species. ``Bayesian-DL-ecGEMs`` version is recommended.
 
