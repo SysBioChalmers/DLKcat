@@ -37,7 +37,7 @@ Usage
   
   - run the ``getEmodel.m`` to get GECKO version ecGEMs
 
-- **For run analysis of enzyme-constrained model and regenrate all figures:**
+- **For running analysis of enzyme-constrained model and regenerate all figures:**
   
   - To regenerate all figures, run the correponding figure function in the ``Analysis``
   
