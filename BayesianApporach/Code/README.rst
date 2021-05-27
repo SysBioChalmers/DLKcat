@@ -27,7 +27,7 @@ Usage
  
 - **For reconstruction enzyme-constrained model:** Enzyme-constrained models can be used as any other metabolic model, with toolboxes such as COBRA or RAVEN. 
 
-  - Prelimenery step is to run the deep learning step for prediction the kcat. All predicted kcat files can be found in the figshare folder, please download the raw   results from the figshare link and combine that with the ``Results`` folder
+  - Preliminary step is to run the deep learning step for the prediction of the kcat. All predicted kcat files can be found in the figshare folder, please download the raw results from the figshare link and combine that with the ``Results`` folder
   
   - Adapt the function ``initcluster.m`` for setting up the cluster path
   
@@ -39,7 +39,7 @@ Usage
 
 - **For run analysis of enzyme-constrained model and regenrate all figures:**
   
-  - For regenrate all figures, run the correponding figure function in the ``Analysis``
+  - To regenerate all figures, run the correponding figure function in the ``Analysis``
   
   
 Note
