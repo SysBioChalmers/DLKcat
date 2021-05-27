@@ -4,18 +4,11 @@
 
 FTP: ftp://ftp.expasy.org/databases/enzyme/
 
-This directory contains the following files: 
+This directory contains the following files obtained from the SIB Swiss Institute of Bioinformatics: 
 
 
 File name       Description                                  
 ------------    ------------------------------------------------------------
 enzyme.dat      ENZYME database ENZYME database file in text format (see user manual)
-enzyme.rdf      ENZYME database file in RDF/XML format
 enzclass.txt    Definition of enzymes classes, subclasses and sub-subclasses
-enzuser.txt     User manual for ENZYME
-enzyme.get      How to obtain ENZYME
 
----------------------------------------------------------------------------
-Copyrighted by the SIB Swiss Institute of Bioinformatics and
-distributed under the Creative Commons Attribution (CC BY 4.0) License
----------------------------------------------------------------------------
