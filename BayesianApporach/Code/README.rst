@@ -10,7 +10,7 @@ Required software
 - For calculating Adjusted P value, function `PVAL_ADJUST <https://github.com/fakenmc/pval_adjust>`_
 - In the Bayesian process, `IBM CPLEX 12.10 <https://www.ibm.com/products/ilog-cplex-optimization-studio>`_ is used, `gurobi <https://www.gurobi.com>`_  can also be used after adapting the function ``abc_matlab_max.m`` with replacing ``ibm_cplex`` to ``gurobi`` when calling th function ``solveModel``.
 
-- For othe process, default cobra solver would be used, either `IBM CPLEX 12.10 <https://www.ibm.com/products/ilog-cplex-optimization-studio>`_ or `gurobi <https://www.gurobi.com>`_  is ok.
+- For other process, default cobra solver would be used, either `IBM CPLEX 12.10 <https://www.ibm.com/products/ilog-cplex-optimization-studio>`_ or `gurobi <https://www.gurobi.com>`_  is ok.
 
 Usage
 ~~~~~
@@ -27,7 +27,7 @@ Usage
  
 - **For reconstruction enzyme-constrained model:** Enzyme-constrained models can be used as any other metabolic model, with toolboxes such as COBRA or RAVEN. 
 
-  - Prelimenery step is to run the deep learning step for prediction the kcat. All predicted kcat files can be found in the figshare folder, please download the raw   results from the figshare link and combine that with the ``Results`` folder
+  - Preliminary step is to run the deep learning step for the prediction of the kcat. All predicted kcat files can be found in the figshare folder, please download the raw results from the figshare link and combine that with the ``Results`` folder
   
   - Adapt the function ``initcluster.m`` for setting up the cluster path
   
@@ -37,13 +37,13 @@ Usage
   
   - run the ``getEmodel.m`` to get GECKO version ecGEMs
 
-- **For run analysis of enzyme-constrained model and regenrate all figures:**
+- **For running analysis of enzyme-constrained model and regenerate all figures:**
   
-  - For regenrate all figures, run the correponding figure function in the ``Analysis``
+  - To regenerate all figures, run the corresponding figure functions in the ``Analysis``
   
   
 Note
 ~~~~~
 
-- If all you need is ecGEMs, please find the ecGEMs in the folder: ``Results/ecGEMs``. There are three version of ecGEMs available for each species. ``Bayesian-DL-ecGEMs`` version is recommanded.
+- If all you need is ecGEMs, please find the ecGEMs in the folder: ``Results/ecGEMs``. There are three version of ecGEMs available for each species. ``Bayesian-DL-ecGEMs`` version is recommended.
 
