@@ -14,7 +14,7 @@ Required software
 - numpy
 
 
-Usage
+## Usage
 ~~~~~
 
 ##### (1). Download the DLKcat package
