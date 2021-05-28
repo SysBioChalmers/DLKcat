@@ -14,29 +14,29 @@ Required software
 - numpy
 
 
-## Usage
+Usage
 ~~~~~
 
-##### (1). Download the DLKcat package
-```linux
+- (1). Download the DLKcat package
+```
 git clone https://github.com/SysBioChalmers/DLKcat
 ```
-##### (2). Change directory to ``DeeplearningApproach`` under the DLKcat package
-```linux
+- (2). Change directory to ``DeeplearningApproach`` under the DLKcat package
+```
 cd [directory to DLKcat/DeeplearningApproach, where the DeeplearningApproach directory is]
 ```
-##### (3). Unzip the ``input.zip`` file under the ``Data`` directory
-```linux
+- (3). Unzip the ``input.zip`` file under the ``Data`` directory
+```
 unzip Data/input.zip
 ```
-##### (4). Change directory to the ``Code/example`` under the DLKcat package
-```linux
+- (4). Change directory to the ``Code/example`` under the DLKcat package
+```
 cd Code/example 
 ```
-##### (5). Prepare an input file (including compound SMILES and protein sequence information) for your prediction, please check the ``Code/example/input.tsv``
+- (5). Prepare an input file (including compound SMILES and protein sequence information) for your prediction, please check the ``Code/example/input.tsv``
 
-##### (6) Now you can use the trained deep learning model for your prediction via one command line
-```linux
+- (6) Now you can use the trained deep learning model for your prediction via one command line
+```
 python prediction_for_input.py input.tsv
 ```
 Then the prediction results (``output.tsv`` file) will be output under the ``Code/example`` directory
