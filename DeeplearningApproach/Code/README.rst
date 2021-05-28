@@ -37,9 +37,7 @@ Usage
 
     cd Code/example 
 
-- (5). Prepare an input file (including compound SMILES and protein sequence information) for your prediction, please check the ``Code/example/input.tsv``
-
-- (6). Now you can use the trained deep learning model for your prediction via one command line
+- (5). Now you can use the trained deep learning model for your prediction via one command line. Here, one input file (including compound SMILES and protein sequence information) is needed to be prepared, please check the ``Code/example/input.tsv``
 .. code-block:: linux
 
     python prediction_for_input.py input.tsv
