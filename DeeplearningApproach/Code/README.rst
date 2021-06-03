@@ -17,37 +17,42 @@ Required software
 Usage
 ~~~~~
 
-- (1). Download the DLKcat package
-.. code-block:: linux
+- **For users who want to use the deep learning model for prediction, please run these command lines at the terminal:**
+  - (1). Download the DLKcat package
+  .. code-block:: linux
 
-    git clone https://github.com/SysBioChalmers/DLKcat
+      git clone https://github.com/SysBioChalmers/DLKcat
 
-- (2). Download required Python package
-.. code-block:: linux
+  - (2). Download required Python package
+  .. code-block:: linux
 
-    pip install numpy requests torch torchvision rdkit-pypi sklearn
+      pip install numpy requests torch torchvision rdkit-pypi sklearn
 
-- (3). Change directory to ``DeeplearningApproach`` under the DLKcat package
-.. code-block:: linux
+  - (3). Change directory to ``DeeplearningApproach`` under the DLKcat package
+  .. code-block:: linux
 
-    cd [directory to DLKcat/DeeplearningApproach, where the DeeplearningApproach directory is]
+      cd [directory to DLKcat/DeeplearningApproach, where the DeeplearningApproach directory is]
 
-- (4). Unzip the ``input.zip`` file under the ``Data`` directory
-.. code-block:: linux
+  - (4). Unzip the ``input.zip`` file under the ``Data`` directory
+  .. code-block:: linux
 
-    unzip Data/input.zip
+      unzip Data/input.zip
 
-- (5). Change directory to the ``Code/example`` under the DLKcat package
-.. code-block:: linux
+  - (5). Change directory to the ``Code/example`` under the DLKcat package
+  .. code-block:: linux
 
-    cd Code/example 
+      cd Code/example 
 
-- (6). Now you can use the trained deep learning model for your prediction via one command line. Here, one input file is needed to be prepared, please check the ``Code/example/input.tsv``. For the input file, protein sequence should be provided, and users also need to provide substrate (compound) name or substrate (compound) SMILES, but substrate SMILES is recommended. If it is difficult to find the substrate SMILES, please provide the substrate name and leave the substrate SMILES blank
-.. code-block:: linux
+  - (6). Now you can use the trained deep learning model for your prediction via one command line. Here, one input file is needed to be prepared, please check the ``Code/example/input.tsv``. For the input file, protein sequence should be provided, and users also need to provide substrate (compound) name or substrate (compound) SMILES, but substrate SMILES is recommended. If it is difficult to find the substrate SMILES, please provide the substrate name and leave the substrate SMILES blank
+  .. code-block:: linux
 
-    python prediction_for_input.py input.tsv
+      python prediction_for_input.py input.tsv
 
-- Then the prediction results (``output.tsv`` file) will be output under the ``Code/example`` directory
+  - Then the prediction results (``output.tsv`` file) will be output under the ``Code/example`` directory
+
+- **For running analysis and regenerating all figures:**
+  
+  - To regenerate all of the figures, unzip the ``input.zip`` file in ``Data/input.zip`` and run the corresponding figure functions in the ``Code/analysis`` directory
 
 
 Preprocess
@@ -105,7 +110,4 @@ Note
   
   - To obtain prediction results for 343 yeast/fungi species based on the trained deep learning model, unzip the ``input.zip`` file in ``Data/input.zip`` and run the corresponding function in the ``Code/prediction`` directory
 
-- **For running analysis and regenerating all figures:**
-  
-  - To regenerate all of the figures, unzip the ``input.zip`` file in ``Data/input.zip`` and run the corresponding figure functions in the ``Code/analysis`` directory
 
