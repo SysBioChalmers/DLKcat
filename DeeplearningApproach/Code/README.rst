@@ -22,22 +22,27 @@ Usage
 
     git clone https://github.com/SysBioChalmers/DLKcat
 
-- (2). Change directory to ``DeeplearningApproach`` under the DLKcat package
+- (2). Download required Python package
+.. code-block:: linux
+
+    pip install numpy requests torch torchvision rdkit-pypi sklearn
+
+- (3). Change directory to ``DeeplearningApproach`` under the DLKcat package
 .. code-block:: linux
 
     cd [directory to DLKcat/DeeplearningApproach, where the DeeplearningApproach directory is]
 
-- (3). Unzip the ``input.zip`` file under the ``Data`` directory
+- (4). Unzip the ``input.zip`` file under the ``Data`` directory
 .. code-block:: linux
 
     unzip Data/input.zip
 
-- (4). Change directory to the ``Code/example`` under the DLKcat package
+- (5). Change directory to the ``Code/example`` under the DLKcat package
 .. code-block:: linux
 
     cd Code/example 
 
-- (5). Now you can use the trained deep learning model for your prediction via one command line. Here, one input file (including compound SMILES and protein sequence information) is needed to be prepared, please check the ``Code/example/input.tsv``
+- (6). Now you can use the trained deep learning model for your prediction via one command line. Here, one input file is needed to be prepared, please check the ``Code/example/input.tsv``. For the input file, protein sequence should be provided, and users also need to provide substrate (compound) name or substrate (compound) SMILES, but substrate SMILES is recommended. If it is difficult to find the substrate SMILES, please provide the substrate name and leave the substrate SMILES blank
 .. code-block:: linux
 
     python prediction_for_input.py input.tsv
