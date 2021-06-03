@@ -10,7 +10,7 @@ The **DLkcat** toolbox is a Matlab/Python package for prediction of kcats and ge
 
 Usage
 ------------
-* Please check the instruction ``README`` file unde these two section ``Bayesianapproach`` and ``Deeplearning`` for reporducing all figures in the paper.
+* Please check the instruction ``README`` file under these two section ``Bayesianapproach`` and ``Deeplearning`` for reporducing all figures in the paper.
 
 * For people who are just interested in using the trained deep-learning model to predict the kcat, we supplied an example for users to direcly use the tool for their own kcat prediction. please also refer to th `DeeplearningApproach/README <https://github.com/SysBioChalmers/DLKcat/tree/master/DeeplearningApproach>`_  file under the ``Deeplearning``.
 - ``input`` for the prediction is the  ``Protein sequence`` and ``Substrate SMILES structure/Substrate name``, please check the file in `DeeplearningApproach/Code/example/input.tsv <https://github.com/SysBioChalmers/DLKcat/tree/master/DeeplearningApproach/Code/example>`_ 
