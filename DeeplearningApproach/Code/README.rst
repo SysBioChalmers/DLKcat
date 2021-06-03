@@ -18,6 +18,7 @@ Usage
 ~~~~~
 
 - **For users who want to use the deep learning model for prediction, please run these command lines at the terminal:**
+
   - (1). Download the DLKcat package
   .. code-block:: linux
 
