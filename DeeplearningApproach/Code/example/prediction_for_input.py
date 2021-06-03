@@ -8,19 +8,12 @@ import sys
 import math
 import model
 import torch
-import json
+import requests
 import pickle
 import numpy as np
 from rdkit import Chem
-from Bio import SeqIO
 from collections import defaultdict
-import matplotlib.pyplot as plt
-from matplotlib import rc
-from scipy.stats import gaussian_kde
-from scipy import stats
-import seaborn as sns
-import pandas as pd
-from sklearn.metrics import mean_squared_error,r2_score
+
 
 fingerprint_dict = model.load_pickle('../../Data/input/fingerprint_dict.pickle')
 atom_dict = model.load_pickle('../../Data/input/atom_dict.pickle')
@@ -148,6 +141,27 @@ class Predictor(object):
 
         return predicted_value
 
+# One method to obtain SMILES by PubChem API using the website
+def get_smiles(name):
+    # smiles = redis_cli.get(name)
+    # if smiles is None:
+    try :
+        url = 'https://pubchem.ncbi.nlm.nih.gov/rest/pug/compound/name/%s/property/CanonicalSMILES/TXT' % name
+        req = requests.get(url)
+        if req.status_code != 200:
+            smiles = None
+        else:
+            smiles = req.content.splitlines()[0].decode()
+            # print(smiles)
+        # redis_cli.set(name, smiles, ex=None)
+
+        # print smiles
+    except :
+        smiles = None
+
+    # name_smiles[name] = smiles
+    return smiles
+
 def main() :
     name = sys.argv[1:][0]
     print(name)
@@ -195,17 +209,24 @@ def main() :
     i = 0
 
     with open('./output.tsv', 'w') as outfile :
-        items = ['Substrate SMILES', 'Protein Sequence', 'Kcat value (1/s)']
+        items = ['Substrate Name', 'Substrate SMILES', 'Protein Sequence', 'Kcat value (1/s)']
         outfile.write('\t'.join(items)+'\n')
 
         for line in lines[1:] :
             line_item = list()
             data = line.strip().split('\t')
-            i += 1
-            print('This is', i, '---------------------------------------')
+            # i += 1
+            # print('This is', i, '---------------------------------------')
             # print(data)
-            smiles = data[0]
-            sequence = data[1]
+
+            name = data[0]
+            smiles = data[1]
+            sequence = data[2]
+            if smiles and smiles != 'None' :
+                smiles = data[1]
+            else :
+                smiles = get_smiles(name)
+            # print(smiles)
 
             try :
                 if "." not in smiles :
@@ -239,13 +260,13 @@ def main() :
                     prediction = predictor.predict(inputs)
                     Kcat_log_value = prediction.item()
                     Kcat_value = '%.4f' %math.pow(2,Kcat_log_value)
-                    print(Kcat_value)
-                    line_item = [smiles,sequence,Kcat_value]
+                    # print(Kcat_value)
+                    line_item = [name,smiles,sequence,Kcat_value]
 
                     outfile.write('\t'.join(line_item)+'\n')
             except :
                 Kcat_value = 'None'
-                line_item = [smiles,sequence,Kcat_value]
+                line_item = [name,smiles,sequence,Kcat_value]
                 outfile.write('\t'.join(line_item)+'\n')
 
     print('Prediction success!')
