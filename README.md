@@ -20,13 +20,13 @@ Usage
 -----
 
 -   Please check the instruction `README` file under these two section
-    `Bayesianapproach` and `Deeplearning` for reporducing all figures in
+    `Bayesianapproach` and `DeeplearningApproach` for reporducing all figures in
     the paper.
 -   For people who are interested in using the trained deep-learning
     model for their own kcat prediction, we supplied an example. please
     check usage for **detailed information** in the file
     [DeeplearningApproach/README](https://github.com/SysBioChalmers/DLKcat/tree/master/DeeplearningApproach)
-    under the `Deeplearning`.
+    under the `DeeplearningApproach`.
 
     > -   `input` for the prediction is the `Protein sequence` and
     >     `Substrate SMILES structure/Substrate name`, please check the
