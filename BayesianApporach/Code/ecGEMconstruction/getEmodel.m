@@ -3,19 +3,19 @@ currentpath = pwd;
 cd ../../Results/
 for i = 1:length(species)
     display([num2str(i) '/' num2str(length(species))]);
-    cd('model_auto')
-    z = load([species{i},'_auto.mat']);
-    model_auto = z.model;
-    enzymedata_auto = z.enzymedata; 
+    cd('model_classic')
+    z = load([species{i},'_classic.mat']);
+    model_classic = z.model;
+    enzymedata_classic = z.enzymedata; 
 
     
-    cd('../model_dl')
+    cd('../model_dl_max')
     z = load([species{i},'_dl.mat']);
     model_DL = z.model;
     enzymedata_DL = z.enzymedata;
 
     
-    cd ../model_bayesian/
+    cd ../model_bayesian_max/
     cd(species{i})
     nfound = length(dir('kcat_genra*.txt'));
     if nfound > 0
@@ -28,8 +28,8 @@ for i = 1:length(species)
         tot_prot_weight = tot_prot_weight*0.5;
     end
     
-    emodel = convertToGeckoModel(model_auto,enzymedata_auto,tot_prot_weight);
-    save([emodel.id,'_auto.mat'],'emodel');
+    emodel = convertToGeckoModel(model_classic,enzymedata_classic,tot_prot_weight);
+    save([emodel.id,'_classic.mat'],'emodel');
     
     emodel = convertToGeckoModel(model_DL,enzymedata_DL,tot_prot_weight);
     save([emodel.id,'_DL.mat'],'emodel');

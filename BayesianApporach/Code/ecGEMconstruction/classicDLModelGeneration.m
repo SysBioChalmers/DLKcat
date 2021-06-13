@@ -1,4 +1,4 @@
-function autoDLModelGeneration(strains,modelpath,dbpath,kcatpredictionPath)
+function classicDLModelGeneration(strains,modelpath,dbpath,kcatpredictionPath)
 % This function is to analyze why some cell can grow very fast to 0.8h-1,
 % while others can only grow to 0.18h-1
 % STEP 1 split reactions reversible reactions and reactions that
@@ -129,7 +129,7 @@ for m = 1:length(strains)
     load('ecdata.mat') % generate in the function ECprepPanGEM.m should stoed at ecGEMconstruction
     load('rxn2block.mat') % generate from the function blockbyproduct.m storeee at ecGEMconstruction
     enzymedata = collectkcats(model,MWdata,ecdata,Protein_stoichiometry,false);
-    save(['../../Results/model_auto/',strain,'_auto.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
+    save(['../../Results/model_classic/',strain,'_classic.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
     %enzymedata = collectkcats(model,MWdata); % generate ecdata Protein_stoichiometry from panmodel
     %kcatpredictionPath = '/Users/feiranl/Documents/GitHub/MLKcat/ComplementaryScripts/ForKcatPrediction/KcatPredictionResult';
     enzymedata = collectPredictedKcat(model,MWdata,ecdata,Protein_stoichiometry,kcatpredictionPath,0); % 0 means that not with median

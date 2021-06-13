@@ -4,7 +4,7 @@ currentpath = pwd;
 cd ../KcatTuning
 for i = 1:length(species_withdata)
     cd('model_auto')
-    z = load([species_withdata{i},'_auto.mat']);
+    z = load([species_withdata{i},'_classic.mat']);
     model = z.model;
     enzymedata = z.enzymedata;
     strain = z.strain;

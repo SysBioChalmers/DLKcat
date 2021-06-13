@@ -9,7 +9,7 @@ lable  = unique(raw_proteome(2,:),'stable');
 speciesid = {'Sce','Kma','Kla','Yli'};
 species = {'Saccharomyces_cerevisiae','Kluyveromyces_marxianus','Kluyveromyces_lactis','Yarrowia_lipolytica'};
 
-states = {'auto','DL','Bayesian_DL_mean'}; % 'Bayesian_DL' and 'global' arealsooption that can ploted global means a global kcat would be used for all enzymes Bayesian_DL means that all posterior models will be used
+states = {'classic','DL','Bayesian_DL_mean'}; % 'Bayesian_DL' and 'global' arealsooption that can ploted global means a global kcat would be used for all enzymes Bayesian_DL means that all posterior models will be used
 
 cd ../../Results
 for i = 1:length(cond)
@@ -111,7 +111,7 @@ set(gca,'XTick',1:1:22);
 set(gca,'XTickLabel',strrep(lable,'_','\_'));
 xtickangle(90)
 ylim([0 2.3]);
-leg = legend({'Auto' 'DL' 'Bayesian_DL_mean'},'Location','northwest','Orientation','horizontal','FontSize',6,'FontName','Helvetica');
+leg = legend({'Classic' 'DL' 'Bayesian_DL_mean'},'Location','northwest','Orientation','horizontal','FontSize',6,'FontName','Helvetica');
 leg.ItemTokenSize = [10,2];
 set(leg,'box','off');
 set(gca,'FontSize',6,'FontName','Helvetica');

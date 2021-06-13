@@ -1,12 +1,13 @@
 function kcatCoverage(species,version1)
-% this function alculate the kcat coverage foe the enzymes in the model
+% this function alculate the kcat coverage foe the enzymes in the model%
+% version = 'classic' or 'dl'
 
 current_path = pwd;
 if strcmp(version1,'dl')
     inputpath = '../../Results/model_dl';
     cd(inputpath)
 else
-    inputpath = '..../Results/model_auto';
+    inputpath = '..../Results/model_classic';
     cd(inputpath)
 end
 % load model
@@ -14,7 +15,7 @@ for i = 1:length(species)
     if strcmp(version1,'dl')
         z = load([species{i},'_dl.mat']);
     else
-      z = load([species{i},'_auto.mat']);
+      z = load([species{i},'_classic.mat']);
     end
     enzymedata = z.enzymedata;
     model = z.model;
