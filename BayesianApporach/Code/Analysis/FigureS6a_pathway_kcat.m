@@ -45,7 +45,7 @@ label = {'Primary - Carbohydrate & Energy Metabolism','Primary - amino acids, fa
 figure
 color = [228,26,28;55,126,184;77,175,74;152,78,163;255,127,0;255,255,51;166,86,40;247,129,191;153,153,153]./255;
 
-for i = 1:5
+for i = 1:4
     idx = strcmp(kcat_pathway_sorted,label{i});
     hold on
     h = cdfplot(log10(kcat_sorted(idx)./3600));
@@ -54,6 +54,25 @@ end
 box off
 ylabel('Cumulative distribution','FontSize',8,'FontName','Helvetica','Color','k');
 legend({'Primary-CE','Primary-AFN','Intermediate','Secondary'},'FontSize',6)
-set(gcf,'position',[600 0 450 170]);
-set(gca,'position',[0.1 0.4 0.27 0.56]);
+set(gcf,'position',[200 100 300 150]);
+set(gca,'position',[0.1 0.2 0.75 0.5]);
 saveas(z2,['growthfigure_',species{i},'.pdf']);
+
+
+
+%% Figure 
+
+for i = 1:343
+    load([species{i},'_dl.mat'])
+    kcat = enzymedata.subunit_kcat(:);
+    kcat_Ec = enzymedata.subunit_ec(:);
+    kcat_gene = enzymedata.subunit(:);
+    kcat_rxn = repmat(enzymedata.rxn_list,1,length(enzymedata.subunit_kcat(1,:)));
+    kcat_rxn = kcat_rxn(:);
+    idx = strcmp(kcat_Ec,'NA')| cellfun(@isempty,kcat_Ec);
+    kcat = kcat(~idx);
+    kcat_Ec = kcat_Ec(~idx);
+    kcat_rxn = kcat_rxn(~idx);
+    kcat_gene = kcat_gene(~idx);
+    writecell([kcat_rxn,kcat_gene,kcat_Ec],['../ecres/',species{i},'_ec.txt'],'Delimiter',',','QuoteStrings',false)
+end

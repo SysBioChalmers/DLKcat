@@ -1,9 +1,18 @@
-function SimulatePhenotype(species)
+% SimulatePhenotype
+%load species
+[~,~,growthrates] = xlsread('growthratedata.xlsx','growthrates');
+growthrates = growthrates(2:end,:);
+species = unique(growthrates(:,4));
+species = strrep(species,' ','_');
+
+load('strains.mat');
+species = intersect(species,strains);
+cd ../../Results
 for i = 1:length(species)
     spec = species{i};
     disp([spec,':', num2str(i)])
     
-    cd ../KcatTuning/model_dl
+    cd model_dl
     z = load([spec,'_dl.mat']);
     enzymedata = z.enzymedata;
     model = z.model;
@@ -13,34 +22,28 @@ for i = 1:length(species)
     enzymedata.proteinMW = z.MWdata.MW;
     rxn2block = z.rxn2block;
     strain = z.strain;
-    [~,tot_prot_weight,~,~,~,~,~,~] = sumBioMass(model);
-    tot_prot_weight = tot_prot_weight*0.5;
     cd ../model_bayesian
     
     cd(spec)
     
     % plot rmse change
-    try
-        nfound = length(dir('kcat_genra*.txt'));
+    nfound = length(dir('kcat_genra*.txt'));
+    if nfound > 0
         tmp = readmatrix(['kcat_genra',num2str(nfound),'.txt'],'FileType','text','Delimiter',',');
+        kcat_posterior = tmp(1:end-2,:);
         tot_prot_weight = tmp(end-1,1);
-        theta_100 = tmp(end,:); % is the rmse error
-        kcat_100 = tmp(1:end-2,:);
-    catch
-        warning('no posterior data found for species',strain)
-    end
-    % save simulation
-    if exist('kcat_100','var')
-        for m = 1:1
-            disp([num2str(m),'/100'])
-            [~,exp,simulated(:,:,m),growthdata,max_growth] = abc_matlab_max(model,enzymedata,kcat_100(:,m),tot_prot_weight,growthdata,max_growth,1,1,1,rxn2block);
-        end
-        simulated_meadian = median(simulated,3);
+        ss = num2cell(kcat_posterior',1);
+        [a,b] = arrayfun(@updateprior,ss);
+        enzymedata.kcat = a';
     else
-        [~,exp,simulated(:,:,1),growthdata,max_growth] = abc_matlab_max(model,enzymedata,enzymedata.kcat,tot_prot_weight,growthdata,max_growth,1,1,1,rxn2block);
-        simulated_meadian = median(simulated,3);
+        [~,tot_prot_weight,~,~,~,~,~,~] = sumBioMass(model);
+        tot_prot_weight = tot_prot_weight*0.5;
     end
-    save([strain,'sim_phen.mat'],'simulated','growthdata','max_growth','simulated_meadian')
-    clearvars simulated_meadian simulated kcat_100
+
+    % save simulation
+     [~,exp,simulated,growthdata,max_growth] = abc_matlab_max(model,enzymedata,enzymedata.kcat,tot_prot_weight,growthdata,max_growth,1,1,1,rxn2block);
+
+    save([strain,'_sim_phen.mat'],'simulated','growthdata','max_growth')
+    clearvars simulated_meadian simulated kcat_posterior
     cd ../../
 end

@@ -9,7 +9,7 @@ end
 current_path = pwd;
 cd(inputpath)
 
-if strcmp(state,'DL') || strcmp(state,'auto') || strcmp(state,'median')|| strcmp(state,'Bayesian_DL_mean')
+if strcmp(state,'DL') || strcmp(state,'auto') || strcmp(state,'global')|| strcmp(state,'Bayesian_DL_mean')
     num = 1;
 elseif strcmp(state,'Bayesian_DL')
     num = 5;
@@ -22,9 +22,11 @@ for m = 1:num
         load(['emodel_',strain,num2str(m),'.mat'])
     elseif strcmp(state,'Bayesian_DL_mean')
         load(['emodel_',strain,'_Bayesian_DL_mean.mat'])
-    elseif strcmp(state,'median')
-        cd('../../model_auto')
-        z = load([strain,'_auto.mat']);
+    elseif strcmp(state,'auto')
+        load(['emodel_',strain,'_auto.mat'])
+    elseif strcmp(state,'global')
+        cd('../../model_dl')
+        z = load([strain,'_dl.mat']);
         if strcmp(strain,'Kluyveromyces_marxianus')
             tot_prot = 0.325;
         elseif strcmp(strain,'Kluyveromyces_lactis')
@@ -32,23 +34,8 @@ for m = 1:num
         else
              tot_prot = 0.23;
         end
-        z.enzymedata.kcat(1:length(z.enzymedata.kcat)) = median(z.enzymedata.kcat);
+        z.enzymedata.kcat(1:length(z.enzymedata.kcat)) = 79*3600;% median kcat of the metabolic enzyme Median of Central-CE (PMID: 21506553)
         emodel = convertToGeckoModel(z.model,z.enzymedata,tot_prot);
-    else
-        cd('../../model_auto')
-        z = load([strain,'_auto.mat']);
-        if strcmp(strain,'Kluyveromyces_marxianus')
-            tot_prot = 0.325;
-        elseif strcmp(strain,'Kluyveromyces_lactis')
-             tot_prot = 0.245;
-        else
-             tot_prot = 0.23;
-        end
-        z.enzymedata.kcat(z.enzymedata.kcat < 36) = 36;
-        z.enzymedata.kcat(z.enzymedata.kcat > 36000000000) = 36000000000;
-        emodel = convertToGeckoModel(z.model,z.enzymedata,tot_prot);
-        cd ../
-        cd(inputpath)
     end
     model = emodel;
     if strcmp(anox,'anaerobic')
@@ -83,6 +70,7 @@ for m = 1:num
             [~,idx] = ismember(strcat(carbon,' exchange'),model.rxnNames);
             model = changeRxnBounds(model,'r_1714',0,'l');
             model = changeRxnBounds(model,model.rxns(idx),-1000,'l');
+            model = changeRxnBounds(model,'EX_protein_pool',-1000,'l'); % unlimited protein pool
             model = changeRxnBounds(model,model.rxns(strcmp(model.rxnNames,'growth')|strcmp(model.rxnNames,'biomass exchange')),dilutionrate);
             model = changeObjective(model,model.rxns(idx),1);
             try

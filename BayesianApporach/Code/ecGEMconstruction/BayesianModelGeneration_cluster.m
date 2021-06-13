@@ -31,9 +31,11 @@ for i = a:b
     %load('rxn2block.mat')
     rxn2block = z.rxn2block;
     [~,tot_prot_weight,~,~,~,~,~,~] = sumBioMass(model);
-    tot_prot_weight = tot_prot_weight*0.5;
+    tot_prot_weight = tot_prot_weight*0.5; % metabolic enzyme takes the 50%
     if strcmp(strain,'Kluyveromyces_marxianus')
-        tot_prot_weight = 0.325;
+        tot_prot_weight = 0.325; % from bionumber ID 117044
+    elseif strcmp(strain,'Kluyveromyces_lactis')
+        tot_prot_weight = 0.245; % from the published GEM k.lactis
     end
     
     proc = 18;

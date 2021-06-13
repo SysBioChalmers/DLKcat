@@ -5,7 +5,7 @@
 
 [~,~,growthrates] = xlsread('growthratedata.xlsx','growthrates');
 growthrates = growthrates(2:end,:);
-spcies = unique(growthrates(:,4));
+species = unique(growthrates(:,4));
 species = strrep(species,' ','_');
 
 
@@ -13,7 +13,7 @@ species = strrep(species,' ','_');
 % values
 result_constrain = [];
 result_max = [];
-
+cd ../../Results/model_Bayesian_max
 for i = 1:length(species)
     cd(species{i})% later change to cd(species{i}) use species id to name the folder
     load([species{i},'sim_phen.mat']) % is generated in the function simulategrowth.m

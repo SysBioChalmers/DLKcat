@@ -41,6 +41,7 @@ for m = 1:length(strains)
     
     % calculate MW for the sequence
     [~,idx] = ismember(model.genes,Header);
+    clear MWdata
     for i = 1:length(model.genes)
         seq = Sequence{idx(i)};
         seq = strrep(seq,'X','N'); % fix the uncertainties by replacing x to the median mass aa asn
@@ -134,5 +135,5 @@ for m = 1:length(strains)
     enzymedata = collectPredictedKcat(model,MWdata,ecdata,Protein_stoichiometry,kcatpredictionPath,0); % 0 means that not with median
     save(['../../Results/model_dl/',strain,'_dl.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
     disp(['finish',strain])
-    clear MWdata
+
 end
