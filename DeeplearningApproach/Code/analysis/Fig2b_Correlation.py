@@ -184,7 +184,7 @@ def main() :
 
     # torch.manual_seed(1234)
     Kcat_model = model.KcatPrediction(device, n_fingerprint, n_word, 2*dim, layer_gnn, window, layer_cnn, layer_output).to(device)
-    Kcat_model.load_state_dict(torch.load('../../Results/output/all--radius2--ngram3--dim20--layer_gnn3--window11--layer_cnn3--layer_output3--lr1e-3--lr_decay0.5--decay_interval10--weight_decay1e-6--iteration30', map_location=device))
+    Kcat_model.load_state_dict(torch.load('../../Results/output/all--radius2--ngram3--dim20--layer_gnn3--window11--layer_cnn3--layer_output3--lr1e-3--lr_decay0.5--decay_interval10--weight_decay1e-6--iteration50', map_location=device))
     # print(state_dict.keys())
     # model.eval()
     predictor = Predictor(Kcat_model)
@@ -200,6 +200,7 @@ def main() :
     experimental_values = list()
     predicted_values = list()
 
+    number = 0
     for data in Kcat_data :
         i += 1
         print('This is', i, '---------------------------------------')
@@ -211,6 +212,7 @@ def main() :
         if "." not in smiles and float(Kcat) > 0:
             # i += 1
             # print('This is',i)
+            number += 1
 
             mol = Chem.AddHs(Chem.MolFromSmiles(smiles))
             atoms = create_atoms(mol)
@@ -259,6 +261,7 @@ def main() :
     r2 = r2_score(experimental_values,predicted_values)
     rmse = np.sqrt(mean_squared_error(experimental_values,predicted_values))
 
+    print('The data point number is: %s' % number)
     print('r is: %.2f' % correlation)
     print('p value is: %s' % p_value)
     print('R2 is: %.2f' % r2)
@@ -266,13 +269,14 @@ def main() :
     print('\n')
         
     # Results:
+    # The data point number is: 16838
     # r is: 0.88
     # p value is: 0.0
     # R2 is: 0.78
     # RMSE is: 0.71
 
-    allData = pd.DataFrame(list(zip(experimental_values,predicted_values)))
-    allData.columns = ['Experimental value', 'Predicted value']
+    # allData = pd.DataFrame(list(zip(experimental_values,predicted_values)))
+    # allData.columns = ['Experimental value', 'Predicted value']
 
     plt.figure(figsize=(1.5,1.5))
 
@@ -300,7 +304,7 @@ def main() :
 
     plt.text(-6.7, 6.0, 'r = %.2f' % correlation, fontweight ="normal", fontsize=6)
     plt.text(-6.7, 5.0, 'p value = 0', fontweight ="normal", fontsize=6)
-    plt.text(-6.7, 3.9, 'N = 17,010', fontweight ="normal", fontsize=6)
+    plt.text(-6.7, 3.9, 'N = 16,838', fontweight ="normal", fontsize=6)
 
     plt.rcParams['font.family'] = 'Helvetica'
 

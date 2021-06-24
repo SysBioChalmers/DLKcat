@@ -216,7 +216,7 @@ def main() :
 
     # torch.manual_seed(1234)
     Kcat_model = model.KcatPrediction(device, n_fingerprint, n_word, 2*dim, layer_gnn, window, layer_cnn, layer_output).to(device)
-    Kcat_model.load_state_dict(torch.load('../../Results/output/all--radius2--ngram3--dim20--layer_gnn3--window11--layer_cnn3--layer_output3--lr1e-3--lr_decay0.5--decay_interval10--weight_decay1e-6--iteration30', map_location=device))
+    Kcat_model.load_state_dict(torch.load('../../Results/output/all--radius2--ngram3--dim20--layer_gnn3--window11--layer_cnn3--layer_output3--lr1e-3--lr_decay0.5--decay_interval10--weight_decay1e-6--iteration50', map_location=device))
     # print(state_dict.keys())
     # model.eval()
     predictor = Predictor(Kcat_model)
@@ -231,6 +231,8 @@ def main() :
     # y = list()
     experimental_values = list()
     predicted_values = list()
+
+    number = 0
     for data in Kcat_data :
         # print(data)
         # print(data['Substrate'])
@@ -243,8 +245,7 @@ def main() :
             print(smiles)
             Kcat = data['Value']
             if "." not in smiles and float(Kcat) > 0:
-                # i += 1
-                # print('This is',i)
+                number += 1
 
                 mol = Chem.AddHs(Chem.MolFromSmiles(smiles))
                 atoms = create_atoms(mol)
@@ -295,13 +296,14 @@ def main() :
     print("---------------------")
     print('\n\n')
     # print(correlation)
+    print('The data point number is: %s' % number)
     print(correlation1)
     print(p_value1)
     print('R2 is', r2)
     print('RMSE is', rmse)
 
     # Results:
-
+    # The data point number is: 9411
     # 0.8652380379175421
     # 0.0
     # R2 is 0.7356302934580942
@@ -333,7 +335,7 @@ def main() :
 
     plt.text(-6.7, 6.0, 'r = 0.87', fontweight ="normal", fontsize=6)
     plt.text(-6.7, 5.0, 'p value = 0', fontweight ="normal", fontsize=6)
-    plt.text(-6.7, 3.9, 'N = 9,529', fontweight ="normal", fontsize=6)
+    plt.text(-6.7, 3.9, 'N = 9,411', fontweight ="normal", fontsize=6)
 
     plt.text(2, -6, 'Wildtype', fontweight ="normal", fontsize=6)
 
