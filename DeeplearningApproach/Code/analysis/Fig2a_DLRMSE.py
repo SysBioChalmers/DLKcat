@@ -7,7 +7,7 @@
 import matplotlib.pyplot as plt
 from matplotlib import rc
 
-with open('../../Results/output/MAEs--all--radius2--ngram3--dim20--layer_gnn3--window11--layer_cnn3--layer_output3--lr1e-3--lr_decay0.5--decay_interval10--weight_decay1e-6--iteration30.txt', 'r') as infile :
+with open('../../Results/output/MAEs--all--radius2--ngram3--dim20--layer_gnn3--window11--layer_cnn3--layer_output3--lr1e-3--lr_decay0.5--decay_interval10--weight_decay1e-6--iteration50.txt', 'r') as infile :
     lines = infile.readlines()[1:]
 
 # print(len(lines))
@@ -15,7 +15,7 @@ with open('../../Results/output/MAEs--all--radius2--ngram3--dim20--layer_gnn3--w
 epoch_dev = list()
 RMSE_dev = list()
 
-for line in lines[:17] :
+for line in lines[:18] :
 	data = line.strip().split('\t')
 	epoch_line = int(data[0])
 	RMSE_line = float(data[-4])
@@ -26,7 +26,7 @@ for line in lines[:17] :
 epoch_test = list()
 RMSE_test = list()
 
-for line in lines[:17] :
+for line in lines[:18] :
 	data = line.strip().split('\t')
 	epoch_line = int(data[0])
 	RMSE_line = float(data[-3])
@@ -61,7 +61,8 @@ plt.plot(epoch_test,RMSE_test,color='#2166ac',linestyle='dashed',linewidth=0.75,
 plt.rcParams['font.family'] = 'Helvetica'
 # plt.rc('font', family='Helvetica')
 plt.xticks([0,3,6,9,12,15,18])
-plt.yticks([1.00,1.05,1.10,1.15,1.20])
+# plt.yticks([1.00,1.05,1.10,1.15,1.20])
+plt.yticks([0.95,1.05,1.15,1.25,1.35,1.45,1.55])
 
 plt.xlabel('Epoch', fontsize=7)
 plt.ylabel('RMSE', fontsize=7)
