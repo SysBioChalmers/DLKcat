@@ -37,7 +37,7 @@ model = panmodel;
 rxnTarget = model.rxns(find(sol.x));
 
 inputpath = '/Users/feiranl/Documents/GitHub/MLKcat/ComplementaryScripts/KcatTuning/model_dl';
-[siginificantEnzyme,pvalue,kcatresult,pathwayEnzyme] = kcatSignAnalysis(xyloseSpecies,NoxyloseSpecies,inputpath,0.01,rxnTarget)
+[siginificantEnzyme,pvalue,kcatresult,pathwayEnzyme] = kcatSignAnalysis(xyloseSpecies,NoxyloseSpecies,inputpath,0.01,rxnTarget);
 
 
 % box plot

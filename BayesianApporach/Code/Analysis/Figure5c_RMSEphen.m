@@ -4,7 +4,7 @@ currentpath = pwd;
 cd ../KcatTuning
 for i = 1:length(species_withdata)
     cd('model_auto')
-    z = load([species_withdata{i},'_auto.mat']);
+    z = load([species_withdata{i},'_classic.mat']);
     model = z.model;
     enzymedata = z.enzymedata;
     strain = z.strain;
@@ -38,10 +38,10 @@ for i = 1:length(species_withdata)
         tmp = readmatrix(a,'FileType','text','Delimiter',',');
         tot_prot_weight = tmp(end-1,1);
         theta_100 = tmp(end,:); % is the rmse error
-    result(i,3) = mean(theta_100);
-    coverage(i,3) = coverage(i,2);
+        result(i,3) = mean(theta_100);
+        coverage(i,3) = coverage(i,2);
     else
-         result(i,3) = result(i,2);
+        result(i,3) = result(i,2);
         coverage(i,3) = coverage(i,2);
     end
     

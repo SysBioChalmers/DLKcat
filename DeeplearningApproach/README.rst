@@ -32,7 +32,7 @@ Usage
   - (3). Change directory to ``DeeplearningApproach`` under the DLKcat package
   .. code-block:: linux
 
-         cd [directory to DLKcat/DeeplearningApproach, where the DeeplearningApproach directory is]
+         cd DLKcat/DeeplearningApproach
 
   - (4). Unzip the ``input.zip`` file under the ``Data`` directory
   .. code-block:: linux

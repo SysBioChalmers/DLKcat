@@ -15,7 +15,7 @@ for i = 1:length(species)
     
     %for m = 1:length(kcat_posterior(1,:))
     %for m = 1:100
-       % load(['emodel_',species{i},num2str(m),'.mat']);
+     %   load(['emodel_',species{i},num2str(m),'.mat']);
        m = 1
         load(['emodel_',species{i},'_Bayesian_DL_mean.mat']);
         if ~aerobic
@@ -82,16 +82,16 @@ k = 1
 for j = [1,3,7,8]
     h(k) = plot(simulated_mean(:,1),simulated_mean(:,j+1),'-','LineWidth',0.75,'color',color(j,:));
     k = k+1;
-    %     X_plot = [simulated_mean(:,1)', fliplr(simulated_mean(:,1)')];
-    %     Y_plot = [simulated_5th(:,j+1)', fliplr(simulated_95th(:,j+1)')];
-    %     %nanx = isnan(X_plot)| isnan(Y_plot)
-    %     %X_plot = X_plot(~nanx)
-    %     %Y_plot = Y_plot(~nanx)
-    %     Y_plot(isnan(Y_plot)) = 0;
-    %     fill(X_plot, Y_plot , 1,....
-    %         'facecolor',color(j,:), ...
-    %         'edgecolor','none', ...
-    %         'facealpha', 0.3);
+        X_plot = [simulated_mean(:,1)', fliplr(simulated_mean(:,1)')];
+        Y_plot = [simulated_5th(:,j+1)', fliplr(simulated_95th(:,j+1)')];
+        %nanx = isnan(X_plot)| isnan(Y_plot)
+        %X_plot = X_plot(~nanx)
+        %Y_plot = Y_plot(~nanx)
+        Y_plot(isnan(Y_plot)) = 0;
+        fill(X_plot, Y_plot , 1,....
+            'facecolor',color(j,:), ...
+            'edgecolor','none', ...
+            'facealpha', 0.3);
 end
 hold off
 set(gca,'FontSize',6,'FontName','Helvetica');

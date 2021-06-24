@@ -1,4 +1,4 @@
-%% this function is for figure S6b
+%% this function is to generate results figure S6b, since it is diffult to plot the two column box plot in Matlab, so we use the function SuppleFig5b_Gen&Spe.py to plot
 
 currentpath = pwd;
 load('conserveMets.mat')
@@ -59,6 +59,5 @@ for i = 1:13
 end
 t = cell2table([num2cell(log10(res/3600)),res_label1,num2cell(res_lable2)]);
 t.Properties.VariableNames = {'kcat','type','clade'};
-writetable(t,'kcat_gen_spe.txt','Delimiter','\t','QuoteStrings',false,'WriteRowNames',true)
 t = cell2table([num2cell(log10(res/3600)),res_label1,num2cell(res_lable2)]);
 writetable(t,'kcat_gen_spe.txt','Delimiter','\t','QuoteStrings',false,'WriteRowNames',true)

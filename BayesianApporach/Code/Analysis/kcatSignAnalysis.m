@@ -48,10 +48,9 @@ kcatresult.species = species;
 for i = 1:length(corxns)
 [h(i),pval(i),~,~] = ttest2(log10(kcatresult.kcat(i,1:length(group1))),log10(kcatresult.kcat(i,length(group1)+1:end)),'Vartype','unequal');
 end
-siginificantEnzyme = corxns(pval < Pcutoff);
+pval = round(pval,2);
+siginificantEnzyme = corxns(pval <= Pcutoff);
 pvalue = pval(pval < Pcutoff);
-tmp = strrep(siginificantEnzyme,'_fwd','');
-tmp = strrep(tmp,'_rvs','');
 pathwayEnzyme = intersect(rxnsTarget,siginificantEnzyme);
 
 cd(currentpath)

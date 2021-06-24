@@ -9,11 +9,11 @@ lable  = unique(raw_proteome(2,:),'stable');
 speciesid = {'Sce','Kma','Kla','Yli'};
 species = {'Saccharomyces_cerevisiae','Kluyveromyces_marxianus','Kluyveromyces_lactis','Yarrowia_lipolytica'};
 
-states = {'median','auto','DL','Bayesian_DL','Bayesian_DL_mean'};
+states = {'classic','DL','Bayesian_DL_mean'}; % 'Bayesian_DL' and 'global' arealsooption that can ploted global means a global kcat would be used for all enzymes Bayesian_DL means that all posterior models will be used
 
 cd ../../Results
 for i = 1:length(cond)
-    for k = 1:5
+    for k = 1:length(states)
         k
         state = states{k};
         disp([num2str(i),'/',num2str(length(cond))])
@@ -22,7 +22,7 @@ for i = 1:length(cond)
         code = split(code,'_');
         [~,idx] = ismember(code(1),speciesid);
         code(end+1) = species(idx);
-        code(end+1) = {['model_bayesian/',code{7}]};
+        code(end+1) = {['model_bayesian_max/',code{7}]};
         % get flux
         [model,sol_result_mean] = getflux(code{7},code{2},code{3},code{4},code{5},code{8},state); % species chemostat/batch media o2 carbon inputpath
         sol_result{i,k} = sol_result_mean;
@@ -50,7 +50,7 @@ for i = 1:length(cond)
         end
         proteome_abun = zeros(length(model.genes),1);
         proteome_abun(idx~=0) = proteome.abun(idx(idx~=0));
-        proteome_abun = proteome_abun.*model.MWs;
+        proteome_abun = proteome_abun.*model.MWs(1:length(model.genes));
         enzUsage_abun = calculateproteome(model,sol_result{i,k},model.genes);
         
         
@@ -95,7 +95,7 @@ end
 % figure 
 colorveryhigh = [254,235,226]/255;
 colorhigh = [251,180,185]/255;
-colormedium = [247,104,161]/255;
+%colormedium = [247,104,161]/255;
 colorlow = [174,1,126]/255;
 figure();
 b = bar(1:22,result.rmse');
@@ -104,14 +104,14 @@ b(1).FaceColor = colorveryhigh;
 b(2).LineWidth = 0.5;
 b(2).FaceColor = colorhigh;
 b(3).LineWidth = 0.5;
-b(3).FaceColor = colormedium;
-b(4).LineWidth = 0.5;
-b(4).FaceColor = colorlow;
+b(3).FaceColor = colorlow;
+% b(4).LineWidth = 0.5;
+% b(4).FaceColor = colormedium;
 set(gca,'XTick',1:1:22);
 set(gca,'XTickLabel',strrep(lable,'_','\_'));
 xtickangle(90)
 ylim([0 2.3]);
-leg = legend({'global kcat' 'Auto' 'DL' 'Bayesian'},'Location','northwest','Orientation','horizontal','FontSize',6,'FontName','Helvetica');
+leg = legend({'Classic' 'DL' 'Bayesian_DL_mean'},'Location','northwest','Orientation','horizontal','FontSize',6,'FontName','Helvetica');
 leg.ItemTokenSize = [10,2];
 set(leg,'box','off');
 set(gca,'FontSize',6,'FontName','Helvetica');

@@ -7,7 +7,7 @@ dl_final_rxn = dl_res_rxn(:,1)./dl_res_rxn(:,2);
 dl_final_enzyme = dl_res_enzyme(:,1)./dl_res_enzyme(:,2);
 dl_species = species;
 
-load('res_kcatcoverageauto.mat')
+load('res_kcatcoverageclassic.mat')
 auto_res_rxn = res_rxn;
 auto_res_enzyme = res_enzyme;
 auto_final_rxn = auto_res_rxn(:,1)./auto_res_rxn(:,2);

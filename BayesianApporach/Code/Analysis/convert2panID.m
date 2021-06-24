@@ -1,7 +1,7 @@
 function gene = convert2panID(gene)
 
 
-fileName    = ['../../../Multi_scale_evolution/pan_genome/result/id_mapping/Saccharomyces_cerevisiae.tsv'];
+fileName    = 'Saccharomyces_cerevisiae.tsv';
 fID         = fopen(fileName);
 protData    = textscan(fID,'%s%s%s%s%s%s%s%s','Delimiter','\t','HeaderLines',1);
 fclose(fID);
