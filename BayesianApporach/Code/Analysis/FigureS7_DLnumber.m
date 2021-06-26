@@ -1,7 +1,7 @@
 currentpath = pwd;
 %this function is to plot the figure DL-ecGEMs number
 
-fid2 = fopen('../../../ComplementaryData/physiology/343_phenotype_clade.tsv');
+fid2 = fopen('343_phenotype_clade.tsv');% Data folder
 format = '%s %s %s';
 temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',1);
 for i = 1:length(temp)
@@ -19,7 +19,7 @@ for i = 1:length(clades)
     group = [group;i*ones(length(idx(idx~=0)),1)];
     strains_sortclade = [strains_sortclade;Strain_information(idx~=0,1)];
 end
-cd ../../KcatTuning/model_dl
+cd ../../Results/model_dl
 for k = 1:length(strains_sortclade)
     spec = strains_sortclade{k};
     z = load([spec,'_dl.mat']);

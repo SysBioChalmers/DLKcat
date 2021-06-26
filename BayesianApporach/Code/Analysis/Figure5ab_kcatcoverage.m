@@ -1,4 +1,4 @@
-% kcatCoverage Figure 4a b
+% kcatCoverage Figure 5a b
 % this function alculate the kcat coverage foe the enzymes in the model
 % enzyme coverage
 load('StrianData.mat')

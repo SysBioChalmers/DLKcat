@@ -1,6 +1,7 @@
 % subsystem kcat
 load('strains.mat')
-species = strains
+species = strains;
+cd ../../Results
 
 fid2 = fopen('module_ec.txt');
 format = '%s %s %s';
@@ -74,5 +75,5 @@ for i = 1:343
     kcat_Ec = kcat_Ec(~idx);
     kcat_rxn = kcat_rxn(~idx);
     kcat_gene = kcat_gene(~idx);
-    writecell([kcat_rxn,kcat_gene,kcat_Ec],['../ecres/',species{i},'_ec.txt'],'Delimiter',',','QuoteStrings',false)
+    writecell([kcat_rxn,kcat_gene,kcat_Ec],['ecres/',species{i},'_ec.txt'],'Delimiter',',','QuoteStrings',false)
 end
