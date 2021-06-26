@@ -16,8 +16,8 @@ model_tmp = changeObjective(model_tmp,'r_4046',1);
 model_tmp = changeRxnBounds(model_tmp,'p_5195',0,'b'); % remove the rxn for the complex I since it would cause a loop in the panmodel
 sol = optimizeCbModel(model_tmp,'max','one');
 rxnTarget = model.rxns(find(sol.x));
-model = panmodel;
-model = changeMedia(model,'D-glucose','MIN');
+
+
 model_tmp = changeRxnBounds(model,'r_1714',-0.05,'l');
 model_tmp = changeRxnBounds(model_tmp,'r_4046',0,'l');
 model_tmp = changeRxnBounds(model_tmp,'r_4046',1000,'u');
@@ -31,10 +31,10 @@ rxnTarget = [rxnTarget;model.rxns(find(sol.x))];
     tmp = extractAfter(rxnTarget,'_');
     tmp = regexprep(tmp,'_(\d)','');
     rxnTarget = strcat(pre,'_',tmp);
-inputpath = '../../Results/model_dl_max';
-inputpath = '../../Results/model_Bayesian_max';
+inputpath = '../../Results/model_dl';
+inputpath = '../../Results/model_Bayesian';
 
-[siginificantEnzyme,pvalue,kcatresult,pathwayEnzyme] = kcatSignAnalysis(crabtree,nocrabtree,inputpath,0.01,rxnTarget);
+[siginificantEnzyme,pvalue,kcatresult,pathwayEnzyme] = kcatSignAnalysis(crabtree,nocrabtree,inputpath,0.05,rxnTarget);
 
 
 % plot
@@ -44,24 +44,24 @@ for i = 1:length(rxnList)
     group = [];
     idx = find(contains(kcatresult.rxns,rxnList(i)));
     group = [group;ones(length(crabtree),1);repmat(2,length(nocrabtree),1)];
-    figure
+    subplot(1,4,i)
     h = boxplot(log10(kcatresult.kcat(idx,:)/3600'),group,'Symbol','o','OutlierSize',3,'Widths',0.7,'Colors',[197,27,138]/255);
     [r,p] = ttest2(kcatresult.kcat(idx,1:length(crabtree))./3600,kcatresult.kcat(idx,end-length(nocrabtree)+1:end)./3600);
-    
+    ylim([-1,3])
     p
     text(1,3,['p = ' num2str(round(p,3))],'FontSize',6,'FontName','Helvetica','Color','k')
     ylabel(['Predicted {\itk}_c_a_t [1/s] for ',id{i}],'FontSize',7,'FontName','Helvetica','Color','k');
-    set(gca,'position',[0.2 0.2 0.6 0.6]);
-    set(gcf,'position',[0 200 150 150]);
+%     set(gca,'position',[0.2 0.2 0.6 0.6]);
+%     set(gcf,'position',[0 200 100 150]);
     xticklabels({'Crabtree-positive','Crabtree-negative'})
     xtickangle(30)
     set(gca,'FontSize',6,'FontName','Helvetica');
     box off;
-    ax1 = gca;
-    ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 6,...
-        'Color','None','XColor','k','YColor','k', 'LineWidth', 0.5,...
-        'XAxisLocation','top', 'XTick', [],...
-        'YAxisLocation','right', 'YTick', []);
-    linkaxes([ax1, ax2])
+%     ax1 = gca;
+%     ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 6,...
+%         'Color','None','XColor','k','YColor','k', 'LineWidth', 0.5,...
+%         'XAxisLocation','top', 'XTick', [],...
+%         'YAxisLocation','right', 'YTick', []);
+%     linkaxes([ax1, ax2])
     
 end

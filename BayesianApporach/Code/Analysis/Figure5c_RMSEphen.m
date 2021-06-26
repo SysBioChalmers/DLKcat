@@ -1,9 +1,10 @@
 % Figure 4c
 load('species_withdata.mat')
 currentpath = pwd;
-cd ../KcatTuning
+cd ../../Results
 for i = 1:length(species_withdata)
-    cd('model_auto')
+    cd('model_classic')
+    i
     z = load([species_withdata{i},'_classic.mat']);
     model = z.model;
     enzymedata = z.enzymedata;
@@ -47,11 +48,10 @@ for i = 1:length(species_withdata)
     
     cd ../../
 end
-cd(currentpath)
-save('Results/res_RMSEPhenotype.mat','coverage','result','species_withdata')
+save('res_RMSEPhenotype.mat','coverage','result','species_withdata')
 result_final = num2cell(result(:));
-result_final(:,2) = [repmat({'Auto'},length(species_withdata),1);repmat({'DL'},length(species_withdata),1);repmat({'ZBayesian'},length(species_withdata),1)];
-writecell(result_final,'Results/res_RMSEPhenotype.txt','Delimiter',',','QuoteStrings',false)
+result_final(:,2) = [repmat({'Classic'},length(species_withdata),1);repmat({'DL'},length(species_withdata),1);repmat({'Posterior'},length(species_withdata),1)];
+writecell(result_final,'res_RMSEPhenotype.txt','Delimiter',',','QuoteStrings',false)
 violin = violinplot(cell2mat(result_final(:,1)),result_final(:,2),'ShowNotches',false,'ShowMean' ,false,'ViolinAlpha',1,'EdgeColor',[0,0,0],'ShowData',false,'BoxColor',[1,1,1]);
 violin(1).ViolinColor = [253,224,221]./255;
 violin(2).ViolinColor = [250,159,181]./255;
@@ -59,7 +59,7 @@ violin(3).ViolinColor = [197,27,138]./255;
 violin(2).MedianPlot.SizeData = 1;
 violin(1).MedianPlot.SizeData = 1;
 violin(3).MedianPlot.SizeData = 1;
-xticklabels({'Auto','DL','Bayesian'})
+xticklabels({'classic','DL','Posterior'})
 set(gca,'FontSize',6,'FontName','Helvetica');
 ylabel(['RMSE for phenotype prediction'],'FontSize',7,'FontName','Helvetica','Color','k');
 set(gca,'position',[0.2 0.2 0.6 0.6]);
@@ -72,3 +72,4 @@ ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 10,...
            'XAxisLocation','top', 'XTick', [],... 
            'YAxisLocation','right', 'YTick', []);
 linkaxes([ax1, ax2])
+cd(currentpath)

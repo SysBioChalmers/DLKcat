@@ -9,7 +9,7 @@ end
 current_path = pwd;
 cd(inputpath)
 
-if strcmp(state,'DL') || strcmp(state,'auto') || strcmp(state,'global')|| strcmp(state,'Bayesian_DL_mean')
+if strcmp(state,'DL') || strcmp(state,'classic') || strcmp(state,'global')|| strcmp(state,'Bayesian_DL_mean')
     num = 1;
 elseif strcmp(state,'Bayesian_DL')
     num = 5;
@@ -22,8 +22,8 @@ for m = 1:num
         load(['emodel_',strain,num2str(m),'.mat'])
     elseif strcmp(state,'Bayesian_DL_mean')
         load(['emodel_',strain,'_Bayesian_DL_mean.mat'])
-    elseif strcmp(state,'auto')
-        load(['emodel_',strain,'_auto.mat'])
+    elseif strcmp(state,'classic')
+        load(['emodel_',strain,'_classic.mat'])
     elseif strcmp(state,'global')
         cd('../../model_dl')
         z = load([strain,'_dl.mat']);

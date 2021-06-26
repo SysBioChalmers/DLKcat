@@ -14,10 +14,10 @@ for i = 1:length(species)
     cd(species{i})
     i
     for k = 1:1
-        disp([num2str(k),'/100 for species',num2str(i)])
+        disp([num2str(i),' for species: ',species{i}])
         %load(['emodel_',species{i},num2str(k),'.mat']);
         load(['emodel_',species{i},'_Bayesian_DL_mean.mat']);
-        %load(['emodel_',species{i},'_DL.mat']);
+        %load(['emodel_',species{i},'_dl.mat']);
         model = emodel;
         % sol the model first by maxmize ATP yield
         model_tmp = changeRxnBounds(model,'r_1714',-0.05,'l');
@@ -39,14 +39,14 @@ for i = 1:length(species)
         model_tmp = changeRxnBounds(model,'r_1714',-0.05,'l');
         model_tmp = changeRxnBounds(model_tmp,'r_4046',0,'l');
         model_tmp = changeRxnBounds(model_tmp,'r_4046',1000,'u');
-        model_tmp = changeRxnBounds(model_tmp,'EX_protein_pool',-1000,'l');
+        model_tmp = changeRxnBounds(model_tmp,'EX_protein_pool',-1000000,'l');
      
         model_tmp = changeObjective(model_tmp,'r_1761',1);
         sol = optimizeCbModel(model_tmp);
         % fix the ATP, minimize protein pool
         if ~isnan(sol.f) && sol.f ~= 0
             model_tmp = changeRxnBounds(model_tmp,'r_1761',sol.f*1.0001,'u');
-            model_tmp = changeRxnBounds(model_tmp,'r_1761',sol.f*0.9999,'l');
+            model_tmp = changeRxnBounds(model_tmp,'r_1761',sol.f*0.9998,'l');
             model_tmp = changeObjective(model_tmp,'EX_protein_pool',1);
             sol = optimizeCbModel(model_tmp,'max','one');
             LY_protein(k,i) = sol.x(strcmp(model_tmp.rxns,'EX_protein_pool'));
@@ -77,10 +77,10 @@ ratio_final = num2cell([ratio(idx),HY_atp_mean(idx)',HY_protein_mean(idx)',LY_at
 ratio_id = species(idx);
 ratio_final(:,8) = [repmat({'Crabtree'},length(crabtree),1);repmat({'Crabtree-negative'},length(nocrabtree),1)];
 ratio_final(:,9) = ratio_id;
-cd(current_path)
+
 writecell(ratio_final,'../../Results/res_Crabtree.txt','Delimiter',',','QuoteStrings',false)
 
-violin = violinplot(cell2mat(ratio_final(:,1)),ratio_final(:,2),'ShowNotches',false,'ShowMean' ,false,'ViolinAlpha',1,'EdgeColor',[0,0,0],'ShowData',false,'BoxColor',[1,1,1]);
+violin = violinplot(cell2mat(ratio_final(:,6))./cell2mat(ratio_final(:,7)),ratio_final(:,8),'ShowNotches',false,'ShowMean' ,false,'ViolinAlpha',1,'EdgeColor',[0,0,0],'ShowData',false,'BoxColor',[1,1,1]);
 violin(1).ViolinColor = [253,224,221]./255;
 violin(2).ViolinColor = [250,159,181]./255;
 violin(2).MedianPlot.SizeData = 1;

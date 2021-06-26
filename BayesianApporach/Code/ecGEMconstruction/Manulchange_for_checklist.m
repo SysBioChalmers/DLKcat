@@ -55,4 +55,13 @@ for i = 1:length(strains)
     save([strains{i},'.mat'],'reducedModel')
 end
 
-%% 
+%% add lactose exchange for k.lcatis
+strains = {'Kluyveromyces_lactis','Kluyveromyces_marxianus'};
+for i = 1:length(strains)
+    load([strains{i},'.mat'])
+    model = reducedModel;
+    model = addExchangeRxn(model,'m_4652[e]');
+    model.rxnNames(strcmp(model.rxns,'EX_m_4652[e]')) = {'lactose exchange'};
+    reducedModel = model;
+    save([strains{i},'.mat'],'reducedModel')
+end

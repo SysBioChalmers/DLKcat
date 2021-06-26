@@ -1,40 +1,83 @@
-% Figure for kcat coverage comparsion
-
-load('res_kcatcoveragedl.mat') % generate from the kcatCoverage.m
-dl_res_rxn = res_rxn;
-dl_res_enzyme = res_enzyme;
-dl_final_rxn = dl_res_rxn(:,1)./dl_res_rxn(:,2);
-dl_final_enzyme = dl_res_enzyme(:,1)./dl_res_enzyme(:,2);
-dl_species = species;
-
-load('res_kcatcoverageclassic.mat')
-auto_res_rxn = res_rxn;
-auto_res_enzyme = res_enzyme;
-auto_final_rxn = auto_res_rxn(:,1)./auto_res_rxn(:,2);
-auto_final_enzyme = auto_res_enzyme(:,1)./auto_res_enzyme(:,2);
-auto_species = species;
-
-tmp = cellfun(@strcmp,dl_species,auto_species);
-if all(tmp)
-    figure
-    hold on
-    fig1(1) = cdfplot(auto_final_rxn);
-    fig1(2)  = cdfplot(dl_final_rxn);
-    ylabel('Ratio of ecModel Enzyme coverage','FontSize',8,'FontName','Helvetica','Color','k');
-    xlabel('species number','FontSize',8,'FontName','Helvetica','Color','k');
-    legend({'Auto','DL'},'FontSize',6)
-    set(gcf,'position',[500 200 180 130]);
-    set(gca,'position',[0.27 0.33 0.7 0.63]);
-    saveas(fig1,'enzymecoverage.pdf');
+% kcatCoverage Figure 4a b
+% this function alculate the kcat coverage foe the enzymes in the model
+% enzyme coverage
+load('StrianData.mat')
+species = StrianData.strains;
+current_path = pwd;
+cd ../../Results/
+for i = 1:length(species)
+    i
+    cd('model_classic')
+    z = load([species{i},'_classic.mat']);
+    model = z.model;
+    enzymedata = z.enzymedata;
+    coverage(i,3) = length(find(~cellfun(@isempty,model.grRules)));
+    strain = z.strain;
+    growthdata = z.growthdata;
+    coverage(i,1) = length(enzymedata.kcat);
     
-    figure
-     hold on
-    fig2(1) = cdfplot(auto_final_enzyme);
-    fig2(2)  = cdfplot(dl_final_enzyme);
-    ylabel('Ratio of ecModel Enzyme coverage','FontSize',8,'FontName','Helvetica','Color','k');
-    xlabel('species number','FontSize',8,'FontName','Helvetica','Color','k');
-    legend({'Auto','DL'},'FontSize',6)
-    set(gcf,'position',[500 200 180 130]);
-    set(gca,'position',[0.27 0.33 0.7 0.63]);
-    saveas(fig2,'rxncoverage.pdf');
+    %if length(enzymedata.proteins) == length(model.genes)
+    res_enzyme(i,3) = length(model.genes);
+    %else
+   %     warning(['check enzymedata.proteins field num with model.genes field for species: ', species{i}]);
+    %end
+    a = join(enzymedata.enzyme, ' and ');
+    a = split(a,' and ');
+    allgene = unique(a); % enzyme that are included in the ecmodel
+    res_enzyme(i,1) = length(allgene);
+    
+    cd ../model_dl
+    z = load([species{i},'_dl.mat']);
+    model = z.model;
+    enzymedata = z.enzymedata;
+    coverage(i,2) = length(enzymedata.kcat);
+     a = join(enzymedata.enzyme, ' and ');
+    a = split(a,' and ');
+    allgene = unique(a);
+    res_enzyme(i,2) = length(allgene);
+    cd ../
 end
+coverage = coverage(:,1:2)./coverage(:,3);
+result_final = num2cell(coverage(:));
+result_final(:,2) = [repmat({'Classic'},length(species),1);repmat({'DL&Posterior'},length(species),1)];
+writecell(result_final,'res_rxnCoverage.txt','Delimiter',',','QuoteStrings',false)
+violin = violinplot(cell2mat(result_final(:,1)),result_final(:,2),'ShowNotches',false,'ShowMean' ,false,'ViolinAlpha',1,'EdgeColor',[0,0,0],'ShowData',false,'BoxColor',[1,1,1]);
+violin(1).ViolinColor = [253,224,221]./255;
+violin(2).ViolinColor = [197,27,138]./255;
+violin(2).MedianPlot.SizeData = 1;
+violin(1).MedianPlot.SizeData = 1;
+set(gca,'FontSize',6,'FontName','Helvetica');
+ylabel(['{\itk}_c_a_t coverage for enzymatic rxns'],'FontSize',7,'FontName','Helvetica','Color','k');
+set(gca,'position',[0.2 0.2 0.6 0.6]);
+set(gcf,'position',[0 200 150 150]);
+box off
+ax1 = gca;
+ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 10,...
+    'Color','None','XColor','k','YColor','k', 'LineWidth', 1,...
+    'XAxisLocation','top', 'XTick', [],...
+    'YAxisLocation','right', 'YTick', []);
+linkaxes([ax1, ax2])
+
+save('res_rxnCoverage.mat','coverage','species')
+res_enzyme = res_enzyme(:,1:2)./res_enzyme(:,3);
+result_final = num2cell(res_enzyme(:));
+result_final(:,2) = [repmat({'Classic'},length(species),1);repmat({'DL&Posterior'},length(species),1)];
+writecell(result_final,'res_enzymeCoverage.txt','Delimiter',',','QuoteStrings',false)
+save('res_enzymeCoverage.mat','res_enzyme','species')
+violin = violinplot(cell2mat(result_final(:,1)),result_final(:,2),'ShowNotches',false,'ShowMean' ,false,'ViolinAlpha',1,'EdgeColor',[0,0,0],'ShowData',false,'BoxColor',[1,1,1]);
+violin(1).ViolinColor = [253,224,221]./255;
+violin(2).ViolinColor = [197,27,138]./255;
+violin(2).MedianPlot.SizeData = 1;
+violin(1).MedianPlot.SizeData = 1;
+set(gca,'FontSize',6,'FontName','Helvetica');
+ylabel(['{\itk}_c_a_t coverage for enzymes'],'FontSize',7,'FontName','Helvetica','Color','k');
+set(gca,'position',[0.2 0.2 0.6 0.6]);
+set(gcf,'position',[0 200 150 150]);
+box off
+ax1 = gca;
+ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 10,...
+    'Color','None','XColor','k','YColor','k', 'LineWidth', 1,...
+    'XAxisLocation','top', 'XTick', [],...
+    'YAxisLocation','right', 'YTick', []);
+linkaxes([ax1, ax2])
+cd(current_path)

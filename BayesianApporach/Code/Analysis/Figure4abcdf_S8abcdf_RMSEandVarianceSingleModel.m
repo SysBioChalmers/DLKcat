@@ -52,7 +52,7 @@ for k = 1:length(species)
     ylim([0,1000])
     ylabel('Varaiance distribution','FontSize',7,'FontName','Helvetica','Color','k');
     xlabel('{\itk}_c_a_t variance in log10 scale','FontSize',7,'FontName','Helvetica','Color','k');
-    leg = legend({'DL','Bayesian'});
+    leg = legend({'Prior','Posterior'});
     leg.ItemTokenSize = [10,2];
     set(gcf,'position',[0 200 150 150]);
     set(gca,'position',[0.2 0.2 0.6 0.6]);
@@ -112,7 +112,7 @@ for j = 1:length(species)
         'XAxisLocation','top', 'XTick', [],...
         'YAxisLocation','right', 'YTick', []);
     linkaxes([ax1, ax2])
-    saveas(fig3,['ChangedEnzyme',species{k},'.pdf']);
+    saveas(fig3,['ChangedEnzyme',species{j},'.pdf']);
     cd('../../')
     
     
@@ -129,8 +129,8 @@ for j = 1:length(species)
     x = [0:0.001:9];
     fig4 = plot(x,x,'--k','LineWidth',0.75);
     set(gca,'FontSize',6,'FontName','Helvetica');
-    xlabel('DL {\itk}_c_a_t in log10 scale','FontSize',7,'FontName','Helvetica','Color','k')
-    ylabel('Bayesian {\itk}_c_a_t in log10 scale','FontSize',7,'FontName','Helvetica','Color','k');
+    xlabel('Deep learning predicted {\itk}_c_a_t values[log10]','FontSize',7,'FontName','Helvetica','Color','k')
+    ylabel('Posterior mean {\itk}_c_a_t values [log10]','FontSize',7,'FontName','Helvetica','Color','k');
     text(1,10.5,['p = ' num2str(round(PVALtmp,2))],'FontSize',7,'FontName','Helvetica','Color','k')
     text(1,11.5,['r = ' num2str(round(RHOtmp,2))],'FontSize',7,'FontName','Helvetica','Color','k')
     set(gca,'position',[0.2 0.2 0.6 0.6]);
@@ -149,7 +149,7 @@ save('res_sig_prior_posterior.mat','sig_sigma_count','sig_sigma','sig_enzyme','s
 
 %% Figure for pca plot of kcat distribution
 for j = 1:length(species)
-    cd ('model_bayesian/')
+    cd ('model_bayesian_max/')
     cd(species{j})
     load(['res_ForKcatPCA',species{j},'.mat']) % result from function PCAsampledKcatsOneSpecies in analysis
     figure
@@ -158,7 +158,7 @@ for j = 1:length(species)
     h = scatter(score(:,1),score(:,2),20,'o','filled','LineWidth',0.75,'MarkerEdgeColor',[55,55,55]./255,'MarkerFaceColor',[55,55,55]./255,'MarkerFaceAlpha',0.3);legend off;
     h = scatter(score(y(end-100:end),1),score(y(end-100:end),2),20,'o','filled','LineWidth',0.75,'MarkerEdgeColor',[33, 102, 172]/255,'MarkerFaceColor',[33, 102, 172]/255,'MarkerFaceAlpha',0.3);legend off;
     h = scatter(score(y(1:100),1),score(y(1:100),2),40,'o','filled','LineWidth',0.75,'MarkerEdgeColor',[178, 24, 43]/255,'MarkerFaceColor',[178, 24, 43]/255,'MarkerFaceAlpha',0.3);legend off;
-    leg = legend({'Intermediates','DL','Bayesian'});
+    leg = legend({'Intermediates','Prior','Posterior'});
     set(leg,'box','off');
     set(gca, 'XColor','k');
     set(gca, 'YColor','k');

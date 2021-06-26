@@ -2,9 +2,9 @@
 
 %% kcat for xylose ultilization
 
-cd ../KcatTuning/model_dl/
+cd ../../Results/model_dl/
 
-fid2 = fopen('../../../ComplementaryData/physiology/SubstrateUsageInfo.tsv');
+fid2 = fopen('SubstrateUsageInfo.tsv');
 format = repmat('%s ',1,333);
 format = strtrim(format);
 substrate = textscan(fid2,format,'Delimiter','\t','HeaderLines',0);
@@ -36,7 +36,7 @@ model = panmodel;
         sol = optimizeCbModel(model_tmp,'max','one');
 rxnTarget = model.rxns(find(sol.x));
 
-inputpath = '/Users/feiranl/Documents/GitHub/MLKcat/ComplementaryScripts/KcatTuning/model_dl';
+inputpath = pwd;
 [siginificantEnzyme,pvalue,kcatresult,pathwayEnzyme] = kcatSignAnalysis(xyloseSpecies,NoxyloseSpecies,inputpath,0.01,rxnTarget);
 
 
@@ -47,8 +47,9 @@ inputpath = '/Users/feiranl/Documents/GitHub/MLKcat/ComplementaryScripts/KcatTun
 idx2 = find(contains(kcatresult.rxns,{'r_1093','p_4816','r_1092'}));
 
 a = kcatresult.kcat(idx2,idx);
-h = bar(a/3600,'FaceColor',[178, 24, 43]/255,'LineWidth',0.5,'FaceAlpha',0.3,'BarWidth',0.5,'EdgeColor',[178, 24, 43]/255)
-
+h = bar(log10(a/3600),'FaceColor',[178, 24, 43]/255,'LineWidth',0.5,'FaceAlpha',0.3,'BarWidth',0.5,'EdgeColor',[178, 24, 43]/255)
+[r,p] = ttest2(log10(a(1:5))/3600,log10(a(7)/3600));
+text(1,1.2,['p = ' num2str(round(p,3))],'FontSize',6,'FontName','Helvetica','Color','k')
 set(gca,'FontSize',6,'FontName','Helvetica');
 ylabel('Predicted {\itk}_c_a_t in log10 scale','FontSize',7,'FontName','Helvetica','Color','k');
 set(gca,'position',[0.2 0.2 0.6 0.6]);
@@ -72,7 +73,6 @@ fructoseHGT = {'Zygosaccharomyces_bailii','Zygosaccharomyces_rouxii','Wickerhami
 
 fructoseTrans = {'p_5228','r_1134'};
 glcTrans = {'r_1166'};
-    cd model_dl
 for i = 1:length(fructoseHGT)
 
     load([fructoseHGT{i},'_dl.mat'])
@@ -81,10 +81,10 @@ for i = 1:length(fructoseHGT)
     kcatFru(i) = max(enzymedata.kcat(idx1));
     kcatGlc(i) = max(enzymedata.kcat(idx2));
 end
-h = bar([kcatFru/3600;kcatGlc/3600]','FaceColor','flat','LineWidth',0.5,'FaceAlpha',0.3,'BarWidth',0.5)
-
+h = bar([log10(kcatFru/3600);log10(kcatGlc/3600)]','FaceColor','flat','LineWidth',0.5,'FaceAlpha',0.3,'BarWidth',0.5)
+[r,p] = ttest2(log10(kcatFru/3600),log10(kcatGlc/3600))
 set(gca,'FontSize',6,'FontName','Helvetica');
-ylabel('Predicted {\itk}_c_a_t [1/s]','FontSize',7,'FontName','Helvetica','Color','k');
+ylabel('Predicted {\itk}_c_a_t [log10]','FontSize',7,'FontName','Helvetica','Color','k');
 set(gca,'position',[0.2 0.2 0.6 0.6]);
 set(gcf,'position',[0 200 150 150]);
 xticklabels({'zba','zro','wdo','sbo','zko','yli','sce'})
