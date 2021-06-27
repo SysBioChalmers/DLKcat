@@ -469,7 +469,7 @@ def plot_subsystem_distribution() :
     ax.spines['top'].set_linewidth(0.5)
     ax.spines['right'].set_linewidth(0.5)
 
-    plt.savefig("../../Results/figures/Fig2d.pdf", dpi=400, bbox_inches='tight')
+    plt.savefig("../../Results/figures/Fig2c.pdf", dpi=400, bbox_inches='tight')
 
 
 if __name__ == "__main__" :

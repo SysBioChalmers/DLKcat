@@ -173,7 +173,7 @@ def plot_attention_weights(attention_profiles, wildtype_like_positions, wildtype
     plt.tick_params(which='major',length=1.5)
     plt.tick_params(which='major',width=0.4)
 
-    plt.plot(positions, weights, color='#A65628', linestyle='--', linewidth=0.75)  # color='k'  color='#A65628'
+    plt.plot(positions, weights, color='k', linestyle='--', linewidth=0.75)  # color='k'  color='#A65628'
 
     # s = [10*4**n for n in range(len(x))]  # change the size according to the detailed number
 
@@ -193,7 +193,7 @@ def plot_attention_weights(attention_profiles, wildtype_like_positions, wildtype
     sc = plt.scatter(wildtype_decreased_positions, wildtype_decreased, s=[Counter(wildtype_decreased_positions)[position]*5 for position in wildtype_decreased_positions], color='#b2182b', marker='o', label='Wildtype_decreased')
  
     plt.rcParams['font.family'] = 'Helvetica'
-    plt.xlabel('Sequence position', fontsize=7)
+    plt.xlabel('Residue position', fontsize=7)
     plt.ylabel('Attention weight', fontsize=7)
     # plt.ylabel('Importance contribution', fontsize=7)
 

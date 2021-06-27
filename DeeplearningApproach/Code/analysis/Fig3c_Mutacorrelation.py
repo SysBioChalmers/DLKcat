@@ -298,7 +298,7 @@ def compare_prediction_wildtype_mutant() :
         # wildtype_like = list()
         # wildtype_decreased = list()
 
-        if entry_names[0] in ['7,8-Dihydrofolate', 'Glycerate 3-phosphate', 'L-Aspartate', 'Penicillin G', 'Inosine', 'Isopentenyl diphosphate'] :  # To limit some entries with uncommon substrate name
+        if entry_names[0] in ['7,8-Dihydrofolate', 'Glycerate 3-phosphate', 'L-Aspartate', 'Penicillin G', 'Inosine', 'Isopentenyl diphosphate'] : 
             print('This entry is:', entry_names)
             for data in Kcat_data :
                 # print(data)
@@ -454,7 +454,7 @@ def compare_prediction_wildtype_mutant() :
     plt.legend(bbox_to_anchor=(1.01,1), frameon=False, fontsize=6)
     plt.tight_layout()
 
-    plt.savefig("../../Results/figures/Fig3c_legend.pdf", dpi=400, bbox_inches = 'tight')
+    plt.savefig("../../Results/figures/Fig3c.pdf", dpi=400, bbox_inches = 'tight')
 
 
 if __name__ == '__main__' :

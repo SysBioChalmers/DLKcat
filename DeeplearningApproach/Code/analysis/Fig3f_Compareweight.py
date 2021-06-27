@@ -654,7 +654,7 @@ def main() :
     ax.spines['top'].set_linewidth(0.5)
     ax.spines['right'].set_linewidth(0.5)
 
-    plt.savefig("../../Results/figures/Fig3f.pdf", dpi=400, bbox_inches = 'tight')
+    plt.savefig("../../Results/figures/Fig3f_2.pdf", dpi=400, bbox_inches = 'tight')
 
 
 if __name__ == '__main__' :
