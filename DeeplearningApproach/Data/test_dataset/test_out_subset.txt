@@ -1,0 +1,578 @@
+Experimental_value(log10)	Predicted_value(log10)	Enzyme_type	Substrate
+-2.2076	0.6895	wildtype	CTP
+-1.7905	-1.8726	mutant	trans,trans-Farnesyl diphosphate
+1.6684	2.2174	wildtype	D-Xylose
+0.1461	-0.1417	wildtype	Benzyloxycarbonyl-L-Asn 4-nitrophenyl ester
+-1.1487	-1.3554	mutant	(E,E,E)-geranylgeranyl diphosphate
+-0.8665	-0.1866	mutant	ATP
+-3.0969	-1.6979	mutant	1alpha,25-dihydroxyvitamin D3
+-0.9208	-0.8683	mutant	N-Formimino-L-glutamate
+1.7084	0.8020	wildtype	O-Acetyl-L-serine
+-0.1549	0.6695	wildtype	N-Formyl-Met-Leu-Phe
+2.2577	2.6684	wildtype	Acetyl phosphate
+-0.3010	0.3673	wildtype	GTP
+0.0479	0.1891	mutant	L-Phenylalanine
+0.3802	0.4887	wildtype	D-Ribulose 1,5-bisphosphate
+0.2304	1.2259	wildtype	5-Dehydro-4-deoxy-D-glucarate
+-1.0458	-0.0007	mutant	Fructose 6-phosphate
+-0.2007	-0.0447	mutant	Glycine
+-3.0969	-1.8305	mutant	trans,trans-Farnesyl diphosphate
+2.6609	2.2500	mutant	p-Nitrophenyl-alpha-L-rhamnopyranoside
+-0.6021	-0.4514	wildtype	Pyrazole
+0.5185	0.7432	wildtype	Tropine
+2.6335	1.8726	wildtype	propionate-3-nitronate
+2.1508	1.6999	mutant	Sucrose
+1.4487	1.2462	wildtype	N2-Acetyl-L-ornithine
+4.0374	3.0196	wildtype	Gly-Gly
+0.8553	0.2797	wildtype	Stearate
+-0.8386	1.2996	mutant	NADP+
+1.8865	1.9304	wildtype	Butanoyl phosphate
+0.4314	0.2599	mutant	ADPribose
+-0.1487	0.9872	wildtype	D-Sorbitol
+-1.1487	0.8260	wildtype	beta-cellobiosyl fluoride
+-0.2218	0.1391	mutant	Formate
+0.3222	-0.0263	mutant	2'-Deoxycytidine
+0.8573	1.6937	mutant	L-azetidine-2-carboxylic acid
+-1.2007	-0.0381	mutant	L-hydroxyproline-2-naphthylamide
+0.8939	1.0351	wildtype	3-Oxoadipyl-CoA
+-2.3158	-1.8854	wildtype	GTP
+0.2632	0.3872	wildtype	Indole-3-ethanol
+0.8633	0.2862	mutant	ADPribose
+-1.0809	0.3875	wildtype	Dimethylallyl diphosphate
+2.3692	1.0642	wildtype	o-Nitrophenyl-beta-D-galactoside
+0.9905	1.5346	wildtype	Phosphodimethylethanolamine
+-1.2730	0.4182	wildtype	L-Methionine S-oxide
+1.5855	1.8133	wildtype	Acetyl-CoA
+-0.7212	-0.2288	mutant	D-Sorbitol
+3.2355	0.9556	wildtype	methylitaconate
+-0.1367	1.1857	wildtype	N-acetylneuraminic acid 9-phosphate
+0.6902	0.9742	mutant	Glycerate 3-phosphate
+2.0828	1.1736	wildtype	Gly-Asp-Asp-Asp-Asp-Lys-2-naphthylamide
+1.3979	1.3411	mutant	Inosine
+1.4771	1.1344	wildtype	NAD+
+0.9912	2.0003	mutant	L-Tyrosine
+2.6435	0.6738	wildtype	Succinyl-Ala-Ala-Pro-Phe-p-nitroanilide
+2.3284	1.3764	wildtype	L-Aspartate 4-semialdehyde
+-1.2007	-0.9380	wildtype	hydralazine
+0.2648	0.5072	mutant	4-hydroxy-3-methoxybenzaldehyde
+-0.2291	-0.6572	mutant	(S)-ureidoglycolate
+1.0000	2.4523	mutant	Hydroxymethylbilane
+-0.0458	-0.2667	mutant	L-Arginine
+1.3838	1.1725	mutant	6-Phospho-D-gluconate
+0.1461	0.9460	wildtype	2-C-methyl-D-erythritol-4-phosphate
+-0.5229	0.8127	mutant	O2
+0.2227	0.5986	wildtype	ATP
+0.7559	0.3775	mutant	7,8-Dihydrofolate
+1.2122	2.0458	wildtype	7,8-dihydropterin
+-0.5086	-0.2172	wildtype	Glycine
+1.9581	1.3482	wildtype	Tyr-Pro-Phe-Pro
+0.5832	0.2997	wildtype	picolinate
+-0.2924	0.1266	wildtype	D-Galactonate
+-0.4353	-0.8879	wildtype	Aniline
+-0.5229	-0.3695	mutant	Trimethylamine
+2.6532	1.4953	wildtype	ATP
+4.4456	4.0488	wildtype	Androst-5-ene-3,17-dione
+-0.6364	-0.0913	mutant	3',5'-Cyclic AMP
+0.1584	2.3166	mutant	Sulfide
+2.3201	1.3491	wildtype	3-Dehydroquinate
+1.4133	-0.8221	wildtype	Serotonin
+-0.0410	0.1309	wildtype	(2S)-2-amino-3-(pyridin-3-yl)propanoic acid
+0.6721	1.5966	mutant	Heparin
+0.2022	0.4586	mutant	ATP
+-2.1367	0.0426	mutant	ATP
+2.7324	2.2406	wildtype	4,4'-Diphosphopantethine
+1.5539	1.6947	mutant	ammelide
+2.1072	0.4553	wildtype	UDP-D-galactose
+-0.3233	0.7836	wildtype	Phosphate
+-1.0000	-0.3211	mutant	2-Oxoglutarate
+-0.7545	-0.4511	mutant	styrene-7,8-oxide
+0.6435	0.9558	wildtype	D-Mannoheptose
+-2.3010	-1.3116	mutant	Malonyl-CoA
+-1.0269	0.3007	mutant	trehalose 6-phosphate
+2.2175	2.1910	wildtype	3-Mercaptopyruvate
+5.4447	4.4158	mutant	L-Glutamate
+-3.2366	-2.2590	mutant	pentalenolactone F
+-0.6576	0.5558	wildtype	2-(2-oxopropylthio)ethanesulfonate
+-0.9747	-1.1828	mutant	Luciferin
+1.3385	0.8583	mutant	1,3-beta-D-Glucan
+0.7160	-0.6886	wildtype	ATP
+1.2455	0.6308	mutant	Inosine
+0.0414	1.5714	mutant	L-Malate
+-0.7696	1.6079	mutant	4-Hydroxy-2-oxopentanoate
+-0.2076	-0.3428	mutant	ATP
+0.1761	0.1391	mutant	Vanillyl alcohol
+0.0645	0.3741	mutant	Xanthine
+-0.0862	-0.3928	wildtype	25-hydroxyvitamin D2
+-0.5086	1.0569	mutant	O-Succinyl-L-homoserine
+0.6435	-0.1424	wildtype	(S)-1-(4'-Hydroxyphenyl)ethanol
+0.1139	0.4808	mutant	4-hydroxy-3-methoxybenzaldehyde
+2.3766	2.0137	mutant	L-Arginine
+-2.1612	0.1604	mutant	ADPribose
+0.1761	0.6253	mutant	L-Alanine
+0.7559	1.1977	wildtype	N-benzoyl-Phe-Val-Arg p-nitroanilide
+0.6812	-1.0869	wildtype	Spermine
+-0.4437	-1.1047	wildtype	3-Methyl-4-hydroxybenzoate
+-1.0458	-1.7514	wildtype	idarubicin
+-1.6641	-0.0672	mutant	5,6,7,8-Tetrahydrofolate
+-0.5740	-0.2594	mutant	D-Tagatose 1,6-bisphosphate
+-1.2596	-1.3245	mutant	L-Malate
+-0.3010	0.1577	mutant	Formate
+0.8921	2.0469	wildtype	1-Pyrroline-2-carboxylate
+-1.0000	-0.0643	mutant	5-Formyltetrahydrofolate
+0.9350	0.8062	wildtype	D-3-hydroxyisobutyrate
+1.0792	1.3971	mutant	S-Sulfanylglutathione
+0.9638	1.4121	wildtype	ATP
+1.0792	1.6628	mutant	Heparin
+-2.7653	-0.3991	wildtype	Cholesterol
+0.4472	1.3130	wildtype	Glutathionylspermidine
+-1.5229	0.0189	mutant	L-Malate
+-0.1549	-0.0936	wildtype	Isorhamnetin
+-0.8861	1.6280	mutant	p-Nitrophenyl-beta-D-glucoside
+-1.4559	0.6482	mutant	ADPribose
+1.0934	0.3663	mutant	ADPribose
+1.0959	0.4419	mutant	Xanthine
+-0.4202	-0.0841	wildtype	PQQ
+0.3636	0.3812	mutant	L-Methionine
+-0.4342	0.8436	mutant	beta-D-Glucose 1-phosphate
+-1.1871	-1.3401	mutant	L-Malate
+2.3617	2.0282	wildtype	Pyruvate
+1.5051	1.8366	mutant	ATP
+-0.0809	-0.7801	mutant	3-Hydroxyphenylacetyl-CoA
+0.8921	0.9751	mutant	Glycerate 3-phosphate
+1.6571	1.7508	wildtype	methyl-dihydroorotate
+0.7482	0.2780	wildtype	4-methylcyclohexanone
+-0.1612	-0.4942	mutant	2,5-Dihydroxybenzoyl-CoA
+-0.0088	-0.4066	mutant	p-Nitrophenyl acetate
+1.7243	-0.3998	wildtype	Reduced glutathione
+0.8751	0.0499	mutant	dCTP
+-0.3188	-1.2677	wildtype	1H-tetrazole-5-propanamine
+0.4425	0.3994	wildtype	L-Serine
+-1.4948	-1.1849	mutant	Ampicillin
+0.0969	0.1391	mutant	Formate
+1.9175	1.0701	mutant	Sulfide
+-0.6576	0.3043	mutant	ATP
+2.1106	0.9992	wildtype	thiobenzyl benzyloxycarbonyl-L-lysinate
+-0.8861	-0.2414	mutant	Chorismate
+-0.6642	-0.1852	mutant	D-Tagatose 1,6-bisphosphate
+-0.2341	-0.6538	wildtype	Acenaphthenequinone
+-1.7447	-1.9973	wildtype	FMNH2
+0.0086	-0.5717	mutant	Protoporphyrinogen IX
+1.7694	0.2510	mutant	ATP
+2.5378	1.7015	wildtype	m-nitrophenyl butyrate
+1.4314	0.6414	wildtype	p-Nitrophenyl acetate
+0.0000	0.1391	mutant	Vanillyl alcohol
+1.8129	1.2809	wildtype	Glycerophosphocholine
+1.1875	1.1374	mutant	Acetyl-CoA
+1.2718	1.0228	mutant	Glycerate 3-phosphate
+-2.4437	-2.2784	mutant	trans,trans-Farnesyl diphosphate
+0.6785	0.9235	wildtype	Xanthohumol
+1.0719	1.1390	wildtype	O2
+-0.8239	-1.1520	mutant	UDP-D-galactose
+-0.1844	-0.0805	mutant	Penicillin G
+-1.1938	-1.1179	wildtype	Phenylacetyl-CoA
+-3.0000	-1.2003	mutant	Luciferin
+0.3802	0.5429	mutant	Inosine
+1.6335	1.2357	wildtype	trans-L-3-Hydroxyproline
+1.1761	0.5102	wildtype	Oxalate
+-3.3010	-1.2585	mutant	gamma-Aminobutyric acid
+-2.7520	-0.0712	wildtype	Hydroxylamine
+0.0294	2.5164	mutant	O-Acetyl-L-serine
+0.2553	-0.4035	wildtype	D-Ribitol 5-phosphate
+1.5441	0.9607	wildtype	1-chloro-4-(methylsulfanyl)benzene
+2.9823	1.6741	wildtype	3-Dehydroquinate
+0.9868	0.4329	mutant	N-Acetyl-D-neuraminate
+-0.3979	0.6960	wildtype	rosmarinic acid
+-1.0269	-0.2407	mutant	6-amino-6-deoxyfutalosine
+0.6990	0.1334	wildtype	ATP
+0.2304	0.6376	wildtype	4-Methoxyacetophenone
+-0.3468	0.6506	wildtype	p-Nitrocinnamaldehyde
+1.4624	2.3503	mutant	Dermatan sulfate
+2.8075	1.9037	wildtype	D-Tyrosinol
+-0.0969	-0.1067	wildtype	Nicotinamide guanine dinucleotide
+0.0607	-0.3933	mutant	4-Hydroxybenzoyl-CoA
+0.6021	1.0209	mutant	2-C-Methyl-D-erythritol 4-phosphate
+-1.2660	-1.4605	mutant	trans,trans-Farnesyl diphosphate
+1.7482	1.4120	wildtype	4-Nitrophenyl phosphate
+0.1461	0.0108	wildtype	scopoletin
+-1.9208	-0.5922	mutant	2-Methylmalonyl-CoA
+2.0253	1.8830	mutant	Creatine
+0.8287	0.8873	wildtype	L-Arginine
+-0.7447	-0.0619	wildtype	4,5-dichlorocatechol
+1.2529	-0.9133	wildtype	Isopentenyl diphosphate
+2.4523	2.9377	wildtype	(R)-S-Lactoylglutathione
+-1.2840	0.8291	mutant	Glycine
+-1.0809	0.0594	mutant	L-Serine
+0.7324	0.4375	mutant	4-Benzoylpyridine
+1.3464	-1.1454	wildtype	ATP
+-0.2366	0.3702	wildtype	carboxynorspermidine
+1.3874	1.1995	wildtype	Molybdate
+-1.5229	-1.0136	wildtype	ddTMP
+0.9731	1.2340	mutant	Reduced glutathione
+-0.8665	-1.0772	mutant	N6-(1,2-Dicarboxyethyl)-AMP
+0.6812	-0.2129	wildtype	Thiophene-2-carboxylate
+0.5836	0.6930	wildtype	2-Butene-1,4-diol
+-2.0458	-0.0426	mutant	Dimethylglyoxal
+1.2304	0.3826	mutant	3-Dehydro-L-gulonate 6-phosphate
+1.1644	-0.1706	wildtype	trehalose 6-phosphate
+0.6128	-1.8240	mutant	trans,trans-Farnesyl diphosphate
+1.2304	0.4540	mutant	L-Arginine
+-0.5229	1.2787	wildtype	o-coumaric acid
+-1.3872	-1.0344	mutant	Agmatine
+0.2041	0.1391	wildtype	2-ethoxyethanol
+1.4314	1.6734	wildtype	P1,P4-Bis(5'-adenosyl) tetraphosphate
+1.3404	-0.5723	mutant	beta-D-Glucose 1-phosphate
+-0.3872	0.2827	mutant	NAD+
+-0.4089	-0.5833	mutant	p-Nitrophenyl-beta-D-glucoside
+-0.3979	0.0024	mutant	L-Malate
+1.7292	1.2814	mutant	CTP
+1.8228	1.4604	mutant	1,3-beta-D-Glucan
+0.6571	0.7682	mutant	7,8-Dihydrofolate
+-0.0132	1.6940	mutant	p-Nitrophenyl-beta-D-glucoside
+0.0043	-0.3392	mutant	ATP
+3.1635	1.8573	wildtype	2-Methoxybenzoyl phosphate
+-1.5477	-1.3510	mutant	p-Nitrophenyl acetate
+2.4757	0.4372	wildtype	Xylitol
+-1.6990	-1.3292	wildtype	Nicotinamide
+2.6294	2.2515	mutant	(R)-S-Lactoylglutathione
+-0.3197	1.1548	mutant	1,3-beta-D-Glucan
+-1.8447	0.2240	wildtype	L-Lysine
+-0.2924	0.3690	mutant	D-Xylose
+2.3464	2.4291	wildtype	2,5-dimethyl-3,6-diaziridinyl-1,4-benzoquinone
+0.9685	0.3842	wildtype	benzoyl-Gly-Phe
+1.2304	1.3787	mutant	Mandelonitrile
+0.6628	0.9747	mutant	Glycerate 3-phosphate
+-2.0362	-1.0741	wildtype	L-beta-phenylalanine
+0.9138	2.0297	wildtype	dihydroorotate
+0.8325	0.5948	mutant	Thymidine
+-1.3862	0.5700	mutant	ADPribose
+-1.4559	-0.6078	mutant	choline O-sulfate
+0.3365	-0.1469	mutant	L-Aspartate
+0.8513	1.2203	wildtype	p-Tosyl-L-arginine methyl ester
+-0.1656	0.7640	wildtype	gamma-thiobutyrolactone
+0.9455	-0.2758	wildtype	GDPmannose
+0.9243	0.7945	mutant	2-Dehydro-L-idonate
+-0.4547	-0.3583	mutant	FAD
+-1.4034	0.0209	mutant	beta,beta-carotene
+1.6928	0.5535	wildtype	Gly-Asp-Asp-Asp-Asp-Lys-2-naphthylamide
+-1.3979	0.3527	wildtype	6-deoxy-L-Mannitol
+1.3856	1.0951	mutant	7,8-Dihydrofolate
+-1.0969	-0.8704	mutant	N6-(1,2-Dicarboxyethyl)-AMP
+-1.3010	-0.2718	mutant	Chorismate
+0.0374	-0.5895	mutant	ATP
+0.2648	0.1171	mutant	L-Phenylalanine
+0.6721	0.5289	wildtype	Cefmetazole
+-2.7447	-1.2124	wildtype	octadecanal
+0.0212	-0.1001	mutant	3',5'-Cyclic AMP
+0.4624	-1.1198	wildtype	(R)-4'-Phosphopantothenoyl-L-cysteine
+1.2562	2.3065	wildtype	Homocarnosine
+3.0538	2.1143	wildtype	L-Arginine
+1.0492	0.9753	mutant	Glycerate 3-phosphate
+0.7782	0.4235	mutant	Thiamine triphosphate
+1.1139	1.8388	mutant	ATP
+0.3979	0.1372	wildtype	Molybdate
+1.5340	1.2234	mutant	NADP+
+0.6021	0.8047	mutant	L-Fuculose 1-phosphate
+1.9638	1.6735	wildtype	Heparin
+-0.9830	-1.2074	mutant	L-Phenylalanine
+-1.2596	-0.3788	mutant	oleamide
+0.5911	0.4500	wildtype	Acetylcyclohexane
+-1.0000	0.3954	mutant	ADPribose
+-0.0862	0.1167	wildtype	(2S)-2-amino-3-[4-(trifluoromethyl)phenyl]propanoic acid
+-0.2596	-0.5800	mutant	Benzydamine
+-0.1675	-0.2584	mutant	L-Lysine
+1.9731	-0.7729	wildtype	2-Phosphoglycolate
+-0.4425	-0.5075	mutant	uroporphyrinogen-III
+1.7076	1.2600	mutant	6-Phospho-D-gluconate
+2.3560	0.9795	wildtype	Cellobiose
+-2.6383	-1.6311	mutant	n-hexadecanal
+-0.0362	0.0475	mutant	ATP
+-0.3468	-0.4071	wildtype	4-O-alpha-D-glucopyranosyl-D-fructose
+1.1959	0.6897	wildtype	Pyruvate
+1.9138	-0.8587	wildtype	(6S)-6beta-hydroxy-1,4,5,6-tetrahydronicotinamide-adenine dinucleotide
+-1.9586	-0.6315	mutant	choline O-sulfate
+-2.6198	-0.3667	mutant	Pyruvate
+-0.4089	-0.4306	mutant	ATP
+2.9345	0.4826	wildtype	ATP
+-1.4338	-0.6932	mutant	Androst-4-ene-3,17-dione
+2.0170	1.5354	wildtype	S-Sulfanylglutathione
+1.5911	0.9073	mutant	galacto-N-biose
+1.3444	-0.4129	mutant	5alpha-Androstan-17beta-ol-3-one
+1.6628	1.1944	wildtype	3-Chloro-4-methoxybenzyl alcohol
+1.8069	1.3105	wildtype	sn-Glycerol 1-phosphate
+4.0945	2.7444	mutant	myo-Inositol hexakisphosphate
+-0.3468	0.1281	mutant	3-Dehydro-L-gulonate 6-phosphate
+2.9823	0.7592	wildtype	2'-Deoxycytidine 5'-monophosphate
+-1.3224	-0.0217	mutant	Dihydroxyacetone phosphate
+2.3160	0.0508	wildtype	Pyruvate
+-1.8861	-1.7490	mutant	2-Succinyl-6-hydroxy-2,4-cyclohexadiene-1-carboxylate
+-1.4948	-1.6529	wildtype	7,8-Dihydroneopterin 3'-triphosphate
+1.6053	1.0195	wildtype	Leu-enkephalinamide
+-0.8962	-0.3666	mutant	4-Hydroxybenzoyl-CoA
+0.9450	0.1646	mutant	L-Phenylalanine
+1.3579	1.3236	mutant	Xanthine
+1.3997	1.6006	wildtype	Amidorphin
+1.1239	0.3276	mutant	ADPribose
+-4.7782	-2.0604	mutant	p-Nitrophenyl-beta-D-cellotrioside
+1.2304	1.1897	mutant	2-oxo-2-phenylacetate
+1.3424	1.1032	wildtype	Cefixime
+-1.7212	0.1852	mutant	Pyruvate
+-3.0605	-0.9488	wildtype	Chavicol
+1.4314	1.1548	mutant	1,3-beta-D-Glucan
+-0.7645	-1.0254	wildtype	(3,5-dihydroxyphenyl)acetyl-CoA
+0.8692	0.8415	wildtype	Bis-4-nitrophenyl phosphate
+-1.0969	-1.5678	mutant	S-Adenosyl-L-methionine
+0.5441	0.3489	mutant	NAD+
+0.3617	1.0951	wildtype	Neurotensin
+0.0569	-0.9487	mutant	N6-(1,2-Dicarboxyethyl)-AMP
+-0.5560	-0.3434	mutant	5-Epiaristolochene
+0.6690	-0.2349	wildtype	D-Tagatose 1,6-bisphosphate
+2.6721	1.5611	wildtype	(S)(+)-Allantoin
+-0.8539	2.0196	mutant	Fumarate
+3.2776	0.9353	mutant	L-Lactaldehyde
+1.0607	1.0913	mutant	4-Hydroxy-4-methyl-2-oxoglutarate
+-0.0706	0.4093	mutant	L-Serine
+-0.1864	-0.0424	wildtype	dodecanoic acid
+0.3010	0.2723	wildtype	P1,P3-Bis(5'-adenosyl) triphosphate
+-1.8239	-0.4234	wildtype	Acyclovir
+2.0086	1.4139	wildtype	Tyr-Pro-Phe-Pro-Gly
+0.7853	0.6930	wildtype	L-Arogenate
+1.9031	1.0898	wildtype	Acetoacetyl-CoA
+0.3010	0.5784	wildtype	5'-methylthioadenosine
+0.3483	0.0723	wildtype	5-hydroxyconiferyl alcohol
+-0.3188	0.1903	mutant	ATP
+-2.3979	-1.9107	wildtype	Aklavinone
+-1.3699	0.0470	mutant	3-Dehydroshikimate
+0.9868	1.2022	mutant	D-Glucosamine 6-phosphate
+1.2856	1.2007	mutant	D-Glucosamine 6-phosphate
+0.5441	0.3827	wildtype	D-Ribulose 1,5-bisphosphate
+-0.1549	-0.7267	wildtype	normetanephrine
+1.1139	0.6187	mutant	Oxalyl-CoA
+-0.0362	1.1708	wildtype	NADH
+-0.7959	0.9789	wildtype	Prephenate
+0.6128	0.4880	mutant	NAD+
+0.0414	0.3879	wildtype	1,2-Dichloro-4-nitrobenzene
+-0.0605	-0.0580	mutant	beta-D-Glucose 1-phosphate
+0.2122	1.8779	mutant	methyl(2-thienyl)malonic acid
+1.9036	0.9812	mutant	cocaine
+-0.3224	0.2918	wildtype	3-methyl-L-tyrosine
+2.0899	1.3226	mutant	2-oxo-2-phenylacetate
+0.5682	-0.0841	wildtype	dTTP
+2.2765	1.7321	mutant	ammelide
+3.4548	1.4547	wildtype	Butyrylcholine
+-0.2147	-0.6436	mutant	beta-D-Glucose 1-phosphate
+0.0434	0.1232	mutant	Succinate semialdehyde
+-2.9208	-0.0364	wildtype	S-Adenosyl-L-methionine
+1.9138	1.6004	wildtype	Glycerate 3-phosphate
+1.0253	2.3367	mutant	(R)-S-Lactoylglutathione
+2.0682	2.0214	wildtype	Propionyl phosphate
+-1.5850	-0.9865	mutant	Ampicillin
+-1.1445	-1.7047	mutant	Undecaprenyl phosphate
+0.8573	-1.8612	wildtype	UDP-D-galactofuranose
+-0.5376	0.4371	mutant	N-Acetyl-D-neuraminate
+-1.2467	-0.2190	mutant	Reduced glutathione
+-1.6383	0.5629	wildtype	oryzalexin A
+2.5911	2.6562	mutant	Paraoxon
+-0.9208	-0.0010	mutant	Fructose 6-phosphate
+0.4472	0.6667	wildtype	S-Sulfo-L-cysteine
+0.5563	-0.0321	wildtype	4-hydroxy-3-methoxyphenylglycol
+1.0212	0.0192	wildtype	dTDP-6-deoxy-D-xylo-4-hexulose
+1.5775	1.0139	wildtype	N1,N8-bis(sinapoyl)-spermidine
+0.6232	1.1578	mutant	Neurotensin
+-3.6021	-2.2422	mutant	26,27-dehydrozymosterol
+1.5832	1.3532	mutant	1,3-beta-D-Glucan
+-1.5229	-0.9907	wildtype	5-Aminovaleric acid
+-3.3979	-1.4657	mutant	UDP-N-acetyl-D-mannosamine
+0.1461	1.0742	wildtype	L-Glutamine
+-0.8539	0.1319	wildtype	(2E)-3-(pyridin-3-yl)prop-2-enoic acid
+0.4281	0.6610	wildtype	Phosphate
+0.4150	0.2919	wildtype	1-Naphthaldehyde
+2.4472	1.1559	wildtype	Tetrabromo-1,4-benzoquinone
+1.0228	1.2909	mutant	NAD+
+1.0828	0.9740	mutant	Glycerate 3-phosphate
+-0.9830	-0.5075	mutant	uroporphyrinogen-I
+1.3516	1.2474	mutant	N-carbamoyl-D-p-hydroxyphenylglycine
+0.7782	0.9604	mutant	O-Succinyl-L-homoserine
+-1.5591	0.6483	wildtype	4-Hydroxy-4-methyl-2-oxoglutarate
+0.6335	0.1391	mutant	Vanillyl alcohol
+0.9479	0.9209	wildtype	neurokinin B
+1.4771	1.2715	wildtype	Isocitrate
+-1.0458	-1.1134	wildtype	beta-Citronellol
+1.2553	1.3616	wildtype	D-Alanyl-D-alanine
+-2.3979	-1.2025	mutant	Luciferin
+1.6712	1.3389	mutant	1,3-beta-D-Glucan
+1.3222	1.4059	mutant	2-oxo-2-phenylacetate
+1.6675	-0.1872	mutant	Malonyl-CoA
+-0.1549	0.1391	mutant	Formate
+-0.2343	0.8890	wildtype	deoxyuridine
+0.2553	1.4254	wildtype	beta-D-ribosylnicotinate
+1.1038	1.0677	wildtype	3,4',5,7-tetrahydroxyflavanone
+0.3222	2.2046	mutant	H2O2
+3.1830	1.9308	wildtype	Benzoyl phosphate
+0.9542	1.1282	wildtype	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate
+0.5740	0.7550	mutant	7,8-Dihydrofolate
+-2.5229	-2.0512	mutant	Zymosterol
+-0.2074	0.1391	wildtype	p65
+-0.7696	1.6892	mutant	Chondroitin 6-sulfate
+0.7839	0.1167	mutant	CO2
+-1.6990	1.1553	wildtype	p-Nitrophenyl-alpha-L-arabinofuranoside
+1.6368	0.3343	wildtype	L-Glutamate
+-0.6536	0.4504	wildtype	D-glucitol-6-phosphate
+1.5682	1.8866	mutant	Ceftazidime
+1.5514	0.0602	wildtype	L-Glutamate
+-0.0458	0.5696	mutant	2-C-Methyl-D-erythritol 4-phosphate
+-0.0953	-1.6276	mutant	Isopentenyl diphosphate
+-0.7959	-0.4523	mutant	NADP+
+-1.6383	-0.2194	wildtype	all-trans-retinoic acid
+0.6021	0.5100	mutant	NAD+
+0.8062	1.7263	mutant	Sucrose
+-0.1135	0.3006	wildtype	L-Formylkynurenine
+1.5132	0.8444	wildtype	XXXG
+0.4249	-0.3415	mutant	ATP
+0.2304	0.5782	wildtype	4-Methylpentan-1-ol
+1.8062	0.4751	wildtype	GDPmannose
+0.5873	0.6727	wildtype	3-Hydroxycinnamate
+1.2788	1.1716	mutant	2-oxo-2-phenylacetate
+1.5011	1.4399	mutant	Phosphoenolpyruvate
+0.5185	0.3808	mutant	7,8-Dihydrofolate
+-0.2757	0.8177	wildtype	2,4,6-Trinitrotoluene
+1.6721	0.7689	wildtype	N,N-Dimethyl-4-nitrosoaniline
+0.5428	1.8820	wildtype	2',3'-Cyclic CMP
+1.8062	1.2605	wildtype	4-Nitroso-N-phenylaniline
+2.6532	2.4962	mutant	Phenylmalonate
+-0.7212	-0.4462	mutant	ATP
+-1.4318	0.2530	mutant	1,3-beta-D-Glucan
+-0.1612	0.0265	wildtype	cyclo(L-Leu-L-Phe)
+1.4183	1.6543	wildtype	ammelide
+-3.3188	-1.6655	mutant	ATP
+-0.6576	2.2840	mutant	Sulfide
+-3.3872	-2.1583	mutant	trans,trans-Farnesyl diphosphate
+-0.2147	-0.2833	mutant	Trehalose
+1.7118	1.3448	mutant	O-Acetyl-L-serine
+-0.4828	0.1391	mutant	L-Histidine
+2.5428	0.5522	wildtype	Acetoacetate
+-1.3372	-0.0714	mutant	dTDP-3-amino-3,6-dideoxy-alpha-D-glucopyranose
+1.1931	1.1940	wildtype	3-Bromobenzaldehyde
+0.6160	0.4715	mutant	(S)-2-(4-chloro-2-methylphenoxy)propanoate
+2.5670	1.6646	mutant	1,5-Anhydro-D-fructose
+-2.5229	0.1375	wildtype	(1R,4S)-isodihydrocarvone
+0.3838	0.1945	mutant	N(omega)-(L-Arginino)succinate
+-0.5133	0.3175	mutant	NADPH
+-0.3979	0.4434	mutant	S-Adenosyl-L-homocysteine
+0.8439	0.6810	mutant	L-Proline
+1.3617	1.3671	mutant	Mandelonitrile
+-0.7959	0.3155	mutant	L-Malate
+-0.3768	-0.3809	mutant	ATP
+0.5051	1.1657	wildtype	carboxyspermidine
+-0.0862	-0.2391	mutant	Squalene
+-0.7368	1.0615	mutant	UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-L-lysyl-D-alanyl-D-alanine
+-0.2518	0.3968	mutant	Met-Gly-Met-Met
+-0.9208	0.5023	mutant	4-hydroxy-3-methoxybenzaldehyde
+0.1553	0.7227	wildtype	Sinapyl aldehyde
+-1.4948	-1.4057	mutant	S-Adenosyl-L-methionine
+-1.3872	-1.1725	mutant	Ampicillin
+0.8261	-0.3361	wildtype	3-furoate
+1.8340	1.4635	mutant	L-Alanine
+1.5721	1.1653	wildtype	trans-L-3-Hydroxyproline
+1.9138	1.5434	mutant	(S)-Mandelate
+0.9191	-0.4304	wildtype	benzyloxycarbonyl-L-Ala 4-nitrophenyl ester
+-0.8327	-0.5319	mutant	1-(5'-Phosphoribosyl)-5-formamido-4-imidazolecarboxamide
+1.2041	1.1192	mutant	Citraconate
+-4.0655	-2.8280	wildtype	4-(aminomethyl)thiophene-2-carboxylic acid
+0.5911	0.4815	mutant	5-[(5-phospho-1-deoxy-D-ribulos-1-ylamino)methylideneamino]-1-(5-phospho-beta-D-ribosyl)imidazole-4-carboxamide
+2.9754	1.9070	wildtype	Cefotiam
+1.1206	0.3281	mutant	(S)-Mandelate
+-0.8202	-0.5454	mutant	Protoporphyrinogen IX
+-0.5850	0.3984	mutant	1-Deoxy-D-xylulose 5-phosphate
+1.0719	1.4547	mutant	ATP
+0.4265	0.1272	wildtype	gamma-linolenic acid
+1.0374	0.0831	mutant	L-Phenylalanine
+-1.3420	-0.2389	mutant	Chorismate
+-1.0969	-0.0091	mutant	D-Xylose
+0.4548	0.3765	mutant	L-Methionine
+0.0000	-0.9347	wildtype	dithranol
+0.2218	0.5401	wildtype	16-Hydroxyhexadecanoic acid
+-2.1249	-1.4875	mutant	trans,trans-Farnesyl diphosphate
+-2.8239	-0.0310	mutant	D-Sorbitol
+1.7042	1.2253	mutant	NADP+
+-0.9747	-0.3012	mutant	Adenosine
+1.0828	0.4850	mutant	N-Acetyl-D-neuraminate
+-0.1549	0.6081	mutant	ADPribose
+1.6990	1.3885	wildtype	trans-4-Hydroxy-L-proline
+-0.6543	-0.7022	wildtype	7-Dehydrocholesterol
+-1.6778	-0.0881	mutant	salutaridine
+-1.2341	-0.8107	mutant	all-trans-Retinal
+0.8887	-0.4062	wildtype	dihydroartemisinic aldehyde
+2.5816	2.2703	mutant	D-Xylose
+-1.7212	-2.2873	mutant	trans,trans-Farnesyl diphosphate
+-2.1549	-1.8307	mutant	trans,trans-Farnesyl diphosphate
+-0.3010	0.3901	wildtype	Adenosine
+2.9440	1.0235	wildtype	(S)(+)-Allantoin
+0.6532	-0.1356	mutant	Acetyl-CoA
+-1.2596	-1.4557	wildtype	Phosphoenolpyruvate
+0.4771	1.3715	mutant	Mandelonitrile
+-0.8539	-0.0026	wildtype	Bromomethane
+1.1959	0.9921	wildtype	3,4-Dichlorobenzaldehyde
+1.1239	2.3815	wildtype	benzoylthiocholine
+-1.4202	0.7224	mutant	Pyruvate
+-0.0458	-0.3629	mutant	biotin
+0.4281	1.2109	wildtype	5-Azacytosine
+-1.3010	-0.4929	wildtype	2-Fluoro-D-glucose
+0.6628	0.4042	mutant	NAD+
+1.0294	0.7694	wildtype	1,8-Diazacyclotetradecane-2,9-dione
+0.1239	0.1391	mutant	Glycine
+0.1461	0.4774	mutant	Sulfide
+0.8325	1.0014	mutant	L-Lysine
+0.5563	0.5012	mutant	NAD+
+1.1335	0.1354	mutant	L-Threonine
+1.6197	0.2422	wildtype	Ala-Ala-Phe-7-amido-4-methylcoumarin
+0.5911	-0.1093	wildtype	2-Aminobenzoate
+0.0170	1.6526	wildtype	Glycerate
+1.0212	-0.5900	wildtype	Inositol 4,5-bisphosphate
+0.3979	0.0047	mutant	L-Malate
+1.0170	1.3599	wildtype	dTDP-6-deoxy-D-xylo-4-hexulose
+1.4914	-0.9320	wildtype	N-Formimino-L-glutamate
+0.3222	0.4310	wildtype	N-Acetyl-D-mannosamine
+-2.6615	-0.6197	mutant	p-Nitrophenyl-beta-D-glucoside
+1.0745	0.4249	mutant	N-Acetyl-D-neuraminate
+0.9685	0.9727	mutant	Glycerate 3-phosphate
+2.8399	2.5420	wildtype	Pyruvate
+0.2672	0.3997	mutant	L-Methionine
+3.4522	0.5349	wildtype	Formate
+-2.3632	-2.1213	mutant	Zymosterol
+-1.4815	-1.4167	wildtype	N1-methyl-2'-deoxyadenosine 5'-triphosphate
+-0.3372	-0.1430	mutant	5-formylfuran-2-carboxylate
+1.8350	2.1024	mutant	D-Xylose
+3.6622	3.6627	wildtype	Met-Pro
+0.6513	1.1597	mutant	NAD+
+-1.2218	0.9375	wildtype	5-Diphosphoinositol pentakisphosphate
+-1.1249	-0.1857	mutant	Reduced glutathione
+-2.3010	-1.7127	mutant	1alpha,25-dihydroxyvitamin D3
+1.6021	1.1968	wildtype	cholestanol
+0.9685	0.9847	wildtype	apigenin
+0.2304	-0.1079	mutant	Acetyl-CoA
+0.3979	-0.8500	mutant	UDP-D-galactose
+-0.5795	-0.5562	wildtype	4-Fluoro-D-glucose
+1.0554	0.1391	mutant	carnitine
+0.8633	-0.0785	mutant	NADPH
+0.9920	-0.2992	wildtype	Cyanamide
+-0.7959	-0.7860	mutant	3-Hydroxyphenylacetyl-CoA
+0.1931	-0.1103	mutant	Androst-5-ene-3,17-dione
+-0.6778	1.3222	wildtype	5,6-diaminouracil
+1.1875	1.8524	mutant	Coenzyme A
+-2.0223	-0.9285	mutant	Agmatine
+0.0000	0.3318	wildtype	Glycine methyl ester
+2.2304	0.9189	wildtype	ethylphenylacetate
+1.1552	1.0782	mutant	D-Xylose
+2.0607	1.8771	mutant	Creatine
+2.0170	1.7013	wildtype	(2S)-ethylmalonyl-CoA
+-1.4202	0.4877	wildtype	peptide 6A
+-0.8861	1.2950	mutant	ATP
+-0.4089	-0.4280	wildtype	Sucrose
+0.9910	0.1391	mutant	carnitine
+0.6232	-0.1009	wildtype	beta-Naphthyl phosphate
+0.4166	0.9099	wildtype	Methylglyoxal
+-0.3565	0.8817	wildtype	Menadione
+-0.2366	0.0092	mutant	Acetyl-CoA
+-0.1752	-0.0805	mutant	Penicillin G
+-1.6498	0.8719	mutant	4-Hydroxy-4-methyl-2-oxoglutarate
+1.1987	0.9230	wildtype	7-ketolithocholic acid
