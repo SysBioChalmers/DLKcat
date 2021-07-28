@@ -11,13 +11,12 @@ function classicDLModelGeneration(strains,modelpath,dbpath,kcatpredictionPath)
 % kcatpredictionPath = '/Users/feiranl/Documents/GitHub/MLKcat/DeeplearningApproach/Results/PredcitedKcat343species'
 % load('strains.mat') % strains
 %% step 1
-
 % Reformulate the orginal model
 %   1. Reactions with isozymes (i.e., 'OR' case in GPR) will be copied,
 %   each isozyme will be assigned to each copy.
 %   2. Reversible reactions will be split into forward and reverse ones.
 current_path = pwd;
-load('Protein_stoichiometry.mat')
+load('Protein_stoichiometry.mat') % defines the subunit stoi for the complex downloaded from ComplexPortal, can be found in the Data/dabase/PDBe
 for m = 1:length(strains)
     strain = strains{m};
     cd(modelpath)
@@ -125,13 +124,11 @@ for m = 1:length(strains)
     
     disp('add enzyme data')
     % go to the EC file
-    load('Protein_stoichiometry.mat') % generate in the function ECprepPanGEM.m should storeed at pdbe
-    load('ecdata.mat') % generate in the function ECprepPanGEM.m should stoed at ecGEMconstruction
-    load('rxn2block.mat') % generate from the function blockbyproduct.m storeee at ecGEMconstruction
+    load('Protein_stoichiometry.mat') % generate in the function ECprepPanGEM.m should stored at pdbe
+    load('ecdata.mat') % generate in the function ECprepPanGEM.m should stored at ecGEMconstruction
+    load('rxn2block.mat') % generate from the function blockbyproduct.m stored at ecGEMconstruction
     enzymedata = collectkcats(model,MWdata,ecdata,Protein_stoichiometry,false);
     save(['../../Results/model_classic/',strain,'_classic.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
-    %enzymedata = collectkcats(model,MWdata); % generate ecdata Protein_stoichiometry from panmodel
-    %kcatpredictionPath = '/Users/feiranl/Documents/GitHub/MLKcat/ComplementaryScripts/ForKcatPrediction/KcatPredictionResult';
     enzymedata = collectPredictedKcat(model,MWdata,ecdata,Protein_stoichiometry,kcatpredictionPath,0); % 0 means that not with median
     save(['../../Results/model_dl/',strain,'_dl.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
     disp(['finish',strain])

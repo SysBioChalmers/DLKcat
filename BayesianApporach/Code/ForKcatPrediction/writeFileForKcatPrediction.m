@@ -4,7 +4,7 @@ function writeFileForKcatPrediction(species,inputpath)
 % inputpath = 'downloaded model from https://github.com/SysBioChalmers/Yeast-Species-GEMs/tree/master/Reconstruction_script/ModelFiles/xml'
 current_path = pwd;
 
-load('MNXprop.mat') % generate from MNXpropExtract.m
+load('MNXprop.mat') % generate from MNXpropExtract.m in  DLKcat/BayesianApporach/Data/database
 load('conserveMets.mat')
 % remove conservedmets from prediction substrates
 

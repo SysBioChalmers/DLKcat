@@ -1,7 +1,7 @@
-
+% This is to plot the figure S9
 
 %% Figure Sa
-fid2 = fopen('../../ComplementaryData/physiology/343_phenotype_clade.tsv');
+fid2 = fopen('../../Data/physiology/343_phenotype_clade.tsv');
 format = '%s %s %s';
 temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',1);
 for i = 1:length(temp)

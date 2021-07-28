@@ -1,7 +1,7 @@
-currentpath = pwd;
-%this function is to plot the figure DL-ecGEMs number
+current_path = pwd;
+%this function is to plot the figure DL-ecGEMs number for Figure S6
 
-fid2 = fopen('343_phenotype_clade.tsv');% Data folder
+fid2 = fopen('343_phenotype_clade.tsv');% DLKcat/BayesianApporach/Data
 format = '%s %s %s';
 temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',1);
 for i = 1:length(temp)
@@ -74,3 +74,5 @@ set(gca,'FontSize',6,'FontName','Helvetica');
 set(gcf,'position',[0 200 150 150]);
 set(gca,'position',[0.2 0.2 0.6 0.6]);
 box on
+
+cd (current_path)

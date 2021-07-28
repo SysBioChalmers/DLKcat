@@ -1,4 +1,4 @@
-function Figure4e_S8e_simulateGrowth(species,carbonsource,aerobic)
+function Figure4b_S11b_simulateGrowth(species,carbonsource,aerobic)
 if nargin < 3
     aerobic = 1;
 end

@@ -1,6 +1,6 @@
-%% this function is to generate results figure S6b, since it is diffult to plot the two column box plot in Matlab, so we use the function SuppleFig5b_Gen&Spe.py to plot
+%% this function is to generate results figure S7b, since it is diffult to plot the two column box plot in Matlab, so we use the function SuppleFig5b_Gen&Spe.py to plot
 
-currentpath = pwd;
+current_path = pwd;
 load('conserveMets.mat')
 cd ../../Results/model_dl/
 fid2 = fopen('343_phenotype_clade.tsv');
@@ -61,3 +61,4 @@ t = cell2table([num2cell(log10(res/3600)),res_label1,num2cell(res_lable2)]);
 t.Properties.VariableNames = {'kcat','type','clade'};
 t = cell2table([num2cell(log10(res/3600)),res_label1,num2cell(res_lable2)]);
 writetable(t,'kcat_gen_spe.txt','Delimiter','\t','QuoteStrings',false,'WriteRowNames',true)
+cd(current_path)

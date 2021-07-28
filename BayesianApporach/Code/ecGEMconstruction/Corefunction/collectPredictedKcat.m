@@ -13,7 +13,7 @@ fid  = fopen(fileName);
 data = textscan(fid,[repmat('%s ',[1,7]) '%s'],'Delimiter','\t');
 data = [data{1:end}];
 fclose(fid);
-
+cd(current_path)
 
 % get enzyme list and corresponding rxn list
 enzyme_list = model.grRules(~cellfun(@isempty,model.grRules)); % all enyzmes in the model

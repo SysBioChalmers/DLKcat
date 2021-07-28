@@ -1,6 +1,7 @@
 function TestBayesianModelGeneration
+% This function it to validate the bayesian approach related to Figure S10
 initcluster
-
+current_path = pwd;
 
 species = {'Saccharomyces_cerevisiae'};
 
@@ -8,15 +9,16 @@ generation = 150;
 
 cd('../../Results')
 for i = 1:1
+    mkdir('Test_SMCABC')
     cd('model_dl')
-    mkdir([species{i},'_test'])
     z = load([species{i},'_dl.mat']);
-    cd(species{i})
+    cd('../Test_SMCABC')
     enzymedata = z.enzymedata;
     max_growth = z.max_growth;
     growthdata = z.growthdata;
     model = z.model;
     strain = z.strain;
+    % split the training data
     growthdata_train = growthdata([2:2:length(growthdata(:,1))],:);
     growthdata_test = growthdata([1:2:length(growthdata(:,1))],:);
     max_growth_train = max_growth([2:2:length(max_growth(:,1))],:);
@@ -128,4 +130,6 @@ for i = 1:1
         end
     end
     cd('../')
+end
+cd(current_path)
 end

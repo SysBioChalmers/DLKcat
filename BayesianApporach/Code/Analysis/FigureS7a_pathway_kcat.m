@@ -1,4 +1,6 @@
+% This function is to plot the Figure S6a
 % subsystem kcat
+current_path = pwd;
 load('strains.mat')
 species = strains;
 cd ../../Results
@@ -42,7 +44,7 @@ for i = 1:length(species)
         end
     end
 end
-label = {'Primary - Carbohydrate & Energy Metabolism','Primary - amino acids, fatty acids and nucleotides','Intermediate','Secondary'}
+label = {'Primary - Carbohydrate & Energy Metabolism','Primary - amino acids, fatty acids and nucleotides','Intermediate','Secondary'};
 figure
 color = [228,26,28;55,126,184;77,175,74;152,78,163;255,127,0;255,255,51;166,86,40;247,129,191;153,153,153]./255;
 
@@ -75,5 +77,6 @@ for i = 1:343
     kcat_Ec = kcat_Ec(~idx);
     kcat_rxn = kcat_rxn(~idx);
     kcat_gene = kcat_gene(~idx);
-    writecell([kcat_rxn,kcat_gene,kcat_Ec],['ecres/',species{i},'_ec.txt'],'Delimiter',',','QuoteStrings',false)
+    writecell([kcat_rxn,kcat_gene,kcat_Ec],['../../Results/',species{i},'_ec.txt'],'Delimiter',',','QuoteStrings',false)
 end
+cd(current_path)

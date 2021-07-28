@@ -1,6 +1,7 @@
 % SimulatePhenotype
 %load species
-[~,~,growthrates] = xlsread('growthratedata.xlsx','growthrates');
+current_path = pwd;
+[~,~,growthrates] = xlsread('growthratedata.xlsx','growthrates'); % DLKcatBayesianApporach/Data
 growthrates = growthrates(2:end,:);
 species = unique(growthrates(:,4));
 species = strrep(species,' ','_');
@@ -47,3 +48,4 @@ for i = 1:length(species)
     clearvars simulated_meadian simulated kcat_posterior
     cd ../../
 end
+cd(current_path)

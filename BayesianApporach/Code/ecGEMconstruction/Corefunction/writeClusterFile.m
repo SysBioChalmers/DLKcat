@@ -23,7 +23,7 @@ for i = 1:length(k)
             fprintf(fptr,['b',num2str(m),'=$i+' num2str(1*m-1) '\n']);
         end
         for m = 1:10
-            fprintf(fptr,['matlab -nodesktop -singleCompThread -r "GrowthAnalysis_cluster($a',num2str(m),',$b',num2str(m),')" &\n']);
+            fprintf(fptr,['matlab -nodesktop -singleCompThread -r "classicDLModelGeneration_cluster($a',num2str(m),',$b',num2str(m),')" &\n']);
         end
     else
         for m = 1:num-k(i)+1
@@ -31,7 +31,7 @@ for i = 1:length(k)
             fprintf(fptr,['b',num2str(m),'=$i+' num2str(1*m-1) '\n']);
         end
         for m = 1:num-k(i)+1
-            fprintf(fptr,['matlab -nodesktop -singleCompThread -r "GrowthAnalysis_cluster($a',num2str(m),',$b',num2str(m),')" &\n']);
+            fprintf(fptr,['matlab -nodesktop -singleCompThread -r "classicDLModelGeneration_cluster($a',num2str(m),',$b',num2str(m),')" &\n']);
         end
     end
     fprintf(fptr,'wait;\n');
