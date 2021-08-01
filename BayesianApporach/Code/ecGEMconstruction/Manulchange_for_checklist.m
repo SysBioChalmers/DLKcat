@@ -1,6 +1,6 @@
 % manual curation for checklist
 % k.lactis Neurospora_crassa use NADPH
-inputpath = '/Users/feiranl/Documents/GitHub/Yeast-Species-GEMs/Reconstruction_script/ModelFiles/mat';
+inputpath = '../../Result/ssGEMs'; % this can be downloaded from the GitHub/Yeast-Species-GEMs
 current_path = pwd;
 cd(inputpath)
 strains = {'Kluyveromyces_lactis','Neurospora_crassa'};
@@ -65,3 +65,4 @@ for i = 1:length(strains)
     reducedModel = model;
     save([strains{i},'.mat'],'reducedModel')
 end
+cd(current_path)

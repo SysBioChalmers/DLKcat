@@ -2,7 +2,7 @@
 % measured proteome
 current_path = pwd;
 % load proteome data
-[~,~,raw_proteome] = xlsread('Proteome_ref.xlsx','alldata');
+[~,~,raw_proteome] = xlsread('Proteome_ref.xlsx','alldata'); % DLKcat/BayesianApporach/Data
 raw_proteome = raw_proteome(2:end,:); % the first is the head line
 cond = unique(raw_proteome(1,:),'stable');
 lable  = unique(raw_proteome(2,:),'stable');

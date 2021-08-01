@@ -15,7 +15,7 @@ addpath(genpath('/cephyr/users/feiranl/Hebbe/tools/libSBML-5.15.0-matlab'))
 addpath(genpath('/cephyr/users/feiranl/Hebbe/tools'))
 addpath(genpath('/cephyr/users/feiranl/Hebbe/tools/RAVEN'))
 addpath(genpath('/cephyr/users/feiranl/Hebbe/tools/MATLAB-git'))
-addpath(genpath('/cephyr/users/feiranl/Hebbe/BayesianApproach'))
+addpath(genpath('/cephyr/users/feiranl/Hebbe/DLKcat'))
 workdir = pwd;
 cd '/cephyr/users/feiranl/Hebbe/tools/cobratoolbox'
 initCobraToolbox

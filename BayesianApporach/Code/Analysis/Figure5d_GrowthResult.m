@@ -14,7 +14,7 @@ species = species_withdata;
 % values
 result_constrain = [];
 result_max = [];
-cd ../../Results/model_Bayesian_max
+cd ../../Results/model_Bayesian
 for i = 1:length(species)
     cd(species{i})% later change to cd(species{i}) use species id to name the folder
     load([species{i},'_sim_phen.mat']) % is generated in the function simulategrowth.m

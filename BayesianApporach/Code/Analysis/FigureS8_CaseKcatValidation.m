@@ -4,7 +4,7 @@
 
 cd ../../Results/model_dl/
 
-fid2 = fopen('SubstrateUsageInfo.tsv');
+fid2 = fopen('SubstrateUsageInfo.tsv'); % DLKcat/BayesianApporach/Data
 format = repmat('%s ',1,333);
 format = strtrim(format);
 substrate = textscan(fid2,format,'Delimiter','\t','HeaderLines',0);
@@ -26,7 +26,7 @@ NoxyloseSpecies = strainlist(strcmp(data(strcmp(SubModelName,'D-xylose'),:),'0')
 clearvars -except xyloseSpecies NoxyloseSpecies
 
 % get rxnTargets
-load('panmodel.mat')
+load('panmodel.mat') % DLKcat/BayesianApporach/Results/ssGEMs
 model = panmodel;
         % sol the model first by maxmize ATP yield
         model_tmp = changeMedia(model,'D-xylose','MIN');
