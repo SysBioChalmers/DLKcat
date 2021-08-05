@@ -1,7 +1,7 @@
 % Figure 4c
 load('species_withdata.mat')
 currentpath = pwd;
-cd ../../Results
+cd ../../Results/model_build_files/
 for i = 1:length(species_withdata)
     cd('model_classic')
     i

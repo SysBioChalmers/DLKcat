@@ -2,7 +2,7 @@
 
 current_path = pwd;
 load('conserveMets.mat')
-cd ../../Results/model_dl/
+cd ../../Results/model_build_files/model_dl/
 fid2 = fopen('343_phenotype_clade.tsv');
 format = '%s %s %s';
 temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',1);

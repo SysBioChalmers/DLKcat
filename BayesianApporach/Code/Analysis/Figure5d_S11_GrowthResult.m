@@ -14,7 +14,7 @@ species = species_withdata;
 % values
 result_constrain = [];
 result_max = [];
-cd ../../Results/model_Bayesian
+cd ../../Results/model_build_files/model_Bayesian
 for i = 1:length(species)
     cd(species{i})% later change to cd(species{i}) use species id to name the folder
     load([species{i},'_sim_phen.mat']) % is generated in the function simulategrowth.m
@@ -27,6 +27,33 @@ end
 all_data = [result_constrain;result_max];
 dp = cell2mat(all_data(:,[3,5]));
 
+% Figure 5d
+hold on
+plot(dp(:,1),dp(:,2),'o','LineWidth',0.75,'MarkerSize',3,'Color',[197,27,138]./255);
+
+set(gca,'FontSize',6,'FontName','Helvetica');
+limit = max(dp(:));
+xlim([0 limit]);
+ylim([0 limit]);
+x = [0:0.1:limit];
+plot(x,x,'--k','LineWidth',0.75)
+set(gca,'FontSize',6,'FontName','Helvetica');
+
+ylabel('Simulated growth rate [1/h]','FontSize',7,'FontName','Helvetica','Color','k');
+xlabel('Experimental growth rate [1/h]','FontSize',7,'FontName','Helvetica','Color','k');
+
+set(gca,'position',[0.2 0.2 0.6 0.6]);
+set(gcf,'position',[0 200 150 150]);
+box off;
+ax1 = gca;
+ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 10,...
+'Color','None','XColor','k','YColor','k', 'LineWidth', 0.5,...
+'XAxisLocation','top', 'XTick', [],...
+'YAxisLocation','right', 'YTick', []);
+linkaxes([ax1, ax2])
+
+
+% Supplementary Figure S11 split by condition 
 sub = unique(all_data(:,2));
 color = [166,206,227
     31,120,180
@@ -44,15 +71,15 @@ color = [166,206,227
 53,151,143
 140,81,10]./255;
 
-hold on
+cond = {'aerobic','anaerobic'};
+for i = 1:length(cond)
+    figure
+    hold on
 for j = 1:length(sub)
-idx = find(strcmpi(all_data(:,2),sub(j)) & strcmpi(all_data(:,4),'aerobic'));
+idx = find(strcmpi(all_data(:,2),sub(j)) & strcmpi(all_data(:,4),cond{i}));
 plot(dp(idx,1),dp(idx,2),'o','LineWidth',0.75,'MarkerSize',3,'Color',color(j,:));
 end
-for j = 1:length(sub)
-idx = find(strcmpi(all_data(:,2),sub(j)) & strcmpi(all_data(:,4),'anaerobic'));
-plot(dp(idx,1),dp(idx,2),'<','LineWidth',0.75,'MarkerSize',3,'Color',color(j,:))
-end
+
 set(gca,'FontSize',6,'FontName','Helvetica');
 legend(sub,'Fontsize',6)
 limit = max(dp(:));
@@ -74,4 +101,4 @@ ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 10,...
 'XAxisLocation','top', 'XTick', [],...
 'YAxisLocation','right', 'YTick', []);
 linkaxes([ax1, ax2])
-
+end

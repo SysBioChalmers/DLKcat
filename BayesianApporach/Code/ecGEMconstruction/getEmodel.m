@@ -2,6 +2,7 @@ function getEmodel(species)
 currentpath = pwd;
 cd ../../Results/
 for i = 1:length(species)
+    cd('model_build_files/')
     display([num2str(i) '/' num2str(length(species))]);
     cd('model_classic')
     z = load([species{i},'_classic.mat']);
@@ -9,13 +10,13 @@ for i = 1:length(species)
     enzymedata_classic = z.enzymedata; 
 
     
-    cd('../model_dl_max')
+    cd('../model_dl')
     z = load([species{i},'_dl.mat']);
     model_DL = z.model;
     enzymedata_DL = z.enzymedata;
 
     
-    cd ../model_bayesian_max/
+    cd ../model_bayesian/
     cd(species{i})
     nfound = length(dir('kcat_genra*.txt'));
     if nfound > 0
@@ -27,18 +28,19 @@ for i = 1:length(species)
         [~,tot_prot_weight,~,~,~,~,~,~] = sumBioMass(model_DL);
         tot_prot_weight = tot_prot_weight*0.5;
     end
-    
+    cd ../../../ecModels
+    cd Classical/
     emodel = convertToGeckoModel(model_classic,enzymedata_classic,tot_prot_weight);
-    save([emodel.id,'_classic.mat'],'emodel');
-    
+    save([emodel.id,'_classical.mat'],'emodel');
+    cd ../DL/
     emodel = convertToGeckoModel(model_DL,enzymedata_DL,tot_prot_weight);
     save([emodel.id,'_DL.mat'],'emodel');
-    
+    cd ../Posterior_mean/
     ss = num2cell(kcat_posterior',1);
     [a,b] = arrayfun(@updateprior,ss);
     enzymedata_DL.kcat = a';
     emodel = convertToGeckoModel(model_DL,enzymedata_DL,tot_prot_weight);
-    save([emodel.id,'_Bayesian_DL_mean.mat'],'emodel');
+    save([emodel.id,'_Posterior_mean.mat'],'emodel');
     
     %for m = 1:length(kcat_posterior(1,:))
     for m = 1:1

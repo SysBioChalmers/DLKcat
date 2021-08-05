@@ -4,7 +4,7 @@
 load('StrianData.mat')
 species = StrianData.strains;
 current_path = pwd;
-cd ../../Results/
+cd ../../Results/model_build_files/
 for i = 1:length(species)
     i
     cd('model_classic')

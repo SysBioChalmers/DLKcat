@@ -128,9 +128,9 @@ for m = 1:length(strains)
     load('ecdata.mat') % generate in the function ECprepPanGEM.m should stored at ecGEMconstruction
     load('rxn2block.mat') % generate from the function blockbyproduct.m stored at ecGEMconstruction
     enzymedata = collectkcats(model,MWdata,ecdata,Protein_stoichiometry,false);
-    save(['../../Results/model_classic/',strain,'_classic.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
+    save(['../../Results/model_build_files/model_classic/',strain,'_classic.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
     enzymedata = collectPredictedKcat(model,MWdata,ecdata,Protein_stoichiometry,kcatpredictionPath,0); % 0 means that not with median
-    save(['../../Results/model_dl/',strain,'_dl.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
+    save(['../../Results/model_build_files/model_dl/',strain,'_dl.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
     disp(['finish',strain])
 
 end

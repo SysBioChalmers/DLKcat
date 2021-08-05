@@ -16,11 +16,12 @@ generation = 150;
 %species_withdata = intersect(species,species_withdata);
 %species_withdata = setdiff(species_withdata,{'Arxula_adeninivorans','Saccharomyces_uvarum','Tetrapisispora_phaffii','Nakaseomyces_delphensis','Lachancea_kluyveri','Candida_albicans','Lachancea_thermotolerans','Lachancea_waltii','Candida_tropicalis','Nakaseomyces_bacillisporus','Nakaseomyces_castellii','Eremothecium_coryli','Eremothecium_sinecaudum','Saccharomyces_mikatae'});
 %load('species_withdata.mat')
-cd('../../Results')
+cd('../../Results/model_build_files')
 for i = a:b
     cd('model_dl')
-    mkdir(species_withdata{i})
     z = load([species_withdata{i},'_dl.mat']);
+    cd ../model_Bayesian
+    mkdir(species_withdata{i})
     cd(species_withdata{i})
     enzymedata = z.enzymedata;
     max_growth = z.max_growth;
@@ -126,5 +127,5 @@ for i = a:b
             D_100 = D;
         end
     end
-    cd('../')
+    cd('../../')
 end

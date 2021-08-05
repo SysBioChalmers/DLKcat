@@ -46,7 +46,7 @@ kcatresult.species = species;
 
 %pval = cell(length(corxns),1);
 for i = 1:length(corxns)
-[h(i),pval(i),~,~] = ttest2(log10(kcatresult.kcat(i,1:length(group1))),log10(kcatresult.kcat(i,length(group1)+1:end)),'Vartype','unequal');
+pval(i) = ranksum(log10(kcatresult.kcat(i,1:length(group1))),log10(kcatresult.kcat(i,length(group1)+1:end)));
 end
 pval = round(pval,2);
 siginificantEnzyme = corxns(pval <= Pcutoff);

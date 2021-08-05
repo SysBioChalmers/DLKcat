@@ -8,7 +8,7 @@ species = strrep(species,' ','_');
 
 load('strains.mat');
 species = intersect(species,strains);
-cd ../../Results
+cd ../../Results/model_build_files/
 for i = 1:length(species)
     spec = species{i};
     disp([spec,':', num2str(i)])

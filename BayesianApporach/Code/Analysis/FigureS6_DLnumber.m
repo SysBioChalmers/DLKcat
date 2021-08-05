@@ -19,7 +19,7 @@ for i = 1:length(clades)
     group = [group;i*ones(length(idx(idx~=0)),1)];
     strains_sortclade = [strains_sortclade;Strain_information(idx~=0,1)];
 end
-cd ../../Results/model_dl
+cd ../../Results/model_build_files/model_dl/
 for k = 1:length(strains_sortclade)
     spec = strains_sortclade{k};
     z = load([spec,'_dl.mat']);

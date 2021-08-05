@@ -1,7 +1,7 @@
 % Figure 4
 species = {'Saccharomyces_cerevisiae','Yarrowia_lipolytica'};
 currentpath = pwd;
-cd ../../Results/model_bayesian
+cd ../../Results/model_build_files/model_bayesian/
 for k = 1:length(species)
     spec = species{k};
     cd(spec)
@@ -149,7 +149,7 @@ save('res_sig_prior_posterior.mat','sig_sigma_count','sig_sigma','sig_enzyme','s
 
 %% Figure for pca plot of kcat distribution
 for j = 1:length(species)
-    cd ('model_bayesian_max/')
+    cd ('model_bayesian/')
     cd(species{j})
     load(['res_ForKcatPCA',species{j},'.mat']) % result from function PCAsampledKcatsOneSpecies in analysis
     figure
@@ -178,3 +178,4 @@ for j = 1:length(species)
     cd ../
 end
 
+cd(current_path)

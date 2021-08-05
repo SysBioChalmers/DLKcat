@@ -3,7 +3,7 @@
 current_path = pwd;
 load('strains.mat')
 species = strains;
-cd ../../Results
+cd ../../Results/model_build_files/
 
 fid2 = fopen('module_ec.txt');
 format = '%s %s %s';

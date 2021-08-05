@@ -1,7 +1,7 @@
 function PCAsampledKcatsOneSpecies(species)
 
 current_path = pwd;
-cd ../../Results/model_bayesian/
+cd ../../Results/model_build_files/model_bayesian/
 cd(species)
 nfound = length(dir('kcat_genra*.txt'));
 for i = 1:nfound

@@ -9,9 +9,9 @@ lable  = unique(raw_proteome(2,:),'stable');
 speciesid = {'Sce','Kma','Kla','Yli'};
 species = {'Saccharomyces_cerevisiae','Kluyveromyces_marxianus','Kluyveromyces_lactis','Yarrowia_lipolytica'};
 
-states = {'classic','DL','Bayesian_DL_mean'}; % 'Bayesian_DL' and 'global' arealsooption that can ploted global means a global kcat would be used for all enzymes Bayesian_DL means that all posterior models will be used
+states = {'classic','DL','Posterior_mean'}; % 'Posterior' and 'global' arealsooption that can ploted global means a global kcat would be used for all enzymes Bayesian_DL means that all posterior models will be used
 
-cd ../../Results
+cd ../../Results/model_build_files/
 for i = 1:length(cond)
     for k = 1:length(states)
         k
@@ -22,7 +22,7 @@ for i = 1:length(cond)
         code = split(code,'_');
         [~,idx] = ismember(code(1),speciesid);
         code(end+1) = species(idx);
-        code(end+1) = {['model_bayesian_max/',code{7}]};
+        code(end+1) = {['model_bayesian/',code{7}]};
         % get flux
         [model,sol_result_mean] = getflux(code{7},code{2},code{3},code{4},code{5},code{8},state); % species chemostat/batch media o2 carbon inputpath
         sol_result{i,k} = sol_result_mean;
@@ -126,3 +126,4 @@ ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 6,...
            'XAxisLocation','top', 'XTick', [],... 
            'YAxisLocation','right', 'YTick', []);
 linkaxes([ax1, ax2])
+cd(current_path)

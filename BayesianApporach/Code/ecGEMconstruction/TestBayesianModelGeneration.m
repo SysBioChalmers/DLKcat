@@ -10,9 +10,9 @@ generation = 150;
 cd('../../Results')
 for i = 1:1
     mkdir('Test_SMCABC')
-    cd('model_dl')
+    cd('model_build_files/model_dl')
     z = load([species{i},'_dl.mat']);
-    cd('../Test_SMCABC')
+    cd('../../Test_SMCABC')
     enzymedata = z.enzymedata;
     max_growth = z.max_growth;
     growthdata = z.growthdata;
