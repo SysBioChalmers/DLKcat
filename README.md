@@ -34,6 +34,12 @@ Usage
     >     [DeeplearningApproach/Code/example/input.tsv](https://github.com/SysBioChalmers/DLKcat/tree/master/DeeplearningApproach/Code/example)
     > -   `output` is the correponding `kcat` value
 
+Citation
+-----
+
+- Currently, please cite the preprint paper [Deep learning based kcat prediction enables improved enzyme constrained model reconstruction](https://www.biorxiv.org/content/10.1101/2021.08.06.455417v1)""
+
+
 Contact
 -------
 
