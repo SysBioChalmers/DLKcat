@@ -2,16 +2,16 @@
 Required software
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Python 3.6 or Python 3.7 (Anaconda installation recommended)
-- PyTorch
-- scikit-learn
-- Biopython
-- rdkit
-- seaborn
-- Matplotlib
-- pandas
-- scipy
-- numpy
+- Python v3.7.6 (Anaconda installation recommended)
+- PyTorch v1.4.0
+- scikit-learn v0.23.2
+- Biopython v1.78
+- RDKit 2020.09.1
+- seaborn v0.11.0
+- Matplotlib v3.3.2
+- pandas v1.1.3
+- SciPy v1.5.2
+- NumPy v1.20.2
 
 
 Usage
