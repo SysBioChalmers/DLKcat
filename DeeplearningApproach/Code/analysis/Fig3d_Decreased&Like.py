@@ -407,6 +407,9 @@ def compare_prediction_wildtype_mutant() :
     ax = sns.boxplot(data=alldata, x="entry", y="kcat_value", hue="type",
             palette=palette, showfliers=False, linewidth=0.5)  # boxprops=dict(alpha=1.0)
 
+    ax = sns.stripplot(data=alldata, x="entry", y="kcat_value", hue="type", jitter=0.3,  
+            palette=palette, size=1.3, dodge=True)  
+
     # https://stackoverflow.com/questions/58476654/how-to-remove-or-hide-x-axis-label-from-seaborn-boxplot
     # plt.xlabel(None) will remove the Label, but not the ticks. 
     ax.set(xlabel=None)

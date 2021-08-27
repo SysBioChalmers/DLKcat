@@ -86,6 +86,9 @@ def main() :
     ax = sns.boxplot(data=alldata, x="type", y="value", order = ["Alternative", "Preferred"],
             palette=palette, showfliers=False, linewidth=0.5, width=0.5)  # boxprops=dict(alpha=1.0)
 
+    ax = sns.stripplot(data=alldata, x="type", y="value", order = ["Alternative", "Preferred"],
+            palette=palette, size=0.7)  # boxprops=dict(alpha=1.0)
+
     # https://stackoverflow.com/questions/58476654/how-to-remove-or-hide-x-axis-label-from-seaborn-boxplot
     # plt.xlabel(None) will remove the Label, but not the ticks. 
     ax.set(xlabel=None)
@@ -146,7 +149,7 @@ def main() :
     ax.spines['top'].set_linewidth(0.5)
     ax.spines['right'].set_linewidth(0.5)
 
-    plt.savefig("../../Results/figures/Fig2d.pdf", dpi=400, bbox_inches = 'tight')
+    plt.savefig("../../Results/figures/Fig2c.pdf", dpi=400, bbox_inches = 'tight')
 
 
 if __name__ == '__main__' :
