@@ -47,7 +47,10 @@ for i = 1:length(rxnList)
     idx = find(contains(kcatresult.rxns,rxnList(i)));
     group = [group;ones(length(crabtree),1);repmat(2,length(nocrabtree),1)];
     subplot(1,4,i)
+    hold on
     h = boxplot(log10(kcatresult.kcat(idx,:)/3600'),group,'Symbol','o','OutlierSize',3,'Widths',0.7,'Colors',[197,27,138]/255);
+    data = log10(kcatresult.kcat(idx,:)/3600');
+    scatter(group(:),data,5,'r','filled','MarkerFaceAlpha',0.3,'jitter','on','jitterAmount',0.2)
     p = ranksum(kcatresult.kcat(idx,1:length(crabtree))./3600,kcatresult.kcat(idx,end-length(nocrabtree)+1:end)./3600);
     ylim([-1,3])
     p
