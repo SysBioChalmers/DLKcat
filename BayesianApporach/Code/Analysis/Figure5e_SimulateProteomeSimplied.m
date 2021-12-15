@@ -90,6 +90,7 @@ for i = 1:length(cond)
         result.rmse(i,m) = sqrt(immse(log10(tmp_result(:,1)),log10(tmp_result(:,1+m))));
         result.genenum(i,m) = length(tmp_result_gene);
     end
+    length(tmp_result(:,1))
 end
 
 % figure 

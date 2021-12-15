@@ -17,13 +17,13 @@ end
 for m = 1:num
     m
     if strcmp(state,'DL')
-        load(['emodel_',strain,'_DL.mat'])
+        load(['../../../ecModels/DL/emodel_',strain,'_DL.mat'])
     elseif strcmp(state,'Posterior')
         load(['emodel_',strain,num2str(m),'.mat'])
     elseif strcmp(state,'Posterior_mean')
-        load(['emodel_',strain,'_Posterior_mean.mat'])
+        load(['../../../ecModels/Posterior_mean/emodel_',strain,'_Posterior_mean.mat'])
     elseif strcmp(state,'classic')
-        load(['emodel_',strain,'_classic.mat'])
+        load(['../../../ecModels/Classical/emodel_',strain,'_classical.mat'])
     elseif strcmp(state,'global')
         cd('../../model_dl')
         z = load([strain,'_dl.mat']);

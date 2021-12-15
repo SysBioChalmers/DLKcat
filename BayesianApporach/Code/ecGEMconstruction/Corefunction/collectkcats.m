@@ -42,9 +42,9 @@ enzymedata.MW = zeros(length(enzyme_list),1);
 enzymedata.kcat_max = zeros(length(enzyme_list),1);
 enzymedata.subunit_MW = zeros(length(enzyme_list),max_subunit);
 for i = 1:length(enzyme_list)
-    
+    if mod(i,1000) == 0
     disp(['Assigning kcats:' num2str(i) '/' num2str(length(enzyme_list))]);
-    
+    end
     enzyme_id = enzyme_list{i};
     
     % add substrates

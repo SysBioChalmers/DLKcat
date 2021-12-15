@@ -41,9 +41,9 @@ enzymedata.MW = zeros(length(enzyme_list),1);
 enzymedata.kcat_max = zeros(length(enzyme_list),1);
 enzymedata.subunit_MW = zeros(length(enzyme_list),max_subunit);
 for i = 1:length(enzyme_list)
-    
-    disp(['Assigning kcats:' num2str(i) '/' num2str(length(enzyme_list))]);
-    
+    if mod(i,1000) == 0
+        disp(['Assigning kcats:' num2str(i) '/' num2str(length(enzyme_list))]);
+    end
     enzyme_id = enzyme_list{i};
     
     % add substrates
@@ -108,7 +108,7 @@ for i = 1:length(enzyme_list)
     finalkcat_all = kcat_all_tmp.*enzymedata.subunit_stoichiometry(i,1:length(subunits_tmp));
     kcat_tmp = finalkcat_list(enzymedata.subunit_kcat_conf(i,:) == conf_tmp);
     if ~isempty(kcat_tmp(kcat_tmp~=0))
-        enzymedata.kcat(i,1) = median(kcat_tmp(kcat_tmp~=0)); %choose median among subunits
+        enzymedata.kcat(i,1) = max(kcat_tmp(kcat_tmp~=0)); %choose median/mean/max among subunits
     else
         enzymedata.kcat(i,1) = 0; %choose median among subunits
     end

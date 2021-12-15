@@ -72,19 +72,28 @@ for i = 1:length(eclist)
                 end
             end
         end
+        
+        % another round of fuzzy matching
+        sublist = strrep(sublist,'_','-');
+        match_idx_sub = ismember(sub_tmp,sublist);
+        match_idx_combined = match_idx_sub & match_idx_org;
+        if any(match_idx_combined) %both organism and substrate matched
+            kcat = max(kcat_tmp(match_idx_combined)); %choose max
+            conf = 4;
+            
+        end
+        kcatlist(i,1) = kcat;
+        conflist(i,1) = conf;
+        std_ec(i,1) = std_ec_tmp;
+        median_ec(i,1) = median_ec_tmp;
+        max_ec(i,1) = max_ec_tmp;
     end
-    kcatlist(i,1) = kcat;
-    conflist(i,1) = conf;
-    std_ec(i,1) = std_ec_tmp;
-    median_ec(i,1) = median_ec_tmp;   
-    max_ec(i,1) = max_ec_tmp;
-end
-
-finalkcat_tmp = kcatlist(conflist == max(conflist));
-
-finalkcat = max(finalkcat_tmp);
-conf_score = max(conflist);
-std_ec = max(std_ec);
-median_ec = max(median_ec);
-max_ec = max(max_ec);
+    
+    finalkcat_tmp = kcatlist(conflist == max(conflist));
+    
+    finalkcat = max(finalkcat_tmp);
+    conf_score = max(conflist);
+    std_ec = max(std_ec);
+    median_ec = max(median_ec);
+    max_ec = max(max_ec);
 end

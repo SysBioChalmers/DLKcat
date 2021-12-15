@@ -20,6 +20,6 @@ function data_cell = openDataFile(fileName,scallingFactor)
      data_cell{4} = data_cell{4}*scallingFactor;
      %Split string for each organism in the BRENDA data 
      %{name, taxonomy, KEGG code}
-     %data_cell{3}  = cellfun(@stringSplit, data_cell{3});
+     data_cell{3}  = cellfun(@stringSplit, data_cell{3});
 end
 
