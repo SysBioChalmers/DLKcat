@@ -85,7 +85,9 @@ class KcatPrediction(nn.Module):
 
         if train:
             loss = F.mse_loss(predicted_interaction, correct_interaction)
-            return loss
+            correct_values = correct_interaction.to('cpu').data.numpy()
+            predicted_values = predicted_interaction.to('cpu').data.numpy()[0]
+            return loss, correct_values, predicted_values
         else:
             correct_values = correct_interaction.to('cpu').data.numpy()
             predicted_values = predicted_interaction.to('cpu').data.numpy()[0]
@@ -109,13 +111,21 @@ class Trainer(object):
         np.random.shuffle(dataset)
         N = len(dataset)
         loss_total = 0
+        trainCorrect, trainPredict = [], []
         for data in dataset:
-            loss = self.model(data)
+            loss, correct_values, predicted_values = self.model(data)
             self.optimizer.zero_grad()
             loss.backward()
             self.optimizer.step()
             loss_total += loss.to('cpu').data.numpy()
-        return loss_total
+
+            correct_values = math.log10(math.pow(2,correct_values))
+            predicted_values = math.log10(math.pow(2,predicted_values))
+            trainCorrect.append(correct_values)
+            trainPredict.append(predicted_values)
+        rmse_train = np.sqrt(mean_squared_error(trainCorrect,trainPredict))
+        r2_train = r2_score(trainCorrect,trainPredict)
+        return loss_total, rmse_train, r2_train
 
 
 class Tester(object):
@@ -159,7 +169,6 @@ def shuffle_dataset(dataset, seed):
     np.random.shuffle(dataset)
     return dataset
 
-
 def split_dataset(dataset, ratio):
     n = int(ratio * len(dataset))
     dataset_1, dataset_2 = dataset[:n], dataset[n:]
@@ -197,8 +206,8 @@ if __name__ == "__main__":
     word_dict = load_pickle(dir_input + 'sequence_dict.pickle')
     n_fingerprint = len(fingerprint_dict)
     n_word = len(word_dict)
-    print(n_fingerprint)  # 3958
-    print(n_word)  # 8542
+    # print(n_fingerprint)  # 3958
+    # print(n_word)  # 8542
     # 394 and 474 when radius=1 and ngram=2
 
     """Create a dataset and split it into train/dev/test."""
@@ -216,9 +225,7 @@ if __name__ == "__main__":
     """Output files."""
     file_MAEs = '../../Data/Results/output/MAEs--' + setting + '.txt'
     file_model = '../../Data/Results/output/' + setting
-    # MAEs = ('Epoch\tTime(sec)\tLoss_train\tMAE_dev\t'
-    #         'MAE_test\tPrecision_test\tRecall_test')
-    MAEs = ('Epoch\tTime(sec)\tLoss_train\tMAE_dev\tMAE_test\tRMSE_dev\tRMSE_test\tR2_dev\tR2_test')
+    MAEs = ('Epoch\tTime(sec)\tRMSE_train\tR2_train\tMAE_dev\tMAE_test\tRMSE_dev\tRMSE_test\tR2_dev\tR2_test')
     with open(file_MAEs, 'w') as f:
         f.write(MAEs + '\n')
 
@@ -227,19 +234,19 @@ if __name__ == "__main__":
     print(MAEs)
     start = timeit.default_timer()
 
-    for epoch in range(1, iteration):
+    for epoch in range(1, iteration+1):
 
         if epoch % decay_interval == 0:
             trainer.optimizer.param_groups[0]['lr'] *= lr_decay
 
-        loss_train = trainer.train(dataset_train)
+        loss_train, rmse_train, r2_train = trainer.train(dataset_train)
         MAE_dev, RMSE_dev, R2_dev = tester.test(dataset_dev)
         MAE_test, RMSE_test, R2_test = tester.test(dataset_test)
 
         end = timeit.default_timer()
         time = end - start
 
-        MAEs = [epoch, time, loss_train, MAE_dev,
+        MAEs = [epoch, time, rmse_train, r2_train, MAE_dev,
                 MAE_test, RMSE_dev, RMSE_test, R2_dev, R2_test]
         tester.save_MAEs(MAEs, file_MAEs)
         tester.save_model(model, file_model)
