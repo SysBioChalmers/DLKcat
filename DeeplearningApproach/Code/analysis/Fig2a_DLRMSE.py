@@ -34,6 +34,17 @@ for line in lines[:18] :
 		epoch_test.append(epoch_line)
 		RMSE_test.append(RMSE_line)
 
+epoch_train = list()
+RMSE_train = list()
+
+for line in lines[:18] :
+	data = line.strip().split('\t')
+	epoch_line = int(data[0])
+	RMSE_line = float(data[2])
+	if epoch_line%2 == 0 or epoch_line in [1,99] :
+		epoch_train.append(epoch_line)
+		RMSE_train.append(RMSE_line)
+
 # fig=plt.figure(figsize=(1.5,1.5))
 # # fig.add_axes([0.2,0.2,0.6,0.6])
 # # fig.add_axes([6.8/39.6,6.8/39.6,31.7/39.6,31.7/39.6])
@@ -55,14 +66,14 @@ plt.tick_params(direction='in')
 plt.tick_params(which='major',length=1.5)
 plt.tick_params(which='major',width=0.4)
 
+plt.plot(epoch_train,RMSE_train,color='#159090',linestyle='dashed',linewidth=0.75,marker='s',markerfacecolor='#159090', markersize=3,label='Training') 
 plt.plot(epoch_dev,RMSE_dev,color='#b2182b',linestyle='dashed',linewidth=0.75,marker='o',markerfacecolor='#b2182b', markersize=3,label='Validation')
 plt.plot(epoch_test,RMSE_test,color='#2166ac',linestyle='dashed',linewidth=0.75,marker='^',markerfacecolor='#2166ac', markersize=3,label='Test') 
 
 plt.rcParams['font.family'] = 'Helvetica'
 # plt.rc('font', family='Helvetica')
 plt.xticks([0,3,6,9,12,15,18])
-# plt.yticks([1.00,1.05,1.10,1.15,1.20])
-plt.yticks([0.95,1.05,1.15,1.25,1.35,1.45,1.55])
+plt.yticks([0.5,0.7,0.9,1.1,1.3,1.5])
 
 plt.xlabel('Epoch', fontsize=7)
 plt.ylabel('RMSE', fontsize=7)
@@ -77,4 +88,3 @@ ax.spines['top'].set_linewidth(0.5)
 ax.spines['right'].set_linewidth(0.5)
 
 plt.savefig("../../Results/figures/Fig2a.pdf", dpi=400, bbox_inches='tight')
-
