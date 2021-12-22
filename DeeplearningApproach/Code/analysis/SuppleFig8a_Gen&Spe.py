@@ -190,7 +190,7 @@ def plot_spe_gen() :
     lgd = plt.legend(handles[0:2], labels[0:2], loc=1, frameon=False, prop={'size': 6})
 
     # https://blog.csdn.net/weixin_38314865/article/details/88633880
-    plt.savefig("../../Results/figures/SuppleFig5b.pdf", dpi=400, bbox_inches = 'tight')
+    plt.savefig("../../Results/figures/SuppleFig8a.pdf", dpi=400, bbox_inches = 'tight')
 
 
 if __name__ == '__main__' :

@@ -90,6 +90,6 @@ ax.spines['left'].set_linewidth(0.5)
 ax.spines['top'].set_linewidth(0.5)
 ax.spines['right'].set_linewidth(0.5)
 
-plt.savefig("../../Results/figures/SuppleFig3a.pdf", dpi=400, bbox_inches='tight')
+plt.savefig("../../Results/figures/SuppleFig4a.pdf", dpi=400, bbox_inches='tight')
 
 
