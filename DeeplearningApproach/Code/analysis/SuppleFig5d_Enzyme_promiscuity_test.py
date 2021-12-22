@@ -25,7 +25,7 @@ def median(lst):
 
 def main() :
 
-    with open('../../Data/enzyme_promiscuity/all_preferred_alternative_random.txt', 'r') as infile :
+    with open('../../Data/enzyme_promiscuity/test_preferred_alternative_random.txt', 'r') as infile :
         lines = infile.readlines()
 
         alldata = dict()
@@ -67,18 +67,18 @@ def main() :
     print('P value between preferred_substrates and random_substrates is: %s' % p_value_2)
     print('P value between alternative_substrates and random_substrates is: %s' % p_value_3)
 
-    # The amount of preferred_substrates: 945
-    # The amount of alternative_substrates: 4238
-    # The amount of random_substrates: 945
-    # The median value of preferred_substrates: 1.0443
-    # The median value of alternative_substrates: 0.7787
-    # The median value of random_substrates: 0.5448
-    # The median value of preferred substrates: 11.07
-    # The median value of alternative substrates: 6.01
-    # The median value of random substrates: 3.51
-    # P value between preferred_substrates and alternative_substrates is: 1.3437080577210658e-12
-    # P value between preferred_substrates and random_substrates is: 3.4650135085615217e-19
-    # P value between alternative_substrates and random_substrates is: 9.272804271828343e-06
+    # The amount of preferred_substrates: 95
+    # The amount of alternative_substrates: 142
+    # The amount of random_substrates: 95
+    # The median value of preferred_substrates: 1.0115
+    # The median value of alternative_substrates: 0.6959
+    # The median value of random_substrates: 0.3928
+    # The real value of preferred substrates: 10.27
+    # The real value of alternative substrates: 4.97
+    # The real value of random substrates: 2.47
+    # P value between preferred_substrates and alternative_substrates is: 0.01430651489756451
+    # P value between preferred_substrates and random_substrates is: 5.267302868022526e-05
+    # P value between alternative_substrates and random_substrates is: 0.02299337746277678
 
     # Plot the boxplot figures between the Alternative and Preferred
     allData = pd.DataFrame(alldata)
@@ -152,8 +152,10 @@ def main() :
 
     plt.ylabel("Predicted $k$$_\mathregular{cat}$ value [log10]", fontname='Helvetica', fontsize=7)
 
-    plt.ylim(-4,8)
-    plt.yticks([-4, -2, 0, 2, 4, 6, 8])
+    # plt.xticks(rotation=30,ha='right')
+    # plt.yticks([-2, -1, 0, 1, 2, 3, 4])
+
+    plt.yticks([-2, 0, 2, 4, 6])
 
     plt.xticks(fontsize=7, rotation=30, ha='right')
     plt.yticks(fontsize=6)
@@ -163,7 +165,7 @@ def main() :
     ax.spines['top'].set_linewidth(0.5)
     ax.spines['right'].set_linewidth(0.5)
 
-    plt.savefig("../../Results/figures/Fig2c.pdf", dpi=400, bbox_inches = 'tight')
+    plt.savefig("../../Results/figures/SuppleFig5d.pdf", dpi=400, bbox_inches = 'tight')
 
 
 if __name__ == '__main__' :
