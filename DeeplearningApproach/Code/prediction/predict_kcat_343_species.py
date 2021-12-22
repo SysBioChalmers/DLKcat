@@ -135,7 +135,8 @@ def load_tensor(file_name, dtype):
 
 def get_refSeq() :
     # get the protein sequence accoding to protein sequence id
-    # Please change the following directory to 343 protein fasta file
+    # Note that the file 343taxa_proteins.fasta could be downloaded from url: https://figshare.com/articles/dataset/Tempo_and_mode_of_genome_evolution_in_the_budding_yeast_subphylum/5854692?file=13083299
+    # Then change the following directory to the directory of 343 protein fasta file
     with open("/directory/to/343taxa_proteins.fasta", "r") as handleGene :
         proteinSeq = dict()
         for record in SeqIO.parse(handleGene, "fasta") :
@@ -228,9 +229,9 @@ def main() :
         print(lines[:2])
         print('--'*20+'\n')
 
-        # file =open('../prediction/343_species/%sPredictionResults.txt' % organism, 'w')
-        # file =open('../prediction/343species_0115/%s_PredictionResults.txt' % organism, 'w')
-        file =open('../../Results/output/343species_0314/%s_PredictionResults.txt' % organism, 'w')
+        # Create the directory '343 species' under the 'Results/output' directory 
+        # The generated prediction results for 343 species are stored in our zenodo: https://doi.org/10.5281/zenodo.5797013
+        file =open('../../Results/output/343species/%s_PredictionResults.txt' % organism, 'w')
 
         file.write(lines[0].strip() + '\t%s\n' % 'Kcat value (substrate first)')
 
