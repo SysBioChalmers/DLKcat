@@ -37,7 +37,7 @@ if idx_rxn ~= 0
         warning(['keep the sub '  cell2mat(join(sub_file,';')),' for the rxn ',cell2mat(rxn)])
     end
     [~,idx_sub] = ismember(sub_new,sub_file); % ge tidx for non-currency mets
-    kcat_subunit = kcat_subunit(idx_sub(idx_sub~=0),:);
+   kcat_subunit = kcat_subunit(idx_sub(idx_sub~=0),:);
     kcat_subunit = max(kcat_subunit,[],1); % find max kcats for all subs for each subunit
     
     % get idx for subunit

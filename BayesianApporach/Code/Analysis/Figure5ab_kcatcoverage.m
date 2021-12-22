@@ -1,14 +1,13 @@
 % kcatCoverage Figure 5a b
 % this function alculate the kcat coverage foe the enzymes in the model
 % enzyme coverage
-load('StrianData.mat')
-species = StrianData.strains;
+load('strains.mat')
 current_path = pwd;
 cd ../../Results/model_build_files/
-for i = 1:length(species)
+for i = 1:length(strains)
     i
     cd('model_classic')
-    z = load([species{i},'_classic.mat']);
+    z = load([strains{i},'_classic.mat']);
     model = z.model;
     enzymedata = z.enzymedata;
     coverage(i,3) = length(find(~cellfun(@isempty,model.grRules)));
@@ -27,7 +26,7 @@ for i = 1:length(species)
     res_enzyme(i,1) = length(allgene);
     
     cd ../model_dl
-    z = load([species{i},'_dl.mat']);
+    z = load([strains{i},'_dl.mat']);
     model = z.model;
     enzymedata = z.enzymedata;
     coverage(i,2) = length(enzymedata.kcat);
@@ -38,8 +37,9 @@ for i = 1:length(species)
     cd ../
 end
 coverage = coverage(:,1:2)./coverage(:,3);
+figure
 result_final = num2cell(coverage(:));
-result_final(:,2) = [repmat({'Classic'},length(species),1);repmat({'DL&Posterior'},length(species),1)];
+result_final(:,2) = [repmat({'Original'},length(strains),1);repmat({'DL&Posterior'},length(strains),1)];
 writecell(result_final,'res_rxnCoverage.txt','Delimiter',',','QuoteStrings',false)
 violin = violinplot(cell2mat(result_final(:,1)),result_final(:,2),'ShowNotches',false,'ShowMean' ,false,'ViolinAlpha',1,'EdgeColor',[0,0,0],'ShowData',false,'BoxColor',[1,1,1]);
 violin(1).ViolinColor = [253,224,221]./255;
@@ -58,12 +58,13 @@ ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 10,...
     'YAxisLocation','right', 'YTick', []);
 linkaxes([ax1, ax2])
 
-save('res_rxnCoverage.mat','coverage','species')
+save('res_rxnCoverage.mat','coverage','strains')
+figure
 res_enzyme = res_enzyme(:,1:2)./res_enzyme(:,3);
 result_final = num2cell(res_enzyme(:));
-result_final(:,2) = [repmat({'Classic'},length(species),1);repmat({'DL&Posterior'},length(species),1)];
+result_final(:,2) = [repmat({'Original'},length(strains),1);repmat({'DL&Posterior'},length(strains),1)];
 writecell(result_final,'res_enzymeCoverage.txt','Delimiter',',','QuoteStrings',false)
-save('res_enzymeCoverage.mat','res_enzyme','species')
+save('res_enzymeCoverage.mat','res_enzyme','strains')
 violin = violinplot(cell2mat(result_final(:,1)),result_final(:,2),'ShowNotches',false,'ShowMean' ,false,'ViolinAlpha',1,'EdgeColor',[0,0,0],'ShowData',false,'BoxColor',[1,1,1]);
 violin(1).ViolinColor = [253,224,221]./255;
 violin(2).ViolinColor = [197,27,138]./255;

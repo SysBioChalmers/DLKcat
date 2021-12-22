@@ -50,7 +50,7 @@ for i = 1:length(species_withdata)
 end
 save('res_RMSEPhenotype.mat','coverage','result','species_withdata')
 result_final = num2cell(result(:));
-result_final(:,2) = [repmat({'Classic'},length(species_withdata),1);repmat({'DL'},length(species_withdata),1);repmat({'Posterior'},length(species_withdata),1)];
+result_final(:,2) = [repmat({'Classical'},length(species_withdata),1);repmat({'DL'},length(species_withdata),1);repmat({'Posterior'},length(species_withdata),1)];
 writecell(result_final,'res_RMSEPhenotype.txt','Delimiter',',','QuoteStrings',false)
 violin = violinplot(cell2mat(result_final(:,1)),result_final(:,2),'ShowNotches',false,'ShowMean' ,false,'ViolinAlpha',1,'EdgeColor',[0,0,0],'ShowData',false,'BoxColor',[1,1,1]);
 violin(1).ViolinColor = [253,224,221]./255;
@@ -59,7 +59,7 @@ violin(3).ViolinColor = [197,27,138]./255;
 violin(2).MedianPlot.SizeData = 1;
 violin(1).MedianPlot.SizeData = 1;
 violin(3).MedianPlot.SizeData = 1;
-xticklabels({'classic','DL','Posterior'})
+xticklabels({'Original','DL','Posterior'})
 set(gca,'FontSize',6,'FontName','Helvetica');
 ylabel(['RMSE for phenotype prediction'],'FontSize',7,'FontName','Helvetica','Color','k');
 set(gca,'position',[0.2 0.2 0.6 0.6]);

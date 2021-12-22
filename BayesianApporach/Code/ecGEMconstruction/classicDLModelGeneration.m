@@ -6,9 +6,9 @@ function classicDLModelGeneration(strains,modelpath,dbpath,kcatpredictionPath)
 % STEP 2 collect growth rates phenotype data
 % STEP 3 collect growth rates phenotype data
 
-% dbpath = '/Users/feiranl/Documents/GitHub/MLKcat/BayesianApporach/Results/Proteinfasta'
-% modelpath = '/Users/feiranl/Documents/GitHub/MLKcat/BayesianApporach/Results/ssGEMs'
-% kcatpredictionPath = '/Users/feiranl/Documents/GitHub/MLKcat/DeeplearningApproach/Results/PredcitedKcat343species'
+% dbpath = '/Users/feiranl/Documents/GitHub/DLKcat/BayesianApporach/Results/Proteinfasta'
+% modelpath = '/Users/feiranl/Documents/GitHub/DLKcat/BayesianApporach/Results/ssGEMs'
+% kcatpredictionPath = '/Users/feiranl/Documents/GitHub/DLKcat/BayesianApporach/Results/PredcitedKcat343species'
 % load('strains.mat') % strains
 %% step 1
 % Reformulate the orginal model
@@ -16,18 +16,20 @@ function classicDLModelGeneration(strains,modelpath,dbpath,kcatpredictionPath)
 %   each isozyme will be assigned to each copy.
 %   2. Reversible reactions will be split into forward and reverse ones.
 current_path = pwd;
-load('Protein_stoichiometry.mat') % defines the subunit stoi for the complex downloaded from ComplexPortal, can be found in the Data/dabase/PDBe
-for m = 1:length(strains)
+mkdir('../../Results/model_build_files/model_classic/')
+mkdir('../../Results/model_build_files/model_dl/')
+ for m = 1:length(strains)
     strain = strains{m};
     cd(modelpath)
-    model = load([strain,'.mat']);
-    model = model.reducedModel;
-%     model = load([strain,'_split.mat']);
-%     tmp = fieldnames(model);
-%     model = eval(['model.',cell2mat(tmp)]);
+%     model = load([strain,'.mat']);
+%     model = model.reducedModel;
+%    model_split = splitModel(model);
+%    model = model_split;
+    model = load([strain,'_split.mat']);
+    tmp = fieldnames(model);
+    model = eval(['model.',cell2mat(tmp)]);
     cd(current_path)
-    model_split = splitModel(model);
-    model = model_split;
+
     disp('finish splitting model')
     
     % read fasta file
@@ -124,13 +126,19 @@ for m = 1:length(strains)
     
     disp('add enzyme data')
     % go to the EC file
-    load('Protein_stoichiometry.mat') % generate in the function ECprepPanGEM.m should stored at pdbe
+    load('Protein_stoichiometry.mat') % generate in the function ECprepPanGEM.m should stored at pdbe % defines the subunit stoi for the complex downloaded from ComplexPortal, can be found in the Data/dabase/PDBe
     load('ecdata.mat') % generate in the function ECprepPanGEM.m should stored at ecGEMconstruction
     load('rxn2block.mat') % generate from the function blockbyproduct.m stored at ecGEMconstruction
     enzymedata = collectkcats(model,MWdata,ecdata,Protein_stoichiometry,false);
     save(['../../Results/model_build_files/model_classic/',strain,'_classic.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
-    enzymedata = collectPredictedKcat(model,MWdata,ecdata,Protein_stoichiometry,kcatpredictionPath,0); % 0 means that not with median
-    save(['../../Results/model_build_files/model_dl/',strain,'_dl.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata')
+    
+    % store enzymedata_classic
+    enzymedata_classic = enzymedata;
+    enzymedata_DL_org = collectPredictedKcat(model,MWdata,ecdata,Protein_stoichiometry,kcatpredictionPath,0); % 0 means that not with median
+    
+    % replace the DL predicted kcats with in vitro mesurement if available
+    enzymedata = updatekcats(enzymedata_DL_org,enzymedata_classic);
+    % enzymedata = matchkapp2kcats(enzymedata)
+    save(['../../Results/model_build_files/model_dl/',strain,'_dl.mat'],'rxn2block','enzymedata','max_growth','growthrates','max_growth','model','MWdata','Protein_stoichiometry','strain','growthdata','enzymedata_DL_org')
     disp(['finish',strain])
-
 end

@@ -254,7 +254,7 @@ end
 new_model.proteins = model.proteins(idx);
 new_model = changeObjective(new_model,'r_2111');
 new_model.id = model.id;
-% sort protein MNX IDs
+% sort mets MNX IDs
 [~,idx] = ismember(new_model.mets,model.mets);
 new_model.metMetaNetXID = model.metMetaNetXID(idx);
 % new_model.subSystem = repelem({'Metabolism'},length(new_model.rxns))';

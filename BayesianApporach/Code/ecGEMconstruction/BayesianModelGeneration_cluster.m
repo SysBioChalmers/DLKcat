@@ -17,6 +17,7 @@ generation = 150;
 %species_withdata = setdiff(species_withdata,{'Arxula_adeninivorans','Saccharomyces_uvarum','Tetrapisispora_phaffii','Nakaseomyces_delphensis','Lachancea_kluyveri','Candida_albicans','Lachancea_thermotolerans','Lachancea_waltii','Candida_tropicalis','Nakaseomyces_bacillisporus','Nakaseomyces_castellii','Eremothecium_coryli','Eremothecium_sinecaudum','Saccharomyces_mikatae'});
 %load('species_withdata.mat')
 cd('../../Results/model_build_files')
+mkdir('model_Bayesian')
 for i = a:b
     cd('model_dl')
     z = load([species_withdata{i},'_dl.mat']);

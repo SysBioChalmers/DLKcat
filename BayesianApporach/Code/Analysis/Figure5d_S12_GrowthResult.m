@@ -28,8 +28,10 @@ all_data = [result_constrain;result_max];
 dp = cell2mat(all_data(:,[3,5]));
 
 % Figure 5d
+figure
 hold on
 plot(dp(:,1),dp(:,2),'o','LineWidth',0.75,'MarkerSize',3,'Color',[197,27,138]./255);
+meanerror = sum((dp(:,1)-dp(:,2)).^2)/length(dp(:,1));
 
 set(gca,'FontSize',6,'FontName','Helvetica');
 limit = max(dp(:));
@@ -72,12 +74,14 @@ color = [166,206,227
 140,81,10]./255;
 
 cond = {'aerobic','anaerobic'};
+symbol = {'o','<'};
+figure
 for i = 1:length(cond)
-    figure
     hold on
 for j = 1:length(sub)
 idx = find(strcmpi(all_data(:,2),sub(j)) & strcmpi(all_data(:,4),cond{i}));
-plot(dp(idx,1),dp(idx,2),'o','LineWidth',0.75,'MarkerSize',3,'Color',color(j,:));
+plot(dp(idx,1),dp(idx,2),symbol{i},'LineWidth',0.75,'MarkerSize',3,'Color',color(j,:));
+end
 end
 
 set(gca,'FontSize',6,'FontName','Helvetica');
@@ -101,4 +105,4 @@ ax2 = axes('Position', get(ax1, 'Position'), 'FontSize', 10,...
 'XAxisLocation','top', 'XTick', [],...
 'YAxisLocation','right', 'YTick', []);
 linkaxes([ax1, ax2])
-end
+

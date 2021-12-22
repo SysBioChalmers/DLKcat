@@ -1,12 +1,11 @@
-function Figure4b_S10b_simulateGrowth(species,carbonsource,aerobic)
-if nargin < 3
-    aerobic = 1;
-end
-if nargin < 2
-    carbonsource = 'D-glucose';
-end
+% Figure4b_S10b_simulateGrowth
+species = {'Saccharomyces_cerevisiae','Yarrowia_lipolytica'};
+
+aerobic = 1;
+carbonsource = 'D-glucose';
+
 current_path= pwd;
-cd ../../Results/model_build_files/model_bayesian/
+cd ../../Results/model_build_files/model_Bayesian/
 tot_protein_content = [-230/0.55*0.4,-230/0.55*0.46]; % rescaled by their maximal growth rate, since we are using the posterior mean, which may give a higher maximum growhth rate
 for i = 1:length(species)
     cd(species{i})
@@ -39,12 +38,12 @@ for i = 1:length(species)
                 sol = optimizeCbModel(model_tmp);
                 sol.f
                 if ~isnan(sol.f) && sol.f ~= 0
-                    sol_result(:,k,m) = sol.x;
-                    simulated(k,:,m) = sol.x(idx)';
+                    sol_result(:,k,1) = sol.x;
+                    simulated(k,:,1) = sol.x(idx)';
                 end
             end
         end
-        m
+        
     
     %plot exp using scatter
     cd ../../model_dl/
@@ -54,6 +53,7 @@ for i = 1:length(species)
     exp = growthdata(find(strcmpi(growthdata(:,2),carbonsource)& strcmpi(growthdata(:,14),'aerobic')),3:11);
     exp = abs(cell2mat(exp));
     color = [228,26,28;55,126,184;77,175,74;152,78,163;255,127,0;255,255,51;166,86,40;247,129,191;153,153,153]./255;
+    figure
      hold on
     for j = [1,3,7,8]
         scatter(exp(:,1),exp(:,j+1),30,'o','LineWidth',0.75,'MarkerFaceColor',color(j,:),'MarkerEdgeColor','k','MarkerEdgeAlpha',0.3);
@@ -79,16 +79,16 @@ k = 1;
 for j = [1,3,7,8]
     h(k) = plot(simulated_mean(:,1),simulated_mean(:,j+1),'-','LineWidth',0.75,'color',color(j,:));
     k = k+1;
-        X_plot = [simulated_mean(:,1)', fliplr(simulated_mean(:,1)')];
-        Y_plot = [simulated_5th(:,j+1)', fliplr(simulated_95th(:,j+1)')];
-        %nanx = isnan(X_plot)| isnan(Y_plot)
-        %X_plot = X_plot(~nanx)
-        %Y_plot = Y_plot(~nanx)
-        Y_plot(isnan(Y_plot)) = 0;
-        fill(X_plot, Y_plot , 1,....
-            'facecolor',color(j,:), ...
-            'edgecolor','none', ...
-            'facealpha', 0.3);
+%         X_plot = [simulated_mean(:,1)', fliplr(simulated_mean(:,1)')];
+%         Y_plot = [simulated_5th(:,j+1)', fliplr(simulated_95th(:,j+1)')];
+%         %nanx = isnan(X_plot)| isnan(Y_plot)
+%         %X_plot = X_plot(~nanx)
+%         %Y_plot = Y_plot(~nanx)
+%         Y_plot(isnan(Y_plot)) = 0;
+%         fill(X_plot, Y_plot , 1,....
+%             'facecolor',color(j,:), ...
+%             'edgecolor','none', ...
+%             'facealpha', 0.3);
 end
 hold off
 set(gca,'FontSize',6,'FontName','Helvetica');
@@ -103,7 +103,10 @@ box on
 ylabel('Exchange rate[mmol/gDW/h]','FontSize',7,'FontName','Helvetica','Color','k');
 xlabel('Dilution rate[1/h]')
 xlim([0 0.4]);
+cd ../model_Bayesian/
+cd(species{i})
 saveas(h,['growthfigure_',species{i},'.pdf']);
 cd ../
+clear simulated sol_result growthdata
 end
 
