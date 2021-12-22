@@ -7,6 +7,11 @@
 # Benjamin Sanchez. Last edited: 2018-04-10
 ################################################################################
 
+# Updated by:
+# Author: LE YUAN
+# This code should be run under the Python 2.7 environment
+
+
 #INPUTS:
 #1) Path in which you wish to store all BRENDA queries:
 # output_path = '/Users/.../brenda_parser/raw_data'

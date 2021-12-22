@@ -13,6 +13,11 @@
 # Benjamin Sanchez. Last edited: 2015-08-26
 # Ivan Domenzain.   Last edited: 2018-04-10
 ################################################################################
+
+# Updated by:
+# Author: LE YUAN
+# This code should be run under the Python 2.7 environment
+
 #INPUTS:
 #1) Enzymatic parameters
 features_list = ['KCAT','SA', 'MW']

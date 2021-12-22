@@ -8,7 +8,7 @@
 
 # Updated by:
 # Author: LE YUAN
-# Date: 2020-07-10
+# This code should be run under the Python 2.7 environment
 
 #INPUTS:
 #1) Path in which all BRENDA queries are (from script retrieveBRENDA.py):
