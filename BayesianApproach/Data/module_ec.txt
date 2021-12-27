@@ -1,0 +1,2200 @@
+md:M00001	EC2.7.1.1	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.7.1.2	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.7.1.63	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.7.1.147	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.7.1.146	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC5.3.1.9	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.2.1.2	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC5.3.1.8	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.7.1.11	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.7.1.90	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC4.1.2.13	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.2.1.11	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.2.1.10	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC5.3.1.1	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC1.2.1.12	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC1.2.1.59	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.7.2.3	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC1.2.7.6	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC5.4.2.11	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC5.4.2.12	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC4.2.1.11	Primary - Carbohydrate & Energy Metabolism
+md:M00001	EC2.7.1.40	Primary - Carbohydrate & Energy Metabolism
+md:M00002	EC5.3.1.1	Primary - Carbohydrate & Energy Metabolism
+md:M00002	EC1.2.1.12	Primary - Carbohydrate & Energy Metabolism
+md:M00002	EC1.2.1.59	Primary - Carbohydrate & Energy Metabolism
+md:M00002	EC2.7.2.3	Primary - Carbohydrate & Energy Metabolism
+md:M00002	EC1.2.7.6	Primary - Carbohydrate & Energy Metabolism
+md:M00002	EC5.4.2.11	Primary - Carbohydrate & Energy Metabolism
+md:M00002	EC5.4.2.12	Primary - Carbohydrate & Energy Metabolism
+md:M00002	EC4.2.1.11	Primary - Carbohydrate & Energy Metabolism
+md:M00002	EC2.7.1.40	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC4.1.1.32	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC4.1.1.49	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC4.2.1.11	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC5.4.2.11	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC5.4.2.12	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC2.7.2.3	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC1.2.1.12	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC1.2.1.59	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC5.3.1.1	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC4.1.2.13	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC3.1.3.11	Primary - Carbohydrate & Energy Metabolism
+md:M00003	EC3.1.3.37	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC1.1.1.47	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC3.1.1.31	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC1.1.1.49	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC1.1.1.363	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC1.1.1.388	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC1.1.1.44	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC1.1.1.343	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC5.1.3.1	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC5.3.1.6	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC2.2.1.1	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC2.2.1.2	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC5.3.1.9	Primary - Carbohydrate & Energy Metabolism
+md:M00004	EC5.3.1.8	Primary - Carbohydrate & Energy Metabolism
+md:M00005	EC2.7.6.1	Primary - Carbohydrate & Energy Metabolism
+md:M00006	EC1.1.1.47	Primary - Carbohydrate & Energy Metabolism
+md:M00006	EC3.1.1.31	Primary - Carbohydrate & Energy Metabolism
+md:M00006	EC1.1.1.49	Primary - Carbohydrate & Energy Metabolism
+md:M00006	EC1.1.1.363	Primary - Carbohydrate & Energy Metabolism
+md:M00006	EC1.1.1.388	Primary - Carbohydrate & Energy Metabolism
+md:M00006	EC1.1.1.44	Primary - Carbohydrate & Energy Metabolism
+md:M00006	EC1.1.1.343	Primary - Carbohydrate & Energy Metabolism
+md:M00007	EC2.2.1.1	Primary - Carbohydrate & Energy Metabolism
+md:M00007	EC2.2.1.2	Primary - Carbohydrate & Energy Metabolism
+md:M00007	EC5.3.1.9	Primary - Carbohydrate & Energy Metabolism
+md:M00007	EC5.1.3.1	Primary - Carbohydrate & Energy Metabolism
+md:M00007	EC5.3.1.6	Primary - Carbohydrate & Energy Metabolism
+md:M00008	EC1.1.1.49	Primary - Carbohydrate & Energy Metabolism
+md:M00008	EC1.1.1.363	Primary - Carbohydrate & Energy Metabolism
+md:M00008	EC3.1.1.31	Primary - Carbohydrate & Energy Metabolism
+md:M00008	EC4.2.1.12	Primary - Carbohydrate & Energy Metabolism
+md:M00008	EC4.1.2.14	Primary - Carbohydrate & Energy Metabolism
+md:M00008	EC4.1.3.42	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC2.3.3.1	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC2.3.3.3	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC4.2.1.3	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC4.2.1.99	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.1.1.42	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.1.1.41	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.2.4.2	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC2.3.1.61	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.8.1.4	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.2.7.3	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.2.7.11	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC6.2.1.5	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC6.2.1.4	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC2.8.3.18	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.3.5.1	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.3.5.4	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC4.2.1.2	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.1.1.37	Primary - Carbohydrate & Energy Metabolism
+md:M00009	EC1.1.5.4	Primary - Carbohydrate & Energy Metabolism
+md:M00010	EC2.3.3.1	Primary - Carbohydrate & Energy Metabolism
+md:M00010	EC2.3.3.3	Primary - Carbohydrate & Energy Metabolism
+md:M00010	EC4.2.1.3	Primary - Carbohydrate & Energy Metabolism
+md:M00010	EC4.2.1.99	Primary - Carbohydrate & Energy Metabolism
+md:M00010	EC1.1.1.42	Primary - Carbohydrate & Energy Metabolism
+md:M00010	EC1.1.1.41	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC1.2.4.2	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC2.3.1.61	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC1.8.1.4	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC1.2.7.3	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC1.2.7.11	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC6.2.1.5	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC6.2.1.4	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC2.8.3.18	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC1.3.5.1	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC1.3.5.4	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC4.2.1.2	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC1.1.1.37	Primary - Carbohydrate & Energy Metabolism
+md:M00011	EC1.1.5.4	Primary - Carbohydrate & Energy Metabolism
+md:M00012	EC2.3.3.1	Primary - Carbohydrate & Energy Metabolism
+md:M00012	EC4.2.1.3	Primary - Carbohydrate & Energy Metabolism
+md:M00012	EC4.2.1.99	Primary - Carbohydrate & Energy Metabolism
+md:M00012	EC4.1.3.1	Primary - Carbohydrate & Energy Metabolism
+md:M00012	EC2.3.3.9	Primary - Carbohydrate & Energy Metabolism
+md:M00012	EC4.1.3.24	Primary - Carbohydrate & Energy Metabolism
+md:M00012	EC3.1.2.30	Primary - Carbohydrate & Energy Metabolism
+md:M00012	EC1.1.1.37	Primary - Carbohydrate & Energy Metabolism
+md:M00013	EC1.3.8.1	Intermediate
+md:M00013	EC1.3.3.6	Intermediate
+md:M00013	EC4.2.1.17	Intermediate
+md:M00013	EC3.1.2.4	Intermediate
+md:M00013	EC1.1.1.31	Intermediate
+md:M00013	EC1.1.1.59	Intermediate
+md:M00013	EC1.2.1.18	Intermediate
+md:M00013	EC1.2.1.27	Intermediate
+md:M00014	EC1.1.1.22	Intermediate
+md:M00014	EC2.7.7.64	Intermediate
+md:M00014	EC2.7.1.43	Intermediate
+md:M00014	EC2.4.1.17	Intermediate
+md:M00014	EC3.2.1.31	Intermediate
+md:M00014	EC1.1.1.2	Intermediate
+md:M00014	EC1.1.1.45	Intermediate
+md:M00014	EC1.1.1.10	Intermediate
+md:M00014	EC1.1.1.9	Intermediate
+md:M00014	EC1.1.1.14	Intermediate
+md:M00014	EC2.7.1.17	Intermediate
+md:M00015	EC2.7.2.11	Intermediate
+md:M00015	EC1.2.1.41	Intermediate
+md:M00015	EC1.5.1.2	Intermediate
+md:M00016	EC2.7.2.4	Intermediate
+md:M00016	EC1.1.1.3	Intermediate
+md:M00016	EC4.1.1.20	Intermediate
+md:M00016	EC1.2.1.11	Intermediate
+md:M00016	EC4.3.3.7	Intermediate
+md:M00016	EC1.17.1.8	Intermediate
+md:M00016	EC2.3.1.117	Intermediate
+md:M00016	EC2.6.1.11	Intermediate
+md:M00016	EC2.6.1.17	Intermediate
+md:M00016	EC3.5.1.18	Intermediate
+md:M00016	EC5.1.1.7	Intermediate
+md:M00017	EC2.7.2.4	Primary - amino acids, fatty acids and nucleotides
+md:M00017	EC1.1.1.3	Primary - amino acids, fatty acids and nucleotides
+md:M00017	EC1.2.1.11	Primary - amino acids, fatty acids and nucleotides
+md:M00017	EC2.3.1.46	Primary - amino acids, fatty acids and nucleotides
+md:M00017	EC2.3.1.31	Primary - amino acids, fatty acids and nucleotides
+md:M00017	EC2.5.1.48	Primary - amino acids, fatty acids and nucleotides
+md:M00017	EC4.4.1.13	Primary - amino acids, fatty acids and nucleotides
+md:M00017	EC2.1.1.13	Primary - amino acids, fatty acids and nucleotides
+md:M00017	EC1.5.1.20	Primary - amino acids, fatty acids and nucleotides
+md:M00017	EC2.1.1.14	Primary - amino acids, fatty acids and nucleotides
+md:M00018	EC2.7.2.4	Primary - amino acids, fatty acids and nucleotides
+md:M00018	EC1.1.1.3	Primary - amino acids, fatty acids and nucleotides
+md:M00018	EC4.1.1.20	Primary - amino acids, fatty acids and nucleotides
+md:M00018	EC1.2.1.11	Primary - amino acids, fatty acids and nucleotides
+md:M00018	EC2.7.1.39	Primary - amino acids, fatty acids and nucleotides
+md:M00018	EC3.1.3.3	Primary - amino acids, fatty acids and nucleotides
+md:M00018	EC4.2.3.1	Primary - amino acids, fatty acids and nucleotides
+md:M00019	EC2.2.1.6	Primary - amino acids, fatty acids and nucleotides
+md:M00019	EC1.1.1.86	Primary - amino acids, fatty acids and nucleotides
+md:M00019	EC4.2.1.9	Primary - amino acids, fatty acids and nucleotides
+md:M00019	EC2.6.1.42	Primary - amino acids, fatty acids and nucleotides
+md:M00020	EC1.1.1.95	Primary - amino acids, fatty acids and nucleotides
+md:M00020	EC1.1.1.399	Primary - amino acids, fatty acids and nucleotides
+md:M00020	EC2.6.1.52	Primary - amino acids, fatty acids and nucleotides
+md:M00020	EC3.1.3.3	Primary - amino acids, fatty acids and nucleotides
+md:M00020	EC2.7.1.39	Primary - amino acids, fatty acids and nucleotides
+md:M00021	EC2.3.1.30	Primary - amino acids, fatty acids and nucleotides
+md:M00021	EC2.5.1.47	Primary - amino acids, fatty acids and nucleotides
+md:M00021	EC4.4.1.9	Primary - amino acids, fatty acids and nucleotides
+md:M00021	EC2.5.1.49	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC2.5.1.54	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC5.4.99.5	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC4.2.3.4	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC2.7.1.71	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC4.2.1.10	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC1.1.1.25	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC2.5.1.19	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC1.3.1.43	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC1.3.1.12	Primary - amino acids, fatty acids and nucleotides
+md:M00022	EC4.2.3.5	Primary - amino acids, fatty acids and nucleotides
+md:M00023	EC4.1.3.27	Primary - amino acids, fatty acids and nucleotides
+md:M00023	EC4.1.1.48	Primary - amino acids, fatty acids and nucleotides
+md:M00023	EC5.3.1.24	Primary - amino acids, fatty acids and nucleotides
+md:M00023	EC2.4.2.18	Primary - amino acids, fatty acids and nucleotides
+md:M00023	EC5.3.1.16	Primary - amino acids, fatty acids and nucleotides
+md:M00023	EC4.2.1.20	Primary - amino acids, fatty acids and nucleotides
+md:M00024	EC5.4.99.5	Primary - amino acids, fatty acids and nucleotides
+md:M00024	EC1.3.1.12	Primary - amino acids, fatty acids and nucleotides
+md:M00024	EC4.2.1.51	Primary - amino acids, fatty acids and nucleotides
+md:M00024	EC4.2.1.91	Primary - amino acids, fatty acids and nucleotides
+md:M00024	EC2.6.1.57	Primary - amino acids, fatty acids and nucleotides
+md:M00024	EC2.6.1.39	Primary - amino acids, fatty acids and nucleotides
+md:M00024	EC2.6.1.27	Primary - amino acids, fatty acids and nucleotides
+md:M00024	EC2.6.1.5	Primary - amino acids, fatty acids and nucleotides
+md:M00025	EC5.4.99.5	Primary - amino acids, fatty acids and nucleotides
+md:M00025	EC4.2.1.51	Primary - amino acids, fatty acids and nucleotides
+md:M00025	EC1.3.1.12	Primary - amino acids, fatty acids and nucleotides
+md:M00025	EC1.3.1.13	Primary - amino acids, fatty acids and nucleotides
+md:M00025	EC2.6.1.57	Primary - amino acids, fatty acids and nucleotides
+md:M00025	EC2.6.1.39	Primary - amino acids, fatty acids and nucleotides
+md:M00025	EC2.6.1.27	Primary - amino acids, fatty acids and nucleotides
+md:M00025	EC2.6.1.5	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC2.4.2.17	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC3.6.1.31	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC3.5.4.19	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC1.1.1.23	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC5.3.1.16	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC5.3.1.24	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC4.3.2.10	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC4.2.1.19	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC2.6.1.9	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC3.1.3.15	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC3.1.3.25	Primary - amino acids, fatty acids and nucleotides
+md:M00026	EC3.1.3.93	Primary - amino acids, fatty acids and nucleotides
+md:M00027	EC4.1.1.15	Primary - amino acids, fatty acids and nucleotides
+md:M00027	EC2.6.1.19	Primary - amino acids, fatty acids and nucleotides
+md:M00027	EC2.6.1.22	Primary - amino acids, fatty acids and nucleotides
+md:M00027	EC2.6.1.48	Primary - amino acids, fatty acids and nucleotides
+md:M00027	EC2.6.1.96	Primary - amino acids, fatty acids and nucleotides
+md:M00027	EC1.2.1.16	Primary - amino acids, fatty acids and nucleotides
+md:M00027	EC1.2.1.79	Primary - amino acids, fatty acids and nucleotides
+md:M00027	EC1.2.1.20	Primary - amino acids, fatty acids and nucleotides
+md:M00027	EC1.2.1.24	Primary - amino acids, fatty acids and nucleotides
+md:M00028	EC2.3.1.1	Primary - amino acids, fatty acids and nucleotides
+md:M00028	EC4.3.2.1	Primary - amino acids, fatty acids and nucleotides
+md:M00028	EC2.3.1.35	Primary - amino acids, fatty acids and nucleotides
+md:M00028	EC2.7.2.8	Primary - amino acids, fatty acids and nucleotides
+md:M00028	EC1.2.1.38	Primary - amino acids, fatty acids and nucleotides
+md:M00028	EC2.6.1.11	Primary - amino acids, fatty acids and nucleotides
+md:M00028	EC2.6.1.17	Primary - amino acids, fatty acids and nucleotides
+md:M00028	EC3.5.1.16	Primary - amino acids, fatty acids and nucleotides
+md:M00028	EC3.5.1.14	Primary - amino acids, fatty acids and nucleotides
+md:M00029	EC6.3.4.16	Primary - amino acids, fatty acids and nucleotides
+md:M00029	EC2.1.3.3	Primary - amino acids, fatty acids and nucleotides
+md:M00029	EC6.3.4.5	Primary - amino acids, fatty acids and nucleotides
+md:M00029	EC4.3.2.1	Primary - amino acids, fatty acids and nucleotides
+md:M00029	EC2.3.1.1	Primary - amino acids, fatty acids and nucleotides
+md:M00029	EC3.5.3.1	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC2.3.3.14	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC4.2.1.36	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC1.1.1.87	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC2.6.1.57	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC2.6.1.39	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC2.6.1.27	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC2.6.1.5	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC1.2.1.95	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC1.5.1.10	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC2.5.1.16	Primary - amino acids, fatty acids and nucleotides
+md:M00030	EC1.5.1.7	Primary - amino acids, fatty acids and nucleotides
+md:M00031	EC6.3.2.43	Primary - amino acids, fatty acids and nucleotides
+md:M00031	EC2.7.2.17	Primary - amino acids, fatty acids and nucleotides
+md:M00031	EC1.2.1.103	Primary - amino acids, fatty acids and nucleotides
+md:M00031	EC2.6.1.118	Primary - amino acids, fatty acids and nucleotides
+md:M00031	EC3.5.1.130	Primary - amino acids, fatty acids and nucleotides
+md:M00031	EC3.5.1.132	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.5.1.8	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.5.1.9	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.2.1.31	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.2.1.8	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.2.1.3	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC2.6.1.7	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC2.6.1.39	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.2.4.2	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC2.3.1.61	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.8.1.4	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.3.8.6	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC4.2.1.17	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.1.1.35	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC5.3.3.8	Primary - amino acids, fatty acids and nucleotides
+md:M00032	EC1.1.1.211	Primary - amino acids, fatty acids and nucleotides
+md:M00033	EC2.7.2.4	Primary - amino acids, fatty acids and nucleotides
+md:M00033	EC1.2.1.11	Primary - amino acids, fatty acids and nucleotides
+md:M00033	EC2.6.1.76	Primary - amino acids, fatty acids and nucleotides
+md:M00033	EC2.3.1.178	Primary - amino acids, fatty acids and nucleotides
+md:M00033	EC4.2.1.108	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC2.5.1.6	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC4.1.1.50	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC2.5.1.16	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC3.2.2.9	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC3.2.2.16	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC2.7.1.100	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC2.4.2.28	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC5.3.1.23	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC4.2.1.109	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC3.1.3.77	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC5.3.2.5	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC3.1.3.87	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC1.13.11.53	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC1.13.11.54	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC2.6.1.5	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC2.6.1.117	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC2.6.1.57	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC2.6.1.39	Primary - amino acids, fatty acids and nucleotides
+md:M00034	EC2.6.1.27	Primary - amino acids, fatty acids and nucleotides
+md:M00035	EC2.5.1.6	Primary - amino acids, fatty acids and nucleotides
+md:M00035	EC2.1.1.37	Primary - amino acids, fatty acids and nucleotides
+md:M00035	EC3.3.1.1	Primary - amino acids, fatty acids and nucleotides
+md:M00035	EC4.2.1.22	Primary - amino acids, fatty acids and nucleotides
+md:M00035	EC2.5.1.47	Primary - amino acids, fatty acids and nucleotides
+md:M00035	EC2.5.1.65	Primary - amino acids, fatty acids and nucleotides
+md:M00036	EC2.6.1.42	Primary - amino acids, fatty acids and nucleotides
+md:M00036	EC1.2.4.4	Primary - amino acids, fatty acids and nucleotides
+md:M00036	EC2.3.1.168	Primary - amino acids, fatty acids and nucleotides
+md:M00036	EC1.8.1.4	Primary - amino acids, fatty acids and nucleotides
+md:M00036	EC1.3.8.4	Primary - amino acids, fatty acids and nucleotides
+md:M00036	EC1.3.8.7	Primary - amino acids, fatty acids and nucleotides
+md:M00036	EC6.4.1.4	Primary - amino acids, fatty acids and nucleotides
+md:M00036	EC4.2.1.18	Primary - amino acids, fatty acids and nucleotides
+md:M00036	EC4.1.3.4	Primary - amino acids, fatty acids and nucleotides
+md:M00037	EC1.14.16.4	Primary - amino acids, fatty acids and nucleotides
+md:M00037	EC4.1.1.28	Primary - amino acids, fatty acids and nucleotides
+md:M00037	EC4.1.1.105	Primary - amino acids, fatty acids and nucleotides
+md:M00037	EC2.3.1.87	Primary - amino acids, fatty acids and nucleotides
+md:M00037	EC2.1.1.4	Primary - amino acids, fatty acids and nucleotides
+md:M00038	EC1.13.11.11	Primary - amino acids, fatty acids and nucleotides
+md:M00038	EC1.13.11.52	Primary - amino acids, fatty acids and nucleotides
+md:M00038	EC3.5.1.9	Primary - amino acids, fatty acids and nucleotides
+md:M00038	EC1.14.13.9	Primary - amino acids, fatty acids and nucleotides
+md:M00038	EC3.7.1.3	Primary - amino acids, fatty acids and nucleotides
+md:M00038	EC1.13.11.6	Primary - amino acids, fatty acids and nucleotides
+md:M00038	EC4.1.1.45	Primary - amino acids, fatty acids and nucleotides
+md:M00038	EC1.2.1.32	Primary - amino acids, fatty acids and nucleotides
+md:M00038	EC1.2.1.85	Primary - amino acids, fatty acids and nucleotides
+md:M00039	EC4.3.1.24	x
+md:M00039	EC4.3.1.25	x
+md:M00039	EC1.14.14.91	x
+md:M00039	EC6.2.1.12	x
+md:M00039	EC2.3.1.133	x
+md:M00039	EC1.14.14.96	x
+md:M00039	EC2.1.1.104	x
+md:M00039	EC1.2.1.44	x
+md:M00039	EC2.1.1.68	x
+md:M00039	EC2.1.1.4	x
+md:M00039	EC1.1.1.195	x
+md:M00040	EC5.4.99.5	Intermediate
+md:M00040	EC4.2.1.51	Intermediate
+md:M00040	EC2.6.1.57	Intermediate
+md:M00040	EC2.6.1.1	Intermediate
+md:M00040	EC2.6.1.78	Intermediate
+md:M00040	EC2.6.1.79	Intermediate
+md:M00040	EC1.3.1.43	Intermediate
+md:M00040	EC1.3.1.12	Intermediate
+md:M00040	EC2.5.1.19	Intermediate
+md:M00040	EC1.3.1.78	Intermediate
+md:M00042	EC1.14.18.1	Primary - amino acids, fatty acids and nucleotides
+md:M00042	EC1.14.16.2	Primary - amino acids, fatty acids and nucleotides
+md:M00042	EC4.1.1.28	Primary - amino acids, fatty acids and nucleotides
+md:M00042	EC4.1.1.105	Primary - amino acids, fatty acids and nucleotides
+md:M00042	EC1.14.17.1	Primary - amino acids, fatty acids and nucleotides
+md:M00042	EC2.1.1.28	Primary - amino acids, fatty acids and nucleotides
+md:M00043	EC1.11.1.8	Primary - amino acids, fatty acids and nucleotides
+md:M00044	EC2.6.1.5	Primary - amino acids, fatty acids and nucleotides
+md:M00044	EC2.6.1.57	Primary - amino acids, fatty acids and nucleotides
+md:M00044	EC2.6.1.39	Primary - amino acids, fatty acids and nucleotides
+md:M00044	EC2.6.1.27	Primary - amino acids, fatty acids and nucleotides
+md:M00044	EC1.4.3.2	Primary - amino acids, fatty acids and nucleotides
+md:M00044	EC1.13.11.27	Primary - amino acids, fatty acids and nucleotides
+md:M00044	EC1.13.11.5	Primary - amino acids, fatty acids and nucleotides
+md:M00044	EC5.2.1.2	Primary - amino acids, fatty acids and nucleotides
+md:M00044	EC3.7.1.2	Primary - amino acids, fatty acids and nucleotides
+md:M00045	EC4.3.1.3	Primary - amino acids, fatty acids and nucleotides
+md:M00045	EC4.2.1.49	Primary - amino acids, fatty acids and nucleotides
+md:M00045	EC3.5.2.7	Primary - amino acids, fatty acids and nucleotides
+md:M00045	EC3.5.3.8	Primary - amino acids, fatty acids and nucleotides
+md:M00045	EC2.1.2.5	Primary - amino acids, fatty acids and nucleotides
+md:M00045	EC6.3.3.2	Primary - amino acids, fatty acids and nucleotides
+md:M00045	EC4.3.1.4	Primary - amino acids, fatty acids and nucleotides
+md:M00045	EC3.5.3.13	Primary - amino acids, fatty acids and nucleotides
+md:M00045	EC3.5.1.68	Primary - amino acids, fatty acids and nucleotides
+md:M00046	EC1.3.1.2	Primary - amino acids, fatty acids and nucleotides
+md:M00046	EC1.3.1.1	Primary - amino acids, fatty acids and nucleotides
+md:M00046	EC3.5.2.2	Primary - amino acids, fatty acids and nucleotides
+md:M00046	EC3.5.1.6	Primary - amino acids, fatty acids and nucleotides
+md:M00046	EC3.5.1.87	Primary - amino acids, fatty acids and nucleotides
+md:M00047	EC2.1.4.1	Primary - amino acids, fatty acids and nucleotides
+md:M00047	EC2.1.1.2	Primary - amino acids, fatty acids and nucleotides
+md:M00047	EC2.7.3.2	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC2.4.2.14	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC6.3.4.13	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC2.1.2.2	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC6.3.3.1	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC6.3.2.6	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC2.1.2.3	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC6.3.5.3	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC3.5.1.2	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC4.1.1.21	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC6.3.4.18	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC5.4.99.18	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC4.3.2.2	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC3.5.4.10	Primary - amino acids, fatty acids and nucleotides
+md:M00048	EC6.3.4.23	Primary - amino acids, fatty acids and nucleotides
+md:M00049	EC6.3.4.4	Primary - amino acids, fatty acids and nucleotides
+md:M00049	EC4.3.2.2	Primary - amino acids, fatty acids and nucleotides
+md:M00049	EC2.7.4.3	Primary - amino acids, fatty acids and nucleotides
+md:M00049	EC2.7.4.6	Primary - amino acids, fatty acids and nucleotides
+md:M00049	EC2.7.4.10	Primary - amino acids, fatty acids and nucleotides
+md:M00049	EC2.7.1.40	Primary - amino acids, fatty acids and nucleotides
+md:M00050	EC1.1.1.205	Primary - amino acids, fatty acids and nucleotides
+md:M00050	EC6.3.5.2	Primary - amino acids, fatty acids and nucleotides
+md:M00050	EC2.7.4.8	Primary - amino acids, fatty acids and nucleotides
+md:M00050	EC2.7.4.6	Primary - amino acids, fatty acids and nucleotides
+md:M00050	EC2.7.4.3	Primary - amino acids, fatty acids and nucleotides
+md:M00050	EC2.7.1.40	Primary - amino acids, fatty acids and nucleotides
+md:M00051	EC6.3.5.5	Secondary
+md:M00051	EC2.1.3.2	Secondary
+md:M00051	EC3.5.2.3	Secondary
+md:M00051	EC1.3.98.1	Secondary
+md:M00051	EC1.3.5.2	Secondary
+md:M00051	EC1.3.1.14	Secondary
+md:M00051	EC2.4.2.10	Secondary
+md:M00051	EC4.1.1.23	Secondary
+md:M00052	EC2.7.4.14	Primary - amino acids, fatty acids and nucleotides
+md:M00052	EC2.7.4.22	Primary - amino acids, fatty acids and nucleotides
+md:M00052	EC2.7.4.6	Primary - amino acids, fatty acids and nucleotides
+md:M00052	EC2.7.4.3	Primary - amino acids, fatty acids and nucleotides
+md:M00052	EC6.3.4.2	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC1.17.4.1	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC2.7.4.6	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC2.7.4.3	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC1.17.4.2	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC1.1.98.6	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC3.5.4.13	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC3.6.1.23	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC2.1.1.45	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC1.5.1.3	Primary - amino acids, fatty acids and nucleotides
+md:M00053	EC2.7.4.9	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.7.8.15	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.141	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.142	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.132	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.257	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.131	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.258	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.259	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.261	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.260	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.117	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.267	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.265	Primary - amino acids, fatty acids and nucleotides
+md:M00055	EC2.4.1.256	Primary - amino acids, fatty acids and nucleotides
+md:M00056	EC2.4.1.41	Primary - amino acids, fatty acids and nucleotides
+md:M00056	EC2.4.1.122	Primary - amino acids, fatty acids and nucleotides
+md:M00056	EC2.4.1.102	Primary - amino acids, fatty acids and nucleotides
+md:M00056	EC2.4.1.147	Primary - amino acids, fatty acids and nucleotides
+md:M00057	EC2.4.2.26	Primary - amino acids, fatty acids and nucleotides
+md:M00057	EC2.4.1.133	Primary - amino acids, fatty acids and nucleotides
+md:M00057	EC2.4.1.134	Primary - amino acids, fatty acids and nucleotides
+md:M00057	EC2.4.1.135	Primary - amino acids, fatty acids and nucleotides
+md:M00058	EC2.4.1.174	Primary - amino acids, fatty acids and nucleotides
+md:M00058	EC2.4.1.175	Primary - amino acids, fatty acids and nucleotides
+md:M00058	EC2.4.1.226	Primary - amino acids, fatty acids and nucleotides
+md:M00059	EC2.4.1.223	Primary - amino acids, fatty acids and nucleotides
+md:M00059	EC2.4.1.224	Primary - amino acids, fatty acids and nucleotides
+md:M00059	EC2.4.1.225	Primary - amino acids, fatty acids and nucleotides
+md:M00059	EC5.1.3.17	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.3.1.129	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC3.5.1.108	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.3.1.191	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC3.6.1.54	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.4.1.182	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.7.1.130	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.4.99.12	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.4.99.13	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.4.99.14	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.4.99.15	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.3.1.241	Primary - amino acids, fatty acids and nucleotides
+md:M00060	EC2.3.1.243	Primary - amino acids, fatty acids and nucleotides
+md:M00061	EC5.3.1.12	Primary - amino acids, fatty acids and nucleotides
+md:M00061	EC1.1.1.57	Primary - amino acids, fatty acids and nucleotides
+md:M00061	EC4.2.1.8	Primary - amino acids, fatty acids and nucleotides
+md:M00061	EC2.7.1.45	Primary - amino acids, fatty acids and nucleotides
+md:M00061	EC4.1.2.14	Primary - amino acids, fatty acids and nucleotides
+md:M00061	EC4.1.3.42	Primary - amino acids, fatty acids and nucleotides
+md:M00063	EC5.3.1.13	Primary - amino acids, fatty acids and nucleotides
+md:M00063	EC2.5.1.55	Primary - amino acids, fatty acids and nucleotides
+md:M00063	EC3.1.3.45	Primary - amino acids, fatty acids and nucleotides
+md:M00063	EC2.7.7.38	Primary - amino acids, fatty acids and nucleotides
+md:M00064	EC5.3.1.28	Primary - amino acids, fatty acids and nucleotides
+md:M00064	EC2.7.1.167	Primary - amino acids, fatty acids and nucleotides
+md:M00064	EC2.7.7.70	Primary - amino acids, fatty acids and nucleotides
+md:M00064	EC3.1.3.82	Primary - amino acids, fatty acids and nucleotides
+md:M00064	EC3.1.3.83	Primary - amino acids, fatty acids and nucleotides
+md:M00064	EC5.1.3.20	Primary - amino acids, fatty acids and nucleotides
+md:M00065	EC2.4.1.198	Primary - amino acids, fatty acids and nucleotides
+md:M00065	EC3.5.1.89	Primary - amino acids, fatty acids and nucleotides
+md:M00066	EC2.4.1.80	Secondary
+md:M00066	EC2.4.1.274	Secondary
+md:M00067	EC2.4.1.47	Secondary
+md:M00067	EC2.8.2.11	Secondary
+md:M00068	EC2.4.1.228	Intermediate
+md:M00068	EC2.4.1.79	Intermediate
+md:M00069	EC2.4.99.9	Secondary
+md:M00069	EC2.4.99.8	Secondary
+md:M00070	EC2.4.1.206	Secondary
+md:M00070	EC2.4.1.86	Secondary
+md:M00071	EC2.4.1.206	Secondary
+md:M00071	EC2.4.1.22	Secondary
+md:M00071	EC2.4.1.90	Secondary
+md:M00071	EC2.4.1.38	Secondary
+md:M00071	EC2.4.1.275	Secondary
+md:M00072	EC2.4.99.18	Primary - amino acids, fatty acids and nucleotides
+md:M00073	EC3.2.1.106	Primary - amino acids, fatty acids and nucleotides
+md:M00073	EC3.2.1.207	Primary - amino acids, fatty acids and nucleotides
+md:M00073	EC3.2.1.209	Primary - amino acids, fatty acids and nucleotides
+md:M00073	EC3.2.1.113	Primary - amino acids, fatty acids and nucleotides
+md:M00074	EC3.2.1.207	Secondary
+md:M00074	EC3.2.1.209	Secondary
+md:M00074	EC3.2.1.113	Secondary
+md:M00074	EC2.4.1.232	Secondary
+md:M00075	EC3.2.1.114	Secondary
+md:M00075	EC2.4.1.143	Secondary
+md:M00075	EC2.4.1.144	Secondary
+md:M00075	EC2.4.1.145	Secondary
+md:M00075	EC2.4.1.155	Secondary
+md:M00075	EC2.4.1.201	Secondary
+md:M00075	EC2.4.1.68	Secondary
+md:M00075	EC2.4.1.22	Secondary
+md:M00075	EC2.4.1.90	Secondary
+md:M00075	EC2.4.1.38	Secondary
+md:M00075	EC2.4.99.1	Secondary
+md:M00076	EC3.1.6.13	Secondary_other
+md:M00076	EC3.2.1.76	Secondary_other
+md:M00076	EC3.1.6.12	Secondary_other
+md:M00076	EC3.2.1.35	Secondary_other
+md:M00076	EC3.2.1.31	Secondary_other
+md:M00077	EC3.1.6.12	Secondary
+md:M00077	EC3.2.1.35	Secondary
+md:M00077	EC3.2.1.31	Secondary
+md:M00077	EC3.1.6.4	Secondary
+md:M00078	EC3.2.1.166	Secondary
+md:M00078	EC3.1.6.13	Secondary
+md:M00078	EC3.2.1.76	Secondary
+md:M00078	EC3.10.1.1	Secondary
+md:M00078	EC2.3.1.78	Secondary
+md:M00078	EC3.2.1.50	Secondary
+md:M00078	EC3.2.1.31	Secondary
+md:M00078	EC3.1.6.14	Secondary
+md:M00079	EC3.1.6.4	Primary - amino acids, fatty acids and nucleotides
+md:M00079	EC3.2.1.23	Primary - amino acids, fatty acids and nucleotides
+md:M00079	EC3.1.6.14	Primary - amino acids, fatty acids and nucleotides
+md:M00079	EC3.2.1.52	Primary - amino acids, fatty acids and nucleotides
+md:M00081	EC3.1.1.11	Secondary_other
+md:M00081	EC3.2.1.15	Secondary_other
+md:M00081	EC3.2.1.67	Secondary_other
+md:M00082	EC6.4.1.2	Secondary
+md:M00082	EC6.3.4.14	Secondary
+md:M00082	EC2.1.3.15	Secondary
+md:M00082	EC6.4.1.3	Secondary
+md:M00082	EC2.3.1.85	Secondary
+md:M00082	EC2.3.1.86	Secondary
+md:M00082	EC2.3.1.39	Secondary
+md:M00082	EC2.3.1.180	Secondary
+md:M00083	EC2.3.1.85	Intermediate
+md:M00083	EC2.3.1.86	Intermediate
+md:M00083	EC2.3.1.41	Intermediate
+md:M00083	EC2.3.1.179	Intermediate
+md:M00083	EC1.1.1.100	Intermediate
+md:M00083	EC4.2.1.59	Intermediate
+md:M00083	EC5.3.3.14	Intermediate
+md:M00083	EC3.5.1.108	Intermediate
+md:M00083	EC1.3.1.9	Intermediate
+md:M00083	EC1.3.1.10	Intermediate
+md:M00083	EC1.3.1.104	Intermediate
+md:M00083	EC1.3.1.44	Intermediate
+md:M00085	EC2.3.1.16	Secondary
+md:M00085	EC1.1.1.35	Secondary
+md:M00085	EC4.2.1.17	Secondary
+md:M00085	EC1.1.1.211	Secondary
+md:M00085	EC1.3.1.38	Secondary
+md:M00086	EC6.2.1.3	Secondary
+md:M00087	EC1.3.3.6	Secondary
+md:M00087	EC1.3.8.7	Secondary
+md:M00087	EC1.3.8.8	Secondary
+md:M00087	EC1.3.8.9	Secondary
+md:M00087	EC4.2.1.17	Secondary
+md:M00087	EC1.1.1.35	Secondary
+md:M00087	EC5.1.2.3	Secondary
+md:M00087	EC5.3.3.8	Secondary
+md:M00087	EC1.1.1.211	Secondary
+md:M00087	EC2.3.1.16	Secondary
+md:M00088	EC2.3.1.9	Secondary
+md:M00088	EC2.3.3.10	Secondary
+md:M00088	EC4.1.3.4	Secondary
+md:M00088	EC1.1.1.30	Secondary
+md:M00088	EC4.1.1.4	Secondary
+md:M00089	EC2.3.1.15	Intermediate
+md:M00089	EC2.3.1.42	Intermediate
+md:M00089	EC2.3.1.198	Intermediate
+md:M00089	EC2.3.1.51	Intermediate
+md:M00089	EC2.3.1.23	Intermediate
+md:M00089	EC3.1.1.3	Intermediate
+md:M00089	EC3.1.1.13	Intermediate
+md:M00089	EC3.1.1.4	Intermediate
+md:M00089	EC3.1.3.4	Intermediate
+md:M00089	EC3.1.3.81	Intermediate
+md:M00089	EC2.3.1.20	Intermediate
+md:M00089	EC2.3.1.75	Intermediate
+md:M00089	EC2.3.1.76	Intermediate
+md:M00089	EC2.3.1.22	Intermediate
+md:M00090	EC2.7.1.32	Primary - amino acids, fatty acids and nucleotides
+md:M00090	EC2.7.1.82	Primary - amino acids, fatty acids and nucleotides
+md:M00090	EC2.7.7.15	Primary - amino acids, fatty acids and nucleotides
+md:M00090	EC2.7.8.2	Primary - amino acids, fatty acids and nucleotides
+md:M00090	EC2.7.8.1	Primary - amino acids, fatty acids and nucleotides
+md:M00091	EC2.1.1.17	Primary - amino acids, fatty acids and nucleotides
+md:M00091	EC2.1.1.71	Primary - amino acids, fatty acids and nucleotides
+md:M00092	EC2.7.1.82	Primary - amino acids, fatty acids and nucleotides
+md:M00092	EC2.7.1.32	Primary - amino acids, fatty acids and nucleotides
+md:M00092	EC2.7.7.14	Primary - amino acids, fatty acids and nucleotides
+md:M00092	EC2.7.8.1	Primary - amino acids, fatty acids and nucleotides
+md:M00092	EC2.7.8.2	Primary - amino acids, fatty acids and nucleotides
+md:M00093	EC2.7.7.41	Primary - amino acids, fatty acids and nucleotides
+md:M00093	EC2.7.8.8	Primary - amino acids, fatty acids and nucleotides
+md:M00093	EC4.1.1.65	Primary - amino acids, fatty acids and nucleotides
+md:M00094	EC2.3.1.50	Primary - amino acids, fatty acids and nucleotides
+md:M00094	EC1.1.1.102	Primary - amino acids, fatty acids and nucleotides
+md:M00094	EC2.3.1.297	Primary - amino acids, fatty acids and nucleotides
+md:M00094	EC2.3.1.299	Primary - amino acids, fatty acids and nucleotides
+md:M00094	EC2.3.1.298	Primary - amino acids, fatty acids and nucleotides
+md:M00094	EC2.3.1.291	Primary - amino acids, fatty acids and nucleotides
+md:M00094	EC1.14.19.17	Primary - amino acids, fatty acids and nucleotides
+md:M00094	EC1.14.18.5	Primary - amino acids, fatty acids and nucleotides
+md:M00095	EC2.3.1.9	Primary - amino acids, fatty acids and nucleotides
+md:M00095	EC2.3.3.10	Primary - amino acids, fatty acids and nucleotides
+md:M00095	EC1.1.1.34	Primary - amino acids, fatty acids and nucleotides
+md:M00095	EC2.7.1.36	Primary - amino acids, fatty acids and nucleotides
+md:M00095	EC2.7.4.2	Primary - amino acids, fatty acids and nucleotides
+md:M00095	EC4.1.1.33	Primary - amino acids, fatty acids and nucleotides
+md:M00095	EC5.3.3.2	Primary - amino acids, fatty acids and nucleotides
+md:M00096	EC2.2.1.7	Secondary
+md:M00096	EC1.1.1.267	Secondary
+md:M00096	EC2.7.7.60	Secondary
+md:M00096	EC4.6.1.12	Secondary
+md:M00096	EC2.7.1.148	Secondary
+md:M00096	EC1.17.7.1	Secondary
+md:M00096	EC1.17.7.3	Secondary
+md:M00096	EC1.17.7.4	Secondary
+md:M00096	EC5.3.3.2	Secondary
+md:M00097	EC2.5.1.32	Intermediate
+md:M00097	EC1.3.5.5	Intermediate
+md:M00097	EC5.2.1.12	Intermediate
+md:M00097	EC1.3.5.6	Intermediate
+md:M00097	EC5.2.1.13	Intermediate
+md:M00097	EC5.5.1.19	Intermediate
+md:M00098	EC3.1.1.3	Intermediate
+md:M00098	EC3.1.1.13	Intermediate
+md:M00098	EC3.1.1.4	Intermediate
+md:M00098	EC2.3.1.51	Intermediate
+md:M00098	EC3.1.1.23	Intermediate
+md:M00099	EC2.3.1.50	Intermediate
+md:M00099	EC1.1.1.102	Intermediate
+md:M00099	EC2.3.1.297	Intermediate
+md:M00099	EC2.3.1.299	Intermediate
+md:M00099	EC2.3.1.298	Intermediate
+md:M00099	EC2.3.1.291	Intermediate
+md:M00099	EC1.14.19.17	Intermediate
+md:M00099	EC1.14.18.5	Intermediate
+md:M00099	EC3.5.1.23	Intermediate
+md:M00100	EC2.7.1.91	Intermediate
+md:M00100	EC4.1.2.27	Intermediate
+md:M00101	EC5.4.99.7	Intermediate
+md:M00101	EC1.14.14.154	Intermediate
+md:M00101	EC1.14.15.36	Intermediate
+md:M00101	EC1.3.1.70	Intermediate
+md:M00101	EC1.14.18.9	Intermediate
+md:M00101	EC1.1.1.170	Intermediate
+md:M00101	EC1.1.1.62	Intermediate
+md:M00101	EC1.1.1.270	Intermediate
+md:M00101	EC1.3.1.72	Intermediate
+md:M00101	EC5.3.3.5	Intermediate
+md:M00101	EC1.14.19.20	Intermediate
+md:M00101	EC1.3.1.21	Intermediate
+md:M00102	EC5.4.99.7	Intermediate
+md:M00102	EC1.14.14.154	Intermediate
+md:M00102	EC1.14.15.36	Intermediate
+md:M00102	EC1.3.1.70	Intermediate
+md:M00102	EC1.14.18.9	Intermediate
+md:M00102	EC1.1.1.170	Intermediate
+md:M00102	EC1.1.1.270	Intermediate
+md:M00102	EC2.1.1.41	Intermediate
+md:M00102	EC1.14.19.20	Intermediate
+md:M00102	EC1.14.19.41	Intermediate
+md:M00102	EC1.3.1.71	Intermediate
+md:M00103	EC1.14.14.24	Intermediate
+md:M00103	EC1.14.15.18	Intermediate
+md:M00104	EC1.14.14.23	Intermediate
+md:M00104	EC1.1.1.181	Intermediate
+md:M00104	EC1.14.18.8	Intermediate
+md:M00104	EC1.14.14.139	Intermediate
+md:M00104	EC1.3.1.3	Intermediate
+md:M00104	EC1.1.1.50	Intermediate
+md:M00104	EC1.1.1.357	Intermediate
+md:M00104	EC1.1.1.225	Intermediate
+md:M00104	EC1.14.15.15	Intermediate
+md:M00104	EC6.2.1.7	Intermediate
+md:M00104	EC5.1.99.4	Intermediate
+md:M00104	EC1.17.99.3	Intermediate
+md:M00104	EC4.2.1.107	Intermediate
+md:M00104	EC4.2.1.119	Intermediate
+md:M00104	EC2.3.1.176	Intermediate
+md:M00104	EC3.1.2.27	Intermediate
+md:M00106	EC6.2.1.7	Intermediate
+md:M00106	EC2.3.1.65	Intermediate
+md:M00106	EC3.1.2.2	Intermediate
+md:M00107	EC1.14.15.6	Intermediate
+md:M00107	EC1.1.1.145	Intermediate
+md:M00107	EC5.3.3.1	Intermediate
+md:M00108	EC1.14.14.16	Intermediate
+md:M00108	EC1.14.15.4	Intermediate
+md:M00108	EC1.14.15.5	Intermediate
+md:M00109	EC1.14.14.19	Intermediate
+md:M00109	EC1.14.14.32	Intermediate
+md:M00109	EC1.14.14.16	Intermediate
+md:M00109	EC1.14.15.4	Intermediate
+md:M00109	EC1.1.1.146	Intermediate
+md:M00110	EC1.14.14.19	Intermediate
+md:M00110	EC1.14.14.32	Intermediate
+md:M00110	EC1.1.1.145	Intermediate
+md:M00110	EC5.3.3.1	Intermediate
+md:M00110	EC1.14.14.14	Intermediate
+md:M00112	EC2.5.1.115	Intermediate
+md:M00112	EC2.5.1.116	Intermediate
+md:M00112	EC2.1.1.295	Intermediate
+md:M00112	EC5.5.1.24	Intermediate
+md:M00112	EC2.1.1.95	Intermediate
+md:M00113	EC1.13.11.12	Intermediate
+md:M00113	EC4.2.1.92	Intermediate
+md:M00113	EC5.3.99.6	Intermediate
+md:M00113	EC1.3.1.42	Intermediate
+md:M00113	EC1.3.3.6	Intermediate
+md:M00113	EC4.2.1.17	Intermediate
+md:M00113	EC1.1.1.35	Intermediate
+md:M00113	EC1.1.1.211	Intermediate
+md:M00113	EC2.3.1.16	Intermediate
+md:M00114	EC5.3.1.8	Intermediate
+md:M00114	EC5.4.2.8	Intermediate
+md:M00114	EC2.7.7.13	Intermediate
+md:M00114	EC5.1.3.18	Intermediate
+md:M00114	EC2.7.7.69	Intermediate
+md:M00114	EC3.1.3.25	Intermediate
+md:M00114	EC3.1.3.93	Intermediate
+md:M00114	EC1.1.1.316	Intermediate
+md:M00114	EC1.3.2.3	Intermediate
+md:M00115	EC1.4.3.16	Intermediate
+md:M00115	EC1.4.1.21	Intermediate
+md:M00115	EC2.5.1.72	Intermediate
+md:M00115	EC2.4.2.19	Intermediate
+md:M00115	EC2.7.7.18	Intermediate
+md:M00115	EC2.7.7.1	Intermediate
+md:M00115	EC6.3.1.5	Intermediate
+md:M00115	EC6.3.5.1	Intermediate
+md:M00116	EC5.4.4.2	Intermediate
+md:M00116	EC2.2.1.9	Intermediate
+md:M00116	EC4.2.99.20	Intermediate
+md:M00116	EC4.2.1.113	Intermediate
+md:M00116	EC6.2.1.26	Intermediate
+md:M00116	EC4.1.3.36	Intermediate
+md:M00116	EC3.1.2.28	Intermediate
+md:M00116	EC2.5.1.74	Intermediate
+md:M00116	EC2.1.1.163	Intermediate
+md:M00116	EC2.1.1.201	Intermediate
+md:M00117	EC4.1.3.40	Intermediate
+md:M00117	EC4.1.3.45	Intermediate
+md:M00117	EC2.5.1.39	Intermediate
+md:M00117	EC4.1.1.98	Intermediate
+md:M00117	EC2.5.1.129	Intermediate
+md:M00117	EC1.14.13.240	Intermediate
+md:M00117	EC2.1.1.222	Intermediate
+md:M00117	EC2.1.1.64	Intermediate
+md:M00117	EC2.1.1.163	Intermediate
+md:M00117	EC2.1.1.201	Intermediate
+md:M00117	EC1.14.99.60	Intermediate
+md:M00118	EC6.3.2.2	Primary - Carbohydrate & Energy Metabolism
+md:M00118	EC6.3.2.3	Primary - Carbohydrate & Energy Metabolism
+md:M00119	EC2.6.1.42	Intermediate
+md:M00119	EC2.1.2.11	Intermediate
+md:M00119	EC1.1.1.169	Intermediate
+md:M00119	EC4.1.1.11	Intermediate
+md:M00119	EC6.3.2.1	Intermediate
+md:M00119	EC2.7.4.25	Intermediate
+md:M00120	EC2.7.1.33	Intermediate
+md:M00120	EC6.3.4.15	Intermediate
+md:M00120	EC6.3.2.51	Intermediate
+md:M00120	EC6.3.2.5	Intermediate
+md:M00120	EC4.1.1.36	Intermediate
+md:M00120	EC2.7.7.3	Intermediate
+md:M00120	EC2.7.1.24	Intermediate
+md:M00121	EC6.1.1.17	x
+md:M00121	EC1.2.1.70	x
+md:M00121	EC5.4.3.8	x
+md:M00121	EC4.2.1.24	x
+md:M00121	EC2.5.1.61	x
+md:M00121	EC4.2.1.75	x
+md:M00121	EC2.1.1.107	x
+md:M00121	EC4.1.1.37	x
+md:M00121	EC1.3.3.3	x
+md:M00121	EC1.3.98.3	x
+md:M00121	EC1.3.5.3	x
+md:M00121	EC1.3.3.4	x
+md:M00121	EC1.3.3.15	x
+md:M00121	EC4.99.1.1	x
+md:M00121	EC4.99.1.9	x
+md:M00122	EC2.5.1.17	x
+md:M00122	EC6.3.5.10	x
+md:M00122	EC6.3.1.10	x
+md:M00122	EC2.7.1.156	x
+md:M00122	EC2.7.7.62	x
+md:M00122	EC2.4.2.21	x
+md:M00122	EC3.1.3.73	x
+md:M00122	EC3.1.26.4	x
+md:M00122	EC2.7.8.26	x
+md:M00123	EC2.3.1.47	x
+md:M00123	EC2.6.1.62	x
+md:M00123	EC2.6.1.105	x
+md:M00123	EC6.3.3.3	x
+md:M00123	EC2.8.1.6	x
+md:M00124	EC1.2.1.72	Intermediate
+md:M00124	EC1.1.1.290	Intermediate
+md:M00124	EC2.6.1.52	Intermediate
+md:M00124	EC1.1.1.262	Intermediate
+md:M00124	EC2.6.99.2	Intermediate
+md:M00124	EC1.4.3.5	Intermediate
+md:M00125	EC3.5.4.25	Intermediate
+md:M00125	EC4.1.99.12	Intermediate
+md:M00125	EC3.5.4.26	Intermediate
+md:M00125	EC1.1.1.193	Intermediate
+md:M00125	EC3.1.3.104	Intermediate
+md:M00125	EC3.1.3.102	Intermediate
+md:M00125	EC2.5.1.78	Intermediate
+md:M00125	EC2.5.1.9	Intermediate
+md:M00125	EC2.7.1.26	Intermediate
+md:M00125	EC2.7.7.2	Intermediate
+md:M00126	EC3.5.4.16	Intermediate
+md:M00126	EC3.1.3.1	Intermediate
+md:M00126	EC3.6.1.67	Intermediate
+md:M00126	EC4.1.2.25	Intermediate
+md:M00126	EC2.7.6.3	Intermediate
+md:M00126	EC2.5.1.15	Intermediate
+md:M00126	EC5.1.99.8	Intermediate
+md:M00126	EC1.13.11.81	Intermediate
+md:M00126	EC6.3.2.12	Intermediate
+md:M00126	EC6.3.2.17	Intermediate
+md:M00126	EC1.5.1.3	Intermediate
+md:M00126	EC2.1.1.45	Intermediate
+md:M00127	EC2.7.7.73	Intermediate
+md:M00127	EC2.8.1.4	Intermediate
+md:M00127	EC4.1.99.19	Intermediate
+md:M00127	EC2.8.1.10	Intermediate
+md:M00127	EC4.1.99.17	Intermediate
+md:M00127	EC2.7.1.49	Intermediate
+md:M00127	EC2.7.4.7	Intermediate
+md:M00127	EC2.5.1.3	Intermediate
+md:M00127	EC2.7.4.16	Intermediate
+md:M00128	EC2.5.1.39	Intermediate
+md:M00128	EC2.1.1.114	Intermediate
+md:M00128	EC2.1.1.64	Intermediate
+md:M00128	EC2.1.1.201	Intermediate
+md:M00128	EC1.14.99.60	Intermediate
+md:M00129	EC2.7.7.9	Intermediate
+md:M00129	EC1.1.1.22	Intermediate
+md:M00129	EC2.4.1.17	Intermediate
+md:M00129	EC3.2.1.31	Intermediate
+md:M00129	EC1.1.1.2	Intermediate
+md:M00129	EC3.1.1.17	Intermediate
+md:M00129	EC1.1.3.8	Intermediate
+md:M00130	EC2.7.1.67	Intermediate
+md:M00130	EC2.7.1.68	Intermediate
+md:M00130	EC3.1.4.11	Intermediate
+md:M00130	EC2.7.1.127	Intermediate
+md:M00131	EC3.1.3.56	Intermediate
+md:M00131	EC3.1.3.57	Intermediate
+md:M00131	EC3.1.3.66	Intermediate
+md:M00131	EC3.1.3.25	Intermediate
+md:M00132	EC2.7.1.159	Intermediate
+md:M00132	EC2.7.1.134	Intermediate
+md:M00132	EC2.7.1.140	Intermediate
+md:M00132	EC2.7.1.151	Intermediate
+md:M00132	EC2.7.1.158	Intermediate
+md:M00133	EC4.1.1.19	Intermediate
+md:M00133	EC3.5.3.11	Intermediate
+md:M00133	EC4.1.1.50	Intermediate
+md:M00133	EC2.5.1.16	Intermediate
+md:M00134	EC3.5.3.1	Intermediate
+md:M00134	EC4.1.1.17	Intermediate
+md:M00135	EC2.3.1.57	Intermediate
+md:M00135	EC1.4.3.4	Intermediate
+md:M00135	EC1.2.1.3	Intermediate
+md:M00135	EC1.2.1.31	Intermediate
+md:M00135	EC1.2.1.8	Intermediate
+md:M00135	EC1.2.1.47	Intermediate
+md:M00136	EC6.3.1.11	Intermediate
+md:M00136	EC1.2.1.99	Intermediate
+md:M00136	EC3.5.1.94	Intermediate
+md:M00137	EC4.3.1.24	Intermediate
+md:M00137	EC1.14.14.91	Intermediate
+md:M00137	EC6.2.1.12	Intermediate
+md:M00137	EC2.3.1.74	Intermediate
+md:M00137	EC5.5.1.6	Intermediate
+md:M00138	EC1.14.11.9	Intermediate
+md:M00138	EC1.1.1.219	Intermediate
+md:M00138	EC1.1.1.234	Intermediate
+md:M00138	EC1.14.20.4	Intermediate
+md:M00140	EC2.1.2.1	Intermediate
+md:M00140	EC1.5.1.5	Intermediate
+md:M00140	EC3.5.4.9	Intermediate
+md:M00140	EC6.3.4.3	Intermediate
+md:M00141	EC2.1.2.1	Intermediate
+md:M00141	EC1.5.1.5	Intermediate
+md:M00141	EC3.5.4.9	Intermediate
+md:M00141	EC6.3.4.3	Intermediate
+md:M00141	EC1.5.1.15	Intermediate
+md:M00142	EC7.1.1.2	Intermediate
+md:M00143	EC7.1.1.2	Intermediate
+md:M00144	EC7.1.1.2	Intermediate
+md:M00145	EC7.1.1.2	Intermediate
+md:M00148	EC1.3.5.1	Intermediate
+md:M00149	EC1.3.5.1	Intermediate
+md:M00149	EC1.3.5.4	Intermediate
+md:M00150	EC1.3.5.4	Intermediate
+md:M00151	EC7.1.1.8	Intermediate
+md:M00152	EC7.1.1.8	Intermediate
+md:M00153	EC7.1.1.7	Intermediate
+md:M00154	EC2.5.1.141	Intermediate
+md:M00154	EC7.1.1.9	Intermediate
+md:M00155	EC7.1.1.9	Intermediate
+md:M00156	EC7.1.1.9	Intermediate
+md:M00157	EC7.1.2.2	Intermediate
+md:M00157	EC7.2.2.1	Intermediate
+md:M00158	EC7.1.2.2	Intermediate
+md:M00159	EC7.1.2.2	Primary - amino acids, fatty acids and nucleotides
+md:M00159	EC7.2.2.1	Primary - amino acids, fatty acids and nucleotides
+md:M00160	EC7.1.2.2	Primary - amino acids, fatty acids and nucleotides
+md:M00161	EC1.10.3.9	Intermediate
+md:M00162	EC7.1.1.6	Intermediate
+md:M00165	EC2.7.1.19	Intermediate
+md:M00165	EC4.1.1.39	Intermediate
+md:M00165	EC2.7.2.3	Intermediate
+md:M00165	EC1.2.1.13	Intermediate
+md:M00165	EC1.2.1.59	Intermediate
+md:M00165	EC1.2.1.12	Intermediate
+md:M00165	EC4.1.2.13	Intermediate
+md:M00165	EC3.1.3.11	Intermediate
+md:M00165	EC3.1.3.37	Intermediate
+md:M00165	EC2.2.1.1	Intermediate
+md:M00165	EC5.3.1.6	Intermediate
+md:M00166	EC2.7.1.19	Intermediate
+md:M00166	EC4.1.1.39	Intermediate
+md:M00166	EC2.7.2.3	Intermediate
+md:M00166	EC1.2.1.13	Intermediate
+md:M00166	EC1.2.1.59	Intermediate
+md:M00166	EC1.2.1.12	Intermediate
+md:M00167	EC4.1.2.13	Intermediate
+md:M00167	EC3.1.3.11	Intermediate
+md:M00167	EC3.1.3.37	Intermediate
+md:M00167	EC2.2.1.1	Intermediate
+md:M00167	EC5.3.1.6	Intermediate
+md:M00168	EC4.1.1.31	Intermediate
+md:M00168	EC1.1.1.37	Intermediate
+md:M00169	EC1.1.1.40	Intermediate
+md:M00169	EC2.7.9.1	Intermediate
+md:M00170	EC4.1.1.31	Intermediate
+md:M00170	EC2.6.1.1	Intermediate
+md:M00170	EC4.1.1.49	Intermediate
+md:M00171	EC4.1.1.31	Intermediate
+md:M00171	EC2.6.1.1	Intermediate
+md:M00171	EC1.1.1.37	Intermediate
+md:M00171	EC1.1.1.39	Intermediate
+md:M00171	EC2.6.1.2	Intermediate
+md:M00171	EC2.6.1.4	Intermediate
+md:M00171	EC2.6.1.44	Intermediate
+md:M00171	EC2.7.9.1	Intermediate
+md:M00172	EC4.1.1.31	Primary - amino acids, fatty acids and nucleotides
+md:M00172	EC1.1.1.82	Primary - amino acids, fatty acids and nucleotides
+md:M00172	EC1.1.1.40	Primary - amino acids, fatty acids and nucleotides
+md:M00172	EC2.7.9.1	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC1.2.7.1	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC2.7.9.2	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC2.7.9.1	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC4.1.1.31	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC6.4.1.1	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC1.1.1.37	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC4.2.1.2	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC1.3.5.1	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC1.3.5.4	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC1.3.1.6	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC6.2.1.5	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC1.2.7.3	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC1.2.7.11	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC1.1.1.42	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC4.2.1.3	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC4.2.1.99	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC2.3.3.8	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC6.2.1.18	Primary - amino acids, fatty acids and nucleotides
+md:M00173	EC4.1.3.34	Primary - amino acids, fatty acids and nucleotides
+md:M00174	EC1.14.18.3	Primary - amino acids, fatty acids and nucleotides
+md:M00174	EC1.14.99.39	Primary - amino acids, fatty acids and nucleotides
+md:M00174	EC1.14.13.25	Primary - amino acids, fatty acids and nucleotides
+md:M00174	EC1.1.2.7	Primary - amino acids, fatty acids and nucleotides
+md:M00174	EC1.1.2.10	Primary - amino acids, fatty acids and nucleotides
+md:M00175	EC1.18.6.1	Intermediate
+md:M00175	EC1.18.6.2	Intermediate
+md:M00176	EC2.7.7.4	Intermediate
+md:M00176	EC2.7.1.25	Intermediate
+md:M00176	EC1.8.4.8	Intermediate
+md:M00176	EC1.8.4.10	Intermediate
+md:M00176	EC1.8.1.2	Intermediate
+md:M00176	EC1.8.7.1	Intermediate
+md:M00307	EC1.2.4.1	Secondary_other
+md:M00307	EC2.3.1.12	Secondary_other
+md:M00307	EC1.8.1.4	Secondary_other
+md:M00307	EC1.2.7.1	Secondary_other
+md:M00307	EC1.2.7.7	Secondary_other
+md:M00308	EC4.2.1.140	Secondary_other
+md:M00308	EC2.7.1.45	Secondary_other
+md:M00308	EC4.1.2.14	Secondary_other
+md:M00308	EC4.1.3.42	Secondary_other
+md:M00308	EC1.2.1.12	Secondary_other
+md:M00308	EC2.7.2.3	Secondary_other
+md:M00308	EC1.2.1.9	Secondary_other
+md:M00308	EC1.2.1.90	Secondary_other
+md:M00309	EC4.2.1.140	Secondary_other
+md:M00309	EC4.1.2.55	Secondary_other
+md:M00309	EC4.1.2.51	Secondary_other
+md:M00309	EC1.2.99.8	Secondary_other
+md:M00309	EC1.2.1.89	Secondary_other
+md:M00309	EC1.2.7.5	Secondary_other
+md:M00338	EC4.2.1.22	Secondary_other
+md:M00338	EC2.5.1.47	Secondary_other
+md:M00338	EC2.5.1.65	Secondary_other
+md:M00338	EC4.4.1.1	Secondary_other
+md:M00344	EC2.2.1.3	Secondary_other
+md:M00344	EC2.7.1.28	Secondary_other
+md:M00344	EC2.7.1.29	Secondary_other
+md:M00344	EC4.6.1.15	Secondary_other
+md:M00344	EC4.1.2.13	Secondary_other
+md:M00344	EC3.1.3.11	Secondary_other
+md:M00345	EC4.1.2.43	Secondary_other
+md:M00345	EC4.2.1.147	Secondary_other
+md:M00345	EC5.3.1.27	Secondary_other
+md:M00345	EC2.7.1.11	Secondary_other
+md:M00345	EC4.1.2.13	Secondary_other
+md:M00346	EC2.1.2.1	Secondary_other
+md:M00346	EC2.6.1.44	Secondary_other
+md:M00346	EC2.6.1.45	Secondary_other
+md:M00346	EC2.6.1.51	Secondary_other
+md:M00346	EC1.1.1.29	Secondary_other
+md:M00346	EC2.7.1.165	Secondary_other
+md:M00346	EC4.2.1.11	Secondary_other
+md:M00346	EC4.1.1.31	Secondary_other
+md:M00346	EC1.1.1.37	Secondary_other
+md:M00346	EC6.2.1.9	Secondary_other
+md:M00346	EC4.1.3.24	Secondary_other
+md:M00346	EC4.1.3.25	Secondary_other
+md:M00356	EC2.1.1.246	Secondary_other
+md:M00356	EC2.1.1.90	Secondary_other
+md:M00356	EC2.8.4.1	Secondary_other
+md:M00356	EC1.8.7.3	Secondary_other
+md:M00356	EC1.8.98.4	Secondary_other
+md:M00356	EC1.8.98.5	Secondary_other
+md:M00356	EC1.8.98.6	Secondary_other
+md:M00356	EC1.8.98.1	Secondary_other
+md:M00356	EC1.17.98.3	Secondary_other
+md:M00357	EC2.7.2.1	Secondary_other
+md:M00357	EC2.3.1.8	Secondary_other
+md:M00357	EC6.2.1.1	Secondary_other
+md:M00357	EC2.3.1.169	Secondary_other
+md:M00357	EC2.1.1.245	Secondary_other
+md:M00357	EC2.1.1.86	Secondary_other
+md:M00357	EC2.8.4.1	Secondary_other
+md:M00357	EC1.8.7.3	Secondary_other
+md:M00357	EC1.8.98.4	Secondary_other
+md:M00357	EC1.8.98.5	Secondary_other
+md:M00357	EC1.8.98.6	Secondary_other
+md:M00357	EC1.8.98.1	Secondary_other
+md:M00357	EC1.17.98.3	Secondary_other
+md:M00358	EC4.4.1.19	Secondary_other
+md:M00358	EC3.1.3.71	Secondary_other
+md:M00358	EC1.1.1.337	Secondary_other
+md:M00358	EC4.1.1.79	Secondary_other
+md:M00364	EC5.3.3.2	Secondary_other
+md:M00364	EC2.5.1.1	Secondary_other
+md:M00364	EC2.5.1.10	Secondary_other
+md:M00364	EC2.5.1.29	Secondary_other
+md:M00365	EC5.3.3.2	Secondary_other
+md:M00365	EC2.5.1.1	Secondary_other
+md:M00365	EC2.5.1.10	Secondary_other
+md:M00365	EC2.5.1.29	Secondary_other
+md:M00366	EC5.3.3.2	Secondary_other
+md:M00366	EC2.5.1.1	Secondary_other
+md:M00366	EC2.5.1.10	Secondary_other
+md:M00366	EC2.5.1.29	Secondary_other
+md:M00367	EC5.3.3.2	Secondary_other
+md:M00367	EC2.5.1.1	Secondary_other
+md:M00367	EC2.5.1.10	Secondary_other
+md:M00367	EC2.5.1.29	Secondary_other
+md:M00368	EC2.5.1.6	Secondary_other
+md:M00368	EC4.4.1.14	Secondary_other
+md:M00368	EC1.14.17.4	Secondary_other
+md:M00369	EC1.14.14.36	Secondary_other
+md:M00369	EC1.14.14.37	Secondary_other
+md:M00369	EC2.4.1.85	Secondary_other
+md:M00370	EC1.14.14.156	Secondary_other
+md:M00370	EC1.14.14.45	Secondary_other
+md:M00370	EC2.4.1.195	Secondary_other
+md:M00370	EC2.8.2.24	Secondary_other
+md:M00371	EC1.3.1.22	Secondary_other
+md:M00371	EC1.14.14.147	Secondary_other
+md:M00372	EC1.14.15.24	Secondary_other
+md:M00372	EC1.14.15.21	Secondary_other
+md:M00372	EC5.3.99.9	Secondary_other
+md:M00372	EC1.13.11.51	Secondary_other
+md:M00372	EC1.1.1.288	Secondary_other
+md:M00372	EC1.2.3.14	Secondary_other
+md:M00373	EC2.3.1.9	Secondary_other
+md:M00373	EC1.1.1.36	Secondary_other
+md:M00373	EC4.2.1.55	Secondary_other
+md:M00373	EC1.3.1.85	Secondary_other
+md:M00373	EC5.4.99.63	Secondary_other
+md:M00373	EC1.3.8.12	Secondary_other
+md:M00373	EC4.2.1.148	Secondary_other
+md:M00373	EC4.1.3.24	Secondary_other
+md:M00373	EC4.1.3.25	Secondary_other
+md:M00373	EC3.1.2.30	Secondary_other
+md:M00373	EC6.4.1.3	Secondary_other
+md:M00373	EC2.1.3.15	Secondary_other
+md:M00373	EC5.1.99.1	Secondary_other
+md:M00373	EC5.4.99.2	Secondary_other
+md:M00374	EC1.2.7.1	Secondary_other
+md:M00374	EC2.7.9.2	Secondary_other
+md:M00374	EC4.1.1.31	Secondary_other
+md:M00374	EC1.1.1.37	Secondary_other
+md:M00374	EC4.2.1.2	Secondary_other
+md:M00374	EC1.3.5.1	Secondary_other
+md:M00374	EC1.3.5.4	Secondary_other
+md:M00374	EC6.2.1.5	Secondary_other
+md:M00374	EC1.2.1.76	Secondary_other
+md:M00374	EC1.2.1.75	Secondary_other
+md:M00374	EC6.2.1.40	Secondary_other
+md:M00374	EC4.2.1.120	Secondary_other
+md:M00374	EC5.3.3.3	Secondary_other
+md:M00374	EC4.2.1.17	Secondary_other
+md:M00374	EC1.1.1.35	Secondary_other
+md:M00374	EC2.3.1.9	Secondary_other
+md:M00375	EC6.4.1.2	Secondary_other
+md:M00375	EC6.4.1.3	Secondary_other
+md:M00375	EC2.1.3.15	Secondary_other
+md:M00375	EC1.2.1.75	Secondary_other
+md:M00375	EC1.2.1.76	Secondary_other
+md:M00375	EC1.1.1.298	Secondary_other
+md:M00375	EC6.2.1.36	Secondary_other
+md:M00375	EC4.2.1.116	Secondary_other
+md:M00375	EC1.3.1.84	Secondary_other
+md:M00375	EC5.1.99.1	Secondary_other
+md:M00375	EC5.4.99.2	Secondary_other
+md:M00375	EC6.2.1.40	Secondary_other
+md:M00375	EC4.2.1.120	Secondary_other
+md:M00375	EC5.3.3.3	Secondary_other
+md:M00375	EC4.2.1.17	Secondary_other
+md:M00375	EC1.1.1.35	Secondary_other
+md:M00375	EC2.3.1.9	Secondary_other
+md:M00376	EC6.4.1.2	Secondary_other
+md:M00376	EC6.3.4.14	Secondary_other
+md:M00376	EC2.1.3.15	Secondary_other
+md:M00376	EC1.2.1.75	Secondary_other
+md:M00376	EC1.1.1.298	Secondary_other
+md:M00376	EC1.3.1.84	Secondary_other
+md:M00376	EC4.2.1.116	Secondary_other
+md:M00376	EC6.2.1.36	Secondary_other
+md:M00376	EC6.4.1.3	Secondary_other
+md:M00376	EC5.1.99.1	Secondary_other
+md:M00376	EC5.4.99.2	Secondary_other
+md:M00376	EC2.8.3.22	Secondary_other
+md:M00376	EC1.3.5.1	Secondary_other
+md:M00376	EC1.3.5.4	Secondary_other
+md:M00376	EC4.2.1.2	Secondary_other
+md:M00376	EC4.1.3.24	Secondary_other
+md:M00376	EC4.1.3.25	Secondary_other
+md:M00376	EC4.2.1.148	Secondary_other
+md:M00376	EC5.4.1.3	Secondary_other
+md:M00376	EC4.2.1.153	Secondary_other
+md:M00377	EC1.2.7.4	Secondary_other
+md:M00377	EC1.17.1.10	Secondary_other
+md:M00377	EC6.3.4.3	Secondary_other
+md:M00377	EC1.5.1.5	Secondary_other
+md:M00377	EC3.5.4.9	Secondary_other
+md:M00377	EC1.5.1.20	Secondary_other
+md:M00377	EC2.1.1.258	Secondary_other
+md:M00377	EC2.3.1.169	Secondary_other
+md:M00377	EC2.1.1.245	Secondary_other
+md:M00378	EC2.5.1.147	Secondary_other
+md:M00378	EC4.3.1.32	Secondary_other
+md:M00378	EC2.7.7.68	Secondary_other
+md:M00378	EC2.7.7.105	Secondary_other
+md:M00378	EC2.7.8.28	Secondary_other
+md:M00378	EC6.3.2.31	Secondary_other
+md:M00378	EC6.3.2.34	Secondary_other
+md:M00415	EC2.3.1.199	Secondary_other
+md:M00415	EC1.1.1.62	Secondary_other
+md:M00415	EC1.1.1.330	Secondary_other
+md:M00415	EC4.2.1.134	Secondary_other
+md:M00415	EC1.3.1.93	Secondary_other
+md:M00416	EC7.1.1.5	Secondary_other
+md:M00417	EC7.1.1.3	Secondary_other
+md:M00418	EC4.1.99.11	Secondary_other
+md:M00418	EC2.8.3.15	Secondary_other
+md:M00418	EC1.3.8.3	Secondary_other
+md:M00418	EC1.1.1.35	Secondary_other
+md:M00419	EC1.14.15.25	Secondary_other
+md:M00419	EC1.18.1.3	Secondary_other
+md:M00422	EC1.2.7.4	Secondary_other
+md:M00422	EC2.3.1.169	Secondary_other
+md:M00422	EC2.1.1.245	Secondary_other
+md:M00432	EC2.3.3.13	Secondary_other
+md:M00432	EC4.2.1.33	Secondary_other
+md:M00432	EC4.2.1.35	Secondary_other
+md:M00432	EC1.1.1.85	Secondary_other
+md:M00433	EC2.3.3.14	Secondary_other
+md:M00433	EC4.2.1.36	Secondary_other
+md:M00433	EC4.2.1.114	Secondary_other
+md:M00433	EC1.1.1.87	Secondary_other
+md:M00525	EC2.7.2.4	Secondary_other
+md:M00525	EC1.2.1.11	Secondary_other
+md:M00525	EC4.3.3.7	Secondary_other
+md:M00525	EC1.17.1.8	Secondary_other
+md:M00525	EC2.3.1.89	Secondary_other
+md:M00525	EC3.5.1.47	Secondary_other
+md:M00525	EC5.1.1.7	Secondary_other
+md:M00525	EC4.1.1.20	Secondary_other
+md:M00526	EC2.7.2.4	Secondary_other
+md:M00526	EC1.1.1.3	Secondary_other
+md:M00526	EC4.1.1.20	Secondary_other
+md:M00526	EC1.2.1.11	Secondary_other
+md:M00526	EC4.3.3.7	Secondary_other
+md:M00526	EC1.17.1.8	Secondary_other
+md:M00526	EC1.4.1.16	Secondary_other
+md:M00527	EC2.7.2.4	Secondary_other
+md:M00527	EC1.1.1.3	Secondary_other
+md:M00527	EC4.1.1.20	Secondary_other
+md:M00527	EC1.2.1.11	Secondary_other
+md:M00527	EC4.3.3.7	Secondary_other
+md:M00527	EC1.17.1.8	Secondary_other
+md:M00527	EC2.6.1.83	Secondary_other
+md:M00527	EC5.1.1.7	Secondary_other
+md:M00528	EC1.14.18.3	Secondary_other
+md:M00528	EC1.14.99.39	Secondary_other
+md:M00528	EC1.7.2.6	Secondary_other
+md:M00529	EC1.7.5.1	Secondary_other
+md:M00529	EC1.9.6.1	Secondary_other
+md:M00529	EC1.7.2.1	Secondary_other
+md:M00529	EC1.7.99.1	Secondary_other
+md:M00529	EC1.7.2.5	Secondary_other
+md:M00529	EC1.7.2.4	Secondary_other
+md:M00530	EC1.7.5.1	Secondary_other
+md:M00530	EC1.9.6.1	Secondary_other
+md:M00530	EC1.7.1.15	Secondary_other
+md:M00530	EC1.7.2.2	Secondary_other
+md:M00531	EC1.7.7.2	Secondary_other
+md:M00531	EC1.7.1.1	Secondary_other
+md:M00531	EC1.7.1.2	Secondary_other
+md:M00531	EC1.7.1.3	Secondary_other
+md:M00531	EC1.7.7.1	Secondary_other
+md:M00531	EC1.7.1.4	Secondary_other
+md:M00532	EC4.1.1.39	Secondary_other
+md:M00532	EC3.1.3.18	Secondary_other
+md:M00532	EC3.1.3.48	Secondary_other
+md:M00532	EC1.1.3.15	Secondary_other
+md:M00532	EC1.11.1.6	Secondary_other
+md:M00532	EC2.6.1.4	Secondary_other
+md:M00532	EC2.6.1.2	Secondary_other
+md:M00532	EC2.6.1.44	Secondary_other
+md:M00532	EC2.1.2.1	Secondary_other
+md:M00532	EC2.6.1.45	Secondary_other
+md:M00532	EC2.6.1.51	Secondary_other
+md:M00532	EC1.1.1.29	Secondary_other
+md:M00532	EC1.1.1.79	Secondary_other
+md:M00532	EC1.1.1.81	Secondary_other
+md:M00532	EC2.7.1.31	Secondary_other
+md:M00532	EC1.4.4.2	Secondary_other
+md:M00532	EC2.1.2.10	Secondary_other
+md:M00532	EC1.8.1.4	Secondary_other
+md:M00533	EC1.13.11.15	Secondary_other
+md:M00533	EC1.2.1.60	Secondary_other
+md:M00533	EC5.3.3.10	Secondary_other
+md:M00533	EC4.1.1.68	Secondary_other
+md:M00534	EC1.14.12.12	Secondary_other
+md:M00534	EC1.14.12.23	Secondary_other
+md:M00534	EC1.14.12.24	Secondary_other
+md:M00534	EC1.18.1.7	Secondary_other
+md:M00534	EC1.3.1.29	Secondary_other
+md:M00534	EC1.3.1.60	Secondary_other
+md:M00534	EC1.13.11.56	Secondary_other
+md:M00534	EC5.99.1.4	Secondary_other
+md:M00534	EC4.1.2.45	Secondary_other
+md:M00534	EC1.2.1.65	Secondary_other
+md:M00535	EC2.3.1.182	Secondary_other
+md:M00535	EC4.2.1.33	Secondary_other
+md:M00535	EC4.2.1.35	Secondary_other
+md:M00535	EC1.1.1.85	Secondary_other
+md:M00537	EC1.14.15.26	Secondary_other
+md:M00537	EC1.18.1.3	Secondary_other
+md:M00537	EC1.1.1.90	Secondary_other
+md:M00537	EC1.2.1.28	Secondary_other
+md:M00538	EC1.14.13.236	Secondary_other
+md:M00538	EC1.18.1.3	Secondary_other
+md:M00538	EC1.1.1.90	Secondary_other
+md:M00538	EC1.2.1.28	Secondary_other
+md:M00539	EC1.14.12.25	Secondary_other
+md:M00539	EC1.18.1.3	Secondary_other
+md:M00539	EC1.3.1.58	Secondary_other
+md:M00539	EC1.13.11.14	Secondary_other
+md:M00541	EC1.3.7.8	Secondary_other
+md:M00541	EC4.2.1.100	Secondary_other
+md:M00541	EC1.1.1.368	Secondary_other
+md:M00541	EC3.7.1.21	Secondary_other
+md:M00542	EC7.4.2.8	Secondary_other
+md:M00543	EC1.14.12.18	Secondary_other
+md:M00543	EC1.18.1.3	Secondary_other
+md:M00543	EC1.3.1.56	Secondary_other
+md:M00543	EC1.13.11.39	Secondary_other
+md:M00543	EC3.7.1.8	Secondary_other
+md:M00544	EC1.14.12.22	Secondary_other
+md:M00544	EC3.7.1.13	Secondary_other
+md:M00545	EC1.14.12.19	Secondary_other
+md:M00545	EC1.18.1.3	Secondary_other
+md:M00545	EC1.3.1.87	Secondary_other
+md:M00545	EC1.14.13.127	Secondary_other
+md:M00545	EC1.13.11.16	Secondary_other
+md:M00545	EC3.7.1.14	Secondary_other
+md:M00545	EC4.2.1.80	Secondary_other
+md:M00545	EC4.1.3.39	Secondary_other
+md:M00545	EC1.2.1.10	Secondary_other
+md:M00546	EC1.17.1.4	Secondary_other
+md:M00546	EC1.17.3.2	Secondary_other
+md:M00546	EC1.7.3.3	Secondary_other
+md:M00546	EC4.1.1.97	Secondary_other
+md:M00546	EC1.14.13.113	Secondary_other
+md:M00546	EC3.5.2.17	Secondary_other
+md:M00546	EC3.5.2.5	Secondary_other
+md:M00546	EC3.5.3.4	Secondary_other
+md:M00547	EC1.14.12.3	Secondary_other
+md:M00547	EC1.14.12.11	Secondary_other
+md:M00547	EC1.14.12.26	Secondary_other
+md:M00547	EC1.18.1.3	Secondary_other
+md:M00547	EC1.3.1.19	Secondary_other
+md:M00547	EC1.3.1.119	Secondary_other
+md:M00548	EC1.14.13.244	Secondary_other
+md:M00548	EC1.14.13.243	Secondary_other
+md:M00549	EC2.7.1.1	Secondary_other
+md:M00549	EC2.7.1.2	Secondary_other
+md:M00549	EC2.7.1.63	Secondary_other
+md:M00549	EC5.4.2.2	Secondary_other
+md:M00549	EC5.4.2.7	Secondary_other
+md:M00549	EC5.4.2.8	Secondary_other
+md:M00549	EC2.7.7.9	Secondary_other
+md:M00549	EC2.7.7.64	Secondary_other
+md:M00550	EC2.7.1.194	Secondary_other
+md:M00550	EC4.1.1.85	Secondary_other
+md:M00550	EC5.1.3.22	Secondary_other
+md:M00550	EC5.1.3.4	Secondary_other
+md:M00551	EC1.14.12.10	Secondary_other
+md:M00551	EC1.3.1.25	Secondary_other
+md:M00552	EC4.2.1.6	Secondary_other
+md:M00552	EC2.7.1.58	Secondary_other
+md:M00552	EC4.1.2.21	Secondary_other
+md:M00552	EC1.2.1.12	Secondary_other
+md:M00552	EC2.7.2.3	Secondary_other
+md:M00554	EC2.7.1.6	Secondary_other
+md:M00554	EC2.7.7.12	Secondary_other
+md:M00555	EC1.1.3.17	Secondary_other
+md:M00555	EC1.1.99.1	Secondary_other
+md:M00555	EC1.1.1.1	Secondary_other
+md:M00555	EC1.14.15.7	Secondary_other
+md:M00555	EC1.2.1.8	Secondary_other
+md:M00555	EC1.2.1.31	Secondary_other
+md:M00555	EC1.2.1.3	Secondary_other
+md:M00563	EC2.1.1.247	Secondary_other
+md:M00563	EC2.1.1.248	Secondary_other
+md:M00563	EC2.1.1.249	Secondary_other
+md:M00563	EC2.1.1.250	Secondary_other
+md:M00563	EC2.8.4.1	Secondary_other
+md:M00563	EC1.8.7.3	Secondary_other
+md:M00563	EC1.8.98.4	Secondary_other
+md:M00563	EC1.8.98.5	Secondary_other
+md:M00563	EC1.8.98.6	Secondary_other
+md:M00563	EC1.8.98.1	Secondary_other
+md:M00563	EC1.17.98.3	Secondary_other
+md:M00564	EC7.4.2.8	Secondary_other
+md:M00565	EC2.7.7.27	Secondary_other
+md:M00565	EC2.4.1.21	Secondary_other
+md:M00565	EC2.4.1.18	Secondary_other
+md:M00565	EC3.2.1.68	Secondary_other
+md:M00565	EC5.4.99.15	Secondary_other
+md:M00565	EC3.2.1.141	Secondary_other
+md:M00567	EC1.2.7.12	Secondary_other
+md:M00567	EC2.3.1.101	Secondary_other
+md:M00567	EC3.5.4.27	Secondary_other
+md:M00567	EC1.5.98.1	Secondary_other
+md:M00567	EC1.12.98.2	Secondary_other
+md:M00567	EC1.5.98.2	Secondary_other
+md:M00567	EC2.1.1.86	Secondary_other
+md:M00567	EC2.8.4.1	Secondary_other
+md:M00567	EC1.8.7.3	Secondary_other
+md:M00567	EC1.8.98.4	Secondary_other
+md:M00567	EC1.8.98.5	Secondary_other
+md:M00567	EC1.8.98.6	Secondary_other
+md:M00567	EC1.8.98.1	Secondary_other
+md:M00567	EC1.17.98.3	Secondary_other
+md:M00568	EC1.13.11.1	Secondary_other
+md:M00568	EC5.5.1.1	Secondary_other
+md:M00568	EC5.3.3.4	Secondary_other
+md:M00568	EC3.1.1.24	Secondary_other
+md:M00568	EC4.1.1.44	Secondary_other
+md:M00569	EC1.13.11.2	Secondary_other
+md:M00569	EC1.2.1.32	Secondary_other
+md:M00569	EC1.2.1.85	Secondary_other
+md:M00569	EC5.3.2.6	Secondary_other
+md:M00569	EC4.1.1.77	Secondary_other
+md:M00569	EC3.7.1.9	Secondary_other
+md:M00569	EC4.2.1.80	Secondary_other
+md:M00569	EC4.2.1.132	Secondary_other
+md:M00569	EC4.1.3.39	Secondary_other
+md:M00569	EC4.1.3.43	Secondary_other
+md:M00569	EC1.2.1.10	Secondary_other
+md:M00569	EC1.2.1.87	Secondary_other
+md:M00570	EC4.3.1.17	Secondary_other
+md:M00570	EC4.3.1.19	Secondary_other
+md:M00570	EC2.2.1.6	Secondary_other
+md:M00570	EC1.1.1.86	Secondary_other
+md:M00570	EC4.2.1.9	Secondary_other
+md:M00570	EC2.6.1.42	Secondary_other
+md:M00572	EC2.1.1.197	Secondary_other
+md:M00572	EC2.3.1.41	Secondary_other
+md:M00572	EC2.3.1.179	Secondary_other
+md:M00572	EC1.1.1.100	Secondary_other
+md:M00572	EC4.2.1.59	Secondary_other
+md:M00572	EC1.3.1.9	Secondary_other
+md:M00572	EC1.3.1.10	Secondary_other
+md:M00572	EC3.1.1.85	Secondary_other
+md:M00573	EC1.14.14.46	Secondary_other
+md:M00573	EC2.3.1.47	Secondary_other
+md:M00573	EC2.6.1.105	Secondary_other
+md:M00573	EC6.3.3.3	Secondary_other
+md:M00573	EC2.8.1.6	Secondary_other
+md:M00575	EC4.6.1.1	Secondary_other
+md:M00576	EC2.4.2.36	Secondary_other
+md:M00577	EC6.2.1.14	Secondary_other
+md:M00577	EC2.3.1.47	Secondary_other
+md:M00577	EC2.6.1.62	Secondary_other
+md:M00577	EC2.6.1.105	Secondary_other
+md:M00577	EC6.3.3.3	Secondary_other
+md:M00577	EC2.8.1.6	Secondary_other
+md:M00579	EC2.3.1.8	Secondary_other
+md:M00579	EC2.7.2.1	Secondary_other
+md:M00580	EC5.3.1.27	Secondary_other
+md:M00580	EC4.1.2.43	Secondary_other
+md:M00580	EC4.2.1.147	Secondary_other
+md:M00580	EC5.3.1.6	Secondary_other
+md:M00595	EC2.8.5.2	Secondary_other
+md:M00595	EC3.1.6.20	Secondary_other
+md:M00595	EC1.8.2.6	Secondary_other
+md:M00596	EC2.7.7.4	Secondary_other
+md:M00596	EC1.8.99.2	Secondary_other
+md:M00596	EC1.8.99.5	Secondary_other
+md:M00608	EC2.3.3.14	Secondary_other
+md:M00608	EC4.2.1.114	Secondary_other
+md:M00608	EC1.1.1.87	Secondary_other
+md:M00609	EC2.5.1.6	Secondary_other
+md:M00609	EC3.2.2.9	Secondary_other
+md:M00609	EC4.4.1.21	Secondary_other
+md:M00609	EC2.5.1.134	Secondary_other
+md:M00609	EC4.4.1.1	Secondary_other
+md:M00609	EC4.4.1.2	Secondary_other
+md:M00616	EC7.3.2.3	Secondary_other
+md:M00620	EC1.2.7.1	Secondary_other
+md:M00620	EC6.4.1.1	Secondary_other
+md:M00620	EC1.1.1.37	Secondary_other
+md:M00620	EC4.2.1.2	Secondary_other
+md:M00620	EC1.3.4.1	Secondary_other
+md:M00620	EC6.2.1.5	Secondary_other
+md:M00620	EC1.2.7.3	Secondary_other
+md:M00620	EC1.2.7.11	Secondary_other
+md:M00622	EC1.17.2.1	Secondary_other
+md:M00622	EC1.14.13.114	Secondary_other
+md:M00622	EC1.13.11.9	Secondary_other
+md:M00622	EC3.5.1.106	Secondary_other
+md:M00622	EC3.5.1.107	Secondary_other
+md:M00622	EC5.2.1.1	Secondary_other
+md:M00623	EC1.14.12.7	Secondary_other
+md:M00623	EC1.3.1.64	Secondary_other
+md:M00623	EC4.1.1.55	Secondary_other
+md:M00624	EC1.14.12.15	Secondary_other
+md:M00624	EC1.3.1.53	Secondary_other
+md:M00625	EC3.4.16.4	Secondary_other
+md:M00627	EC3.5.2.6	Secondary_other
+md:M00630	EC1.1.1.365	Secondary_other
+md:M00630	EC4.2.1.146	Secondary_other
+md:M00630	EC4.1.2.54	Secondary_other
+md:M00630	EC1.1.1.372	Secondary_other
+md:M00631	EC5.3.1.12	Secondary_other
+md:M00631	EC1.1.1.58	Secondary_other
+md:M00631	EC4.2.1.7	Secondary_other
+md:M00631	EC2.7.1.45	Secondary_other
+md:M00631	EC4.1.2.14	Secondary_other
+md:M00631	EC4.1.3.42	Secondary_other
+md:M00632	EC5.1.3.3	Secondary_other
+md:M00632	EC2.7.1.6	Secondary_other
+md:M00632	EC2.7.7.12	Secondary_other
+md:M00632	EC5.1.3.2	Secondary_other
+md:M00633	EC4.2.1.140	Secondary_other
+md:M00633	EC2.7.1.178	Secondary_other
+md:M00633	EC4.1.2.55	Secondary_other
+md:M00633	EC1.2.1.9	Secondary_other
+md:M00633	EC1.2.1.90	Secondary_other
+md:M00636	EC1.18.1.3	Secondary_other
+md:M00636	EC4.1.1.69	Secondary_other
+md:M00637	EC1.14.12.1	Secondary_other
+md:M00638	EC1.14.13.172	Secondary_other
+md:M00638	EC1.18.1.7	Secondary_other
+md:M00649	EC2.7.13.3	Secondary_other
+md:M00651	EC2.7.13.3	Secondary_other
+md:M00651	EC3.4.17.14	Secondary_other
+md:M00651	EC6.1.2.1	Secondary_other
+md:M00651	EC3.4.13.22	Secondary_other
+md:M00652	EC2.7.13.3	Secondary_other
+md:M00652	EC5.1.1.18	Secondary_other
+md:M00652	EC5.1.1.1	Secondary_other
+md:M00652	EC6.3.2.35	Secondary_other
+md:M00652	EC3.4.13.22	Secondary_other
+md:M00652	EC3.4.17.14	Secondary_other
+md:M00660	EC7.4.2.8	Secondary_other
+md:M00672	EC6.3.2.26	Secondary_other
+md:M00672	EC1.21.3.1	Secondary_other
+md:M00672	EC2.3.1.164	Secondary_other
+md:M00673	EC6.3.2.26	Secondary_other
+md:M00673	EC1.21.3.1	Secondary_other
+md:M00673	EC5.1.1.17	Secondary_other
+md:M00673	EC1.14.20.1	Secondary_other
+md:M00673	EC1.14.11.26	Secondary_other
+md:M00673	EC2.1.3.7	Secondary_other
+md:M00674	EC2.5.1.66	Secondary_other
+md:M00674	EC6.3.3.4	Secondary_other
+md:M00674	EC1.14.11.21	Secondary_other
+md:M00674	EC3.5.3.22	Secondary_other
+md:M00675	EC2.3.1.226	Secondary_other
+md:M00675	EC6.3.3.6	Secondary_other
+md:M00675	EC1.14.20.3	Secondary_other
+md:M00700	EC7.6.2.2	Secondary_other
+md:M00725	EC2.7.13.3	Secondary_other
+md:M00725	EC6.1.1.13	Secondary_other
+md:M00726	EC2.7.13.3	Secondary_other
+md:M00726	EC2.3.2.3	Secondary_other
+md:M00730	EC2.7.13.3	Secondary_other
+md:M00736	EC2.5.1.38	Secondary_other
+md:M00736	EC5.1.1.14	Secondary_other
+md:M00740	EC2.3.3.1	Secondary_other
+md:M00740	EC4.2.1.3	Secondary_other
+md:M00740	EC1.1.1.42	Secondary_other
+md:M00740	EC1.4.1.3	Secondary_other
+md:M00740	EC5.4.99.1	Secondary_other
+md:M00740	EC4.3.1.2	Secondary_other
+md:M00740	EC2.8.3.26	Secondary_other
+md:M00740	EC4.2.1.148	Secondary_other
+md:M00740	EC4.1.3.24	Secondary_other
+md:M00740	EC3.1.2.30	Secondary_other
+md:M00740	EC1.1.1.37	Secondary_other
+md:M00741	EC6.4.1.3	Secondary_other
+md:M00741	EC2.1.3.15	Secondary_other
+md:M00741	EC6.4.1.2	Secondary_other
+md:M00741	EC6.3.4.14	Secondary_other
+md:M00741	EC5.1.99.1	Secondary_other
+md:M00741	EC5.4.99.2	Secondary_other
+md:M00744	EC2.7.13.3	Secondary_other
+md:M00745	EC2.7.13.3	Secondary_other
+md:M00761	EC2.1.2.13	Secondary_other
+md:M00761	EC1.1.1.305	Secondary_other
+md:M00761	EC2.6.1.87	Secondary_other
+md:M00761	EC2.4.2.53	Secondary_other
+md:M00763	EC2.7.2.17	Secondary_other
+md:M00763	EC1.2.1.103	Secondary_other
+md:M00763	EC2.6.1.118	Secondary_other
+md:M00763	EC3.5.1.130	Secondary_other
+md:M00763	EC3.5.1.132	Secondary_other
+md:M00773	EC2.4.1.316	Secondary_other
+md:M00773	EC1.14.15.34	Secondary_other
+md:M00773	EC2.4.1.317	Secondary_other
+md:M00773	EC2.4.1.318	Secondary_other
+md:M00773	EC2.1.1.102	Secondary_other
+md:M00773	EC2.1.1.101	Secondary_other
+md:M00774	EC2.3.1.94	Secondary_other
+md:M00774	EC1.14.15.35	Secondary_other
+md:M00774	EC2.4.1.328	Secondary_other
+md:M00774	EC2.4.1.278	Secondary_other
+md:M00774	EC1.14.13.154	Secondary_other
+md:M00774	EC2.1.1.254	Secondary_other
+md:M00775	EC2.1.1.239	Secondary_other
+md:M00776	EC2.3.1.240	Secondary_other
+md:M00776	EC2.3.1.239	Secondary_other
+md:M00776	EC2.4.1.277	Secondary_other
+md:M00776	EC1.14.15.33	Secondary_other
+md:M00778	EC2.3.1.260	Secondary_other
+md:M00778	EC2.3.1.235	Secondary_other
+md:M00780	EC1.14.13.232	Secondary_other
+md:M00780	EC1.14.13.233	Secondary_other
+md:M00780	EC2.1.1.335	Secondary_other
+md:M00780	EC1.14.13.38	Secondary_other
+md:M00780	EC1.14.13.234	Secondary_other
+md:M00780	EC1.3.98.4	Secondary_other
+md:M00781	EC1.13.12.22	Secondary_other
+md:M00781	EC2.1.1.288	Secondary_other
+md:M00781	EC5.5.1.26	Secondary_other
+md:M00781	EC5.5.1.23	Secondary_other
+md:M00781	EC1.1.1.362	Secondary_other
+md:M00783	EC4.2.1.154	Secondary_other
+md:M00783	EC1.13.12.21	Secondary_other
+md:M00783	EC2.3.1.235	Secondary_other
+md:M00783	EC1.14.13.200	Secondary_other
+md:M00784	EC2.4.1.331	Secondary_other
+md:M00784	EC2.1.1.305	Secondary_other
+md:M00784	EC2.1.1.306	Secondary_other
+md:M00784	EC2.1.1.307	Secondary_other
+md:M00785	EC3.5.3.25	Secondary_other
+md:M00785	EC2.3.1.30	Secondary_other
+md:M00785	EC2.3.1.31	Secondary_other
+md:M00785	EC2.6.99.3	Secondary_other
+md:M00785	EC2.5.1.47	Secondary_other
+md:M00785	EC5.1.1.19	Secondary_other
+md:M00785	EC6.3.3.5	Secondary_other
+md:M00786	EC2.5.1.106	Secondary_other
+md:M00786	EC1.14.14.118	Secondary_other
+md:M00786	EC2.1.1.293	Secondary_other
+md:M00786	EC1.14.19.71	Secondary_other
+md:M00786	EC1.14.14.119	Secondary_other
+md:M00786	EC2.5.1.110	Secondary_other
+md:M00786	EC1.14.11.38	Secondary_other
+md:M00786	EC2.5.1.107	Secondary_other
+md:M00787	EC4.1.1.100	Secondary_other
+md:M00787	EC5.3.3.19	Secondary_other
+md:M00787	EC1.1.1.385	Secondary_other
+md:M00787	EC6.3.2.49	Secondary_other
+md:M00788	EC5.5.1.15	Secondary_other
+md:M00788	EC4.2.3.36	Secondary_other
+md:M00789	EC1.14.19.9	Secondary_other
+md:M00789	EC1.4.3.23	Secondary_other
+md:M00789	EC1.21.98.2	Secondary_other
+md:M00789	EC1.11.1.6	Secondary_other
+md:M00789	EC1.13.12.17	Secondary_other
+md:M00789	EC4.3.3.5	Secondary_other
+md:M00789	EC2.1.1.164	Secondary_other
+md:M00790	EC1.14.19.9	Secondary_other
+md:M00790	EC1.14.19.49	Secondary_other
+md:M00793	EC2.7.7.24	Secondary_other
+md:M00793	EC4.2.1.46	Secondary_other
+md:M00793	EC5.1.3.13	Secondary_other
+md:M00793	EC1.1.1.133	Secondary_other
+md:M00794	EC5.1.3.27	Secondary_other
+md:M00794	EC1.1.1.364	Secondary_other
+md:M00795	EC5.1.3.27	Secondary_other
+md:M00796	EC5.3.2.4	Secondary_other
+md:M00796	EC2.6.1.89	Secondary_other
+md:M00796	EC2.1.1.235	Secondary_other
+md:M00797	EC2.6.1.33	Secondary_other
+md:M00797	EC4.3.1.30	Secondary_other
+md:M00797	EC2.6.1.106	Secondary_other
+md:M00797	EC2.1.1.234	Secondary_other
+md:M00798	EC4.2.1.159	Secondary_other
+md:M00799	EC4.2.1.159	Secondary_other
+md:M00800	EC4.2.1.159	Secondary_other
+md:M00800	EC2.6.1.106	Secondary_other
+md:M00800	EC2.1.1.234	Secondary_other
+md:M00801	EC4.2.1.159	Secondary_other
+md:M00801	EC1.1.1.384	Secondary_other
+md:M00802	EC4.2.1.159	Secondary_other
+md:M00802	EC1.1.1.384	Secondary_other
+md:M00802	EC4.2.1.164	Secondary_other
+md:M00802	EC2.6.1.110	Secondary_other
+md:M00802	EC2.1.1.324	Secondary_other
+md:M00803	EC4.2.1.159	Secondary_other
+md:M00803	EC2.6.1.106	Secondary_other
+md:M00804	EC1.14.18.3	Secondary_other
+md:M00804	EC1.14.99.39	Secondary_other
+md:M00804	EC1.7.2.6	Secondary_other
+md:M00804	EC1.7.5.1	Secondary_other
+md:M00805	EC2.1.1.139	Secondary_other
+md:M00808	EC1.14.13.217	Secondary_other
+md:M00808	EC1.14.13.224	Secondary_other
+md:M00810	EC1.5.99.4	Secondary_other
+md:M00810	EC1.5.3.5	Secondary_other
+md:M00810	EC1.5.3.6	Secondary_other
+md:M00810	EC1.5.99.14	Secondary_other
+md:M00810	EC3.7.1.19	Secondary_other
+md:M00810	EC1.5.3.21	Secondary_other
+md:M00811	EC1.4.3.24	Secondary_other
+md:M00811	EC1.2.1.83	Secondary_other
+md:M00811	EC1.14.13.163	Secondary_other
+md:M00814	EC4.2.3.152	Secondary_other
+md:M00814	EC2.7.1.188	Secondary_other
+md:M00814	EC5.1.3.35	Secondary_other
+md:M00814	EC2.7.7.91	Secondary_other
+md:M00815	EC4.2.3.152	Secondary_other
+md:M00815	EC5.1.3.33	Secondary_other
+md:M00815	EC2.7.1.214	Secondary_other
+md:M00815	EC2.5.1.135	Secondary_other
+md:M00815	EC3.1.3.101	Secondary_other
+md:M00815	EC2.4.1.338	Secondary_other
+md:M00819	EC4.2.3.7	Secondary_other
+md:M00819	EC1.14.15.32	Secondary_other
+md:M00819	EC1.14.11.35	Secondary_other
+md:M00819	EC1.1.1.340	Secondary_other
+md:M00819	EC1.14.13.170	Secondary_other
+md:M00819	EC1.14.13.171	Secondary_other
+md:M00819	EC1.14.11.36	Secondary_other
+md:M00819	EC1.14.19.8	Secondary_other
+md:M00823	EC1.14.13.232	Secondary_other
+md:M00823	EC1.14.13.233	Secondary_other
+md:M00823	EC2.1.1.335	Secondary_other
+md:M00823	EC1.14.13.38	Secondary_other
+md:M00823	EC1.14.13.234	Secondary_other
+md:M00823	EC1.3.98.4	Secondary_other
+md:M00823	EC1.14.19.49	Secondary_other
+md:M00823	EC1.5.1.36	Secondary_other
+md:M00826	EC2.6.1.86	Secondary_other
+md:M00826	EC1.3.99.24	Secondary_other
+md:M00827	EC5.4.3.6	Secondary_other
+md:M00827	EC1.14.14.15	Secondary_other
+md:M00828	EC5.4.3.6	Secondary_other
+md:M00829	EC2.3.1.165	Secondary_other
+md:M00830	EC2.3.1.237	Secondary_other
+md:M00830	EC1.14.15.31	Secondary_other
+md:M00830	EC2.1.1.303	Secondary_other
+md:M00830	EC6.2.1.43	Secondary_other
+md:M00835	EC2.6.1.86	Secondary_other
+md:M00835	EC3.3.2.15	Secondary_other
+md:M00835	EC5.3.3.17	Secondary_other
+md:M00835	EC1.10.3.16	Secondary_other
+md:M00835	EC2.1.1.327	Secondary_other
+md:M00835	EC1.14.13.218	Secondary_other
+md:M00836	EC4.99.1.3	Secondary_other
+md:M00836	EC4.99.1.11	Secondary_other
+md:M00836	EC6.3.5.12	Secondary_other
+md:M00836	EC6.3.3.7	Secondary_other
+md:M00836	EC6.4.1.9	Secondary_other
+md:M00837	EC6.2.1.53	Secondary_other
+md:M00837	EC1.3.8.14	Secondary_other
+md:M00837	EC2.2.1.12	Secondary_other
+md:M00838	EC6.2.1.53	Secondary_other
+md:M00838	EC1.3.8.14	Secondary_other
+md:M00840	EC4.1.99.12	Secondary_other
+md:M00840	EC3.5.4.25	Secondary_other
+md:M00840	EC4.2.1.160	Secondary_other
+md:M00840	EC4.1.2.25	Secondary_other
+md:M00840	EC5.1.99.8	Secondary_other
+md:M00840	EC1.13.11.81	Secondary_other
+md:M00840	EC2.7.6.3	Secondary_other
+md:M00840	EC2.5.1.15	Secondary_other
+md:M00840	EC6.3.2.12	Secondary_other
+md:M00840	EC6.3.2.17	Secondary_other
+md:M00840	EC1.5.1.3	Secondary_other
+md:M00841	EC3.5.4.16	Secondary_other
+md:M00841	EC4.1.2.60	Secondary_other
+md:M00841	EC4.2.3.12	Secondary_other
+md:M00841	EC2.7.6.3	Secondary_other
+md:M00841	EC2.5.1.15	Secondary_other
+md:M00841	EC6.3.2.12	Secondary_other
+md:M00841	EC6.3.2.17	Secondary_other
+md:M00841	EC1.5.1.3	Secondary_other
+md:M00841	EC2.1.1.45	Secondary_other
+md:M00842	EC3.5.4.16	Secondary_other
+md:M00842	EC4.2.3.12	Secondary_other
+md:M00842	EC4.1.2.50	Secondary_other
+md:M00842	EC1.1.1.153	Secondary_other
+md:M00843	EC3.5.4.16	Secondary_other
+md:M00843	EC4.2.3.12	Secondary_other
+md:M00843	EC4.1.2.50	Secondary_other
+md:M00843	EC1.1.1.325	Secondary_other
+md:M00844	EC2.1.3.3	Secondary_other
+md:M00844	EC6.3.4.5	Secondary_other
+md:M00844	EC4.3.2.1	Secondary_other
+md:M00844	EC2.3.1.1	Secondary_other
+md:M00845	EC2.3.1.1	Secondary_other
+md:M00845	EC2.7.2.8	Secondary_other
+md:M00845	EC1.2.1.38	Secondary_other
+md:M00845	EC2.6.1.11	Secondary_other
+md:M00845	EC2.6.1.17	Secondary_other
+md:M00845	EC2.1.3.9	Secondary_other
+md:M00845	EC3.5.1.16	Secondary_other
+md:M00845	EC6.3.4.5	Secondary_other
+md:M00845	EC4.3.2.1	Secondary_other
+md:M00846	EC1.2.1.70	Secondary_other
+md:M00846	EC5.4.3.8	Secondary_other
+md:M00846	EC4.2.1.24	Secondary_other
+md:M00846	EC2.5.1.61	Secondary_other
+md:M00846	EC4.2.1.75	Secondary_other
+md:M00846	EC2.1.1.107	Secondary_other
+md:M00846	EC1.3.1.76	Secondary_other
+md:M00846	EC4.99.1.4	Secondary_other
+md:M00847	EC4.1.1.111	Secondary_other
+md:M00847	EC1.3.98.6	Secondary_other
+md:M00848	EC6.2.1.32	Secondary_other
+md:M00848	EC1.14.13.222	Secondary_other
+md:M00848	EC1.1.1.394	Secondary_other
+md:M00849	EC2.3.1.9	Secondary_other
+md:M00849	EC2.3.3.10	Secondary_other
+md:M00849	EC1.1.1.34	Secondary_other
+md:M00849	EC1.1.1.88	Secondary_other
+md:M00849	EC2.7.1.36	Secondary_other
+md:M00849	EC4.1.1.99	Secondary_other
+md:M00849	EC2.7.1.185	Secondary_other
+md:M00849	EC2.7.1.186	Secondary_other
+md:M00849	EC4.1.1.110	Secondary_other
+md:M00849	EC2.7.4.26	Secondary_other
+md:M00849	EC5.3.3.2	Secondary_other
+md:M00850	EC2.4.2.36	Secondary_other
+md:M00851	EC3.5.2.6	Secondary_other
+md:M00852	EC3.4.23.43	Secondary_other
+md:M00854	EC2.7.7.9	Secondary_other
+md:M00854	EC2.4.1.11	Secondary_other
+md:M00854	EC2.4.1.186	Secondary_other
+md:M00854	EC2.4.1.1	Secondary_other
+md:M00854	EC2.4.1.242	Secondary_other
+md:M00854	EC2.7.7.27	Secondary_other
+md:M00854	EC2.4.1.21	Secondary_other
+md:M00854	EC2.4.1.18	Secondary_other
+md:M00855	EC2.4.1.1	Secondary_other
+md:M00855	EC2.4.1.11	Secondary_other
+md:M00855	EC2.4.1.25	Secondary_other
+md:M00855	EC3.2.1.33	Secondary_other
+md:M00855	EC3.2.1.196	Secondary_other
+md:M00855	EC3.2.1.41	Secondary_other
+md:M00855	EC5.4.2.2	Secondary_other
+md:M00855	EC5.4.2.7	Secondary_other
+md:M00855	EC5.4.2.8	Secondary_other
+md:M00857	EC1.1.1.136	Secondary_other
+md:M00857	EC7.6.2.12	Secondary_other
+md:M00859	EC3.4.24.83	Secondary_other
+md:M00859	EC4.6.1.1	Secondary_other
+md:M00861	EC1.3.3.6	Secondary_other
+md:M00861	EC4.2.1.107	Secondary_other
+md:M00861	EC4.2.1.119	Secondary_other
+md:M00861	EC2.3.1.16	Secondary_other
+md:M00861	EC2.3.1.176	Secondary_other
+md:M00862	EC1.17.99.3	Secondary_other
+md:M00862	EC4.2.1.107	Secondary_other
+md:M00862	EC4.2.1.119	Secondary_other
+md:M00862	EC2.3.1.176	Secondary_other
+md:M00866	EC2.3.1.129	Secondary_other
+md:M00866	EC3.5.1.108	Secondary_other
+md:M00866	EC4.2.1.59	Secondary_other
+md:M00866	EC2.3.1.191	Secondary_other
+md:M00866	EC3.6.1.54	Secondary_other
+md:M00866	EC2.4.1.182	Secondary_other
+md:M00866	EC2.7.1.130	Secondary_other
+md:M00866	EC2.4.99.12	Secondary_other
+md:M00866	EC2.4.99.13	Secondary_other
+md:M00866	EC2.4.99.14	Secondary_other
+md:M00866	EC2.4.99.15	Secondary_other
+md:M00866	EC2.3.1.241	Secondary_other
+md:M00867	EC2.7.8.43	Secondary_other
+md:M00867	EC3.2.1.144	Secondary_other
+md:M00868	EC2.3.1.37	Secondary_other
+md:M00868	EC4.2.1.24	Secondary_other
+md:M00868	EC2.5.1.61	Secondary_other
+md:M00868	EC4.2.1.75	Secondary_other
+md:M00868	EC4.1.1.37	Secondary_other
+md:M00868	EC1.3.3.3	Secondary_other
+md:M00868	EC1.3.3.4	Secondary_other
+md:M00868	EC1.3.3.15	Secondary_other
+md:M00868	EC4.99.1.1	Secondary_other
+md:M00868	EC4.99.1.9	Secondary_other
+md:M00872	EC2.4.1.109	Secondary_other
+md:M00872	EC2.4.1.312	Secondary_other
+md:M00872	EC2.4.1.313	Secondary_other
+md:M00872	EC2.7.1.183	Secondary_other
+md:M00872	EC2.7.7.40	Secondary_other
+md:M00872	EC2.4.2.61	Secondary_other
+md:M00873	EC2.3.1.39	Secondary_other
+md:M00873	EC2.3.1.179	Secondary_other
+md:M00873	EC1.1.1.62	Secondary_other
+md:M00873	EC1.1.1.239	Secondary_other
+md:M00873	EC1.3.1.38	Secondary_other
+md:M00874	EC6.4.1.2	Secondary_other
+md:M00874	EC6.3.4.14	Secondary_other
+md:M00874	EC2.1.3.15	Secondary_other
+md:M00874	EC2.3.1.39	Secondary_other
+md:M00874	EC2.3.1.179	Secondary_other
+md:M00874	EC1.1.1.100	Secondary_other
+md:M00874	EC1.3.1.38	Secondary_other
+md:M00875	EC2.7.1.225	Secondary_other
+md:M00875	EC2.5.1.140	Secondary_other
+md:M00875	EC1.5.1.51	Secondary_other
+md:M00875	EC6.3.2.54	Secondary_other
+md:M00875	EC4.1.1.117	Secondary_other
+md:M00875	EC6.3.2.55	Secondary_other
+md:M00875	EC6.3.2.56	Secondary_other
+md:M00876	EC5.1.1.12	Secondary_other
+md:M00876	EC6.3.2.58	Secondary_other
+md:M00876	EC6.3.2.57	Secondary_other
+md:M00877	EC1.1.1.361	Secondary_other
+md:M00877	EC2.6.1.104	Secondary_other
+md:M00877	EC3.1.3.92	Secondary_other
+md:M00878	EC6.2.1.30	Secondary_other
+md:M00878	EC1.14.13.149	Secondary_other
+md:M00878	EC5.3.3.18	Secondary_other
+md:M00878	EC3.3.2.12	Secondary_other
+md:M00878	EC1.2.1.91	Secondary_other
+md:M00878	EC2.3.1.223	Secondary_other
+md:M00878	EC2.3.1.174	Secondary_other
+md:M00878	EC4.2.1.17	Secondary_other
+md:M00878	EC1.1.1.157	Secondary_other
+md:M00879	EC2.3.1.109	Secondary_other
+md:M00879	EC3.5.3.23	Secondary_other
+md:M00879	EC2.6.1.81	Secondary_other
+md:M00879	EC1.2.1.71	Secondary_other
+md:M00879	EC3.5.1.96	Secondary_other
+md:M00880	EC4.1.99.22	Secondary_other
+md:M00880	EC4.6.1.17	Secondary_other
+md:M00880	EC2.8.1.12	Secondary_other
+md:M00880	EC2.7.7.75	Secondary_other
+md:M00880	EC2.10.1.1	Secondary_other
+md:M00881	EC2.3.1.181	Secondary_other
+md:M00881	EC2.8.1.8	Secondary_other
+md:M00882	EC2.3.1.181	Secondary_other
+md:M00882	EC2.8.1.8	Secondary_other
+md:M00883	EC2.3.1.181	Secondary_other
+md:M00883	EC2.8.1.8	Secondary_other
+md:M00883	EC2.3.1.204	Secondary_other
+md:M00884	EC2.8.1.8	Secondary_other
+md:M00889	EC2.1.1.38	Secondary_other
+md:M00890	EC2.6.1.114	Secondary_other
+md:M00890	EC2.1.1.343	Secondary_other
+md:M00892	EC2.7.1.1	Secondary_other
+md:M00892	EC2.7.1.2	Secondary_other
+md:M00892	EC5.3.1.9	Secondary_other
+md:M00892	EC2.6.1.16	Secondary_other
+md:M00892	EC2.3.1.4	Secondary_other
+md:M00892	EC5.4.2.3	Secondary_other
+md:M00892	EC2.7.7.23	Secondary_other
+md:M00892	EC2.7.7.83	Secondary_other
+md:M00893	EC2.3.1.161	Secondary_other
+md:M00893	EC3.1.2.31	Secondary_other
+md:M00893	EC1.14.14.124	Secondary_other
+md:M00893	EC1.14.14.125	Secondary_other
+md:M00893	EC2.3.1.244	Secondary_other
+md:M00893	EC2.3.1.238	Secondary_other
+md:M00894	EC2.3.1.206	Secondary_other
+md:M00894	EC4.4.1.26	Secondary_other
+md:M00894	EC1.21.3.8	Secondary_other
+md:M00894	EC1.21.3.7	Secondary_other
+md:M00895	EC2.7.7.73	Secondary_other
+md:M00895	EC2.8.1.4	Secondary_other
+md:M00895	EC1.4.3.19	Secondary_other
+md:M00895	EC2.8.1.10	Secondary_other
+md:M00895	EC5.3.99.10	Secondary_other
+md:M00895	EC4.1.99.17	Secondary_other
+md:M00895	EC2.7.1.49	Secondary_other
+md:M00895	EC2.7.4.7	Secondary_other
+md:M00895	EC2.5.1.3	Secondary_other
+md:M00895	EC2.7.4.16	Secondary_other
+md:M00896	EC2.4.2.59	Secondary_other
+md:M00896	EC4.1.99.17	Secondary_other
+md:M00896	EC2.7.1.49	Secondary_other
+md:M00896	EC2.7.4.7	Secondary_other
+md:M00896	EC2.5.1.3	Secondary_other
+md:M00896	EC2.7.4.16	Secondary_other
+md:M00897	EC2.4.2.60	Secondary_other
+md:M00897	EC4.1.99.17	Secondary_other
+md:M00897	EC2.7.1.49	Secondary_other
+md:M00897	EC2.7.4.7	Secondary_other
+md:M00897	EC2.5.1.3	Secondary_other
+md:M00897	EC3.1.3.100	Secondary_other
+md:M00897	EC2.7.6.2	Secondary_other
+md:M00898	EC2.4.2.60	Secondary_other
+md:M00898	EC2.7.1.49	Secondary_other
+md:M00898	EC2.7.4.7	Secondary_other
+md:M00898	EC3.5.99.2	Secondary_other
+md:M00898	EC2.5.1.3	Secondary_other
+md:M00898	EC2.7.1.50	Secondary_other
+md:M00898	EC2.7.6.2	Secondary_other
+md:M00899	EC2.7.1.50	Secondary_other
+md:M00899	EC2.7.1.49	Secondary_other
+md:M00899	EC2.7.4.7	Secondary_other
+md:M00899	EC2.5.1.3	Secondary_other
+md:M00900	EC2.4.1.271	Secondary_other
+md:M00900	EC2.4.1.330	Secondary_other
+md:M00902	EC1.23.1.1	Secondary_other
+md:M00902	EC1.23.1.2	Secondary_other
+md:M00902	EC1.23.1.3	Secondary_other
+md:M00902	EC1.23.1.4	Secondary_other
+md:M00902	EC1.1.1.331	Secondary_other
+md:M00902	EC1.14.19.72	Secondary_other
+md:M00902	EC2.1.1.323	Secondary_other
+md:M00902	EC1.14.14.131	Secondary_other
+md:M00902	EC2.1.1.330	Secondary_other
+md:M00902	EC1.14.20.8	Secondary_other
+md:M00903	EC5.4.2.9	Secondary_other
+md:M00903	EC2.7.7.104	Secondary_other
+md:M00903	EC4.1.1.82	Secondary_other
+md:M00903	EC2.1.1.308	Secondary_other
+md:M00903	EC1.11.1.23	Secondary_other
+md:M00904	EC6.3.2.46	Secondary_other
+md:M00904	EC6.3.2.47	Secondary_other
+md:M00905	EC4.1.2.56	Secondary_other
+md:M00905	EC4.1.99.20	Secondary_other
+md:M00905	EC1.10.3.15	Secondary_other
+md:M00905	EC1.10.3.4	Secondary_other
+md:M00909	EC2.7.1.2	Secondary_other
+md:M00909	EC5.3.1.9	Secondary_other
+md:M00909	EC2.2.1.2	Secondary_other
+md:M00909	EC5.3.1.8	Secondary_other
+md:M00909	EC2.6.1.16	Secondary_other
+md:M00909	EC5.4.2.10	Secondary_other
+md:M00909	EC2.7.7.23	Secondary_other
+md:M00909	EC2.3.1.157	Secondary_other
+md:M00910	EC5.4.99.5	Secondary_other
+md:M00910	EC2.6.1.1	Secondary_other
+md:M00910	EC2.6.1.78	Secondary_other
+md:M00910	EC2.6.1.79	Secondary_other
+md:M00910	EC4.2.1.91	Secondary_other
+md:M00910	EC4.2.1.51	Secondary_other
+md:M00911	EC3.5.4.25	Secondary_other
+md:M00911	EC1.1.1.302	Secondary_other
+md:M00911	EC5.4.99.28	Secondary_other
+md:M00911	EC4.1.99.12	Secondary_other
+md:M00911	EC2.5.1.78	Secondary_other
+md:M00911	EC2.5.1.9	Secondary_other
+md:M00911	EC2.7.1.26	Secondary_other
+md:M00911	EC2.7.7.2	Secondary_other
+md:M00912	EC1.13.11.11	Secondary_other
+md:M00912	EC1.13.11.52	Secondary_other
+md:M00912	EC3.5.1.9	Secondary_other
+md:M00912	EC1.14.13.9	Secondary_other
+md:M00912	EC3.7.1.3	Secondary_other
+md:M00912	EC1.13.11.6	Secondary_other
+md:M00912	EC2.4.2.19	Secondary_other
+md:M00912	EC2.7.7.18	Secondary_other
+md:M00912	EC2.7.7.1	Secondary_other
+md:M00912	EC6.3.1.5	Secondary_other
+md:M00912	EC6.3.5.1	Secondary_other
+md:M00913	EC2.1.2.11	Secondary_other
+md:M00913	EC1.1.1.169	Secondary_other
+md:M00913	EC1.5.3.17	Secondary_other
+md:M00913	EC1.2.1.3	Secondary_other
+md:M00913	EC6.3.2.1	Secondary_other
+md:M00914	EC2.1.2.11	Secondary_other
+md:M00914	EC1.1.1.169	Secondary_other
+md:M00914	EC2.7.1.169	Secondary_other
+md:M00914	EC6.3.2.36	Secondary_other
+md:M00914	EC4.1.1.36	Secondary_other
+md:M00914	EC6.3.2.5	Secondary_other
+md:M00914	EC2.7.7.3	Secondary_other
+md:M00915	EC1.14.13.178	Secondary_other
+md:M00915	EC1.14.13.179	Secondary_other
+md:M00915	EC1.14.13.128	Secondary_other
+md:M00916	EC4.3.3.6	Secondary_other
+md:M00917	EC5.4.99.8	Secondary_other
+md:M00917	EC2.1.1.41	Secondary_other
+md:M00917	EC1.14.18.10	Secondary_other
+md:M00917	EC1.1.1.418	Secondary_other
+md:M00917	EC5.5.1.9	Secondary_other
+md:M00917	EC1.14.14.154	Secondary_other
+md:M00917	EC1.14.15.36	Secondary_other
+md:M00917	EC1.3.1.70	Secondary_other
+md:M00917	EC5.3.3.5	Secondary_other
+md:M00917	EC2.1.1.143	Secondary_other
+md:M00917	EC1.14.18.11	Secondary_other
+md:M00917	EC1.14.19.20	Secondary_other
+md:M00917	EC1.3.1.21	Secondary_other
+md:M00917	EC1.3.1.72	Secondary_other
+md:M00918	EC1.14.13.59	Secondary_other
+md:M00918	EC2.3.1.102	Secondary_other
+md:M00918	EC6.3.2.38	Secondary_other
+md:M00918	EC6.3.2.39	Secondary_other
+md:M00919	EC3.5.4.44	Secondary_other
+md:M00919	EC3.5.1.125	Secondary_other
+md:M00919	EC2.6.1.76	Secondary_other
+md:M00921	EC2.5.1.1	Secondary_other
+md:M00921	EC2.5.1.10	Secondary_other
+md:M00921	EC2.5.1.29	Secondary_other
+md:M00921	EC4.2.3.146	Secondary_other
+md:M00921	EC1.14.99.61	Secondary_other
+md:M00921	EC1.14.99.62	Secondary_other
+md:M00922	EC3.2.1.183	Secondary_other
+md:M00922	EC2.5.1.56	Secondary_other
+md:M00922	EC2.7.7.43	Secondary_other
+md:M00923	EC4.2.1.115	Secondary_other
+md:M00923	EC1.1.1.367	Secondary_other
+md:M00923	EC5.1.3.28	Secondary_other
+md:M00924	EC2.1.1.107	Secondary_other
+md:M00924	EC1.3.1.76	Secondary_other
+md:M00924	EC4.99.1.4	Secondary_other
+md:M00924	EC4.2.1.75	Secondary_other
+md:M00924	EC4.99.1.3	Secondary_other
+md:M00924	EC4.99.1.11	Secondary_other
+md:M00924	EC2.1.1.130	Secondary_other
+md:M00924	EC2.1.1.151	Secondary_other
+md:M00924	EC2.1.1.131	Secondary_other
+md:M00924	EC3.7.1.12	Secondary_other
+md:M00924	EC2.1.1.272	Secondary_other
+md:M00924	EC2.1.1.133	Secondary_other
+md:M00924	EC2.1.1.271	Secondary_other
+md:M00924	EC2.1.1.195	Secondary_other
+md:M00924	EC1.3.1.54	Secondary_other
+md:M00924	EC1.3.1.106	Secondary_other
+md:M00924	EC2.1.1.196	Secondary_other
+md:M00924	EC2.1.1.289	Secondary_other
+md:M00924	EC2.1.1.132	Secondary_other
+md:M00924	EC5.4.99.61	Secondary_other
+md:M00924	EC5.4.99.60	Secondary_other
+md:M00924	EC6.3.5.9	Secondary_other
+md:M00924	EC6.3.5.11	Secondary_other
+md:M00925	EC2.1.1.107	Secondary_other
+md:M00925	EC4.2.1.75	Secondary_other
+md:M00925	EC2.1.1.130	Secondary_other
+md:M00925	EC2.1.1.151	Secondary_other
+md:M00925	EC2.1.1.131	Secondary_other
+md:M00925	EC1.14.13.83	Secondary_other
+md:M00925	EC3.7.1.12	Secondary_other
+md:M00925	EC2.1.1.133	Secondary_other
+md:M00925	EC2.1.1.271	Secondary_other
+md:M00925	EC2.1.1.152	Secondary_other
+md:M00925	EC1.3.1.54	Secondary_other
+md:M00925	EC1.3.1.106	Secondary_other
+md:M00925	EC2.1.1.132	Secondary_other
+md:M00925	EC2.1.1.289	Secondary_other
+md:M00925	EC2.1.1.196	Secondary_other
+md:M00925	EC5.4.99.61	Secondary_other
+md:M00925	EC5.4.99.60	Secondary_other
+md:M00925	EC6.3.5.9	Secondary_other
+md:M00925	EC6.3.5.11	Secondary_other
+md:M00925	EC6.6.1.2	Secondary_other
+md:M00926	EC1.2.1.70	Secondary_other
+md:M00926	EC5.4.3.8	Secondary_other
+md:M00926	EC4.2.1.24	Secondary_other
+md:M00926	EC2.5.1.61	Secondary_other
+md:M00926	EC4.2.1.75	Secondary_other
+md:M00926	EC2.1.1.107	Secondary_other
+md:M00926	EC4.1.1.37	Secondary_other
+md:M00926	EC1.3.3.4	Secondary_other
+md:M00926	EC1.3.3.15	Secondary_other
+md:M00926	EC4.99.1.1	Secondary_other
+md:M00926	EC4.99.1.9	Secondary_other
+md:M00926	EC1.3.98.5	Secondary_other
+md:M00927	EC5.5.1.13	Secondary_other
+md:M00927	EC4.2.3.19	Secondary_other
+md:M00927	EC1.14.14.86	Secondary_other
+md:M00927	EC1.14.14.107	Secondary_other
+md:M00928	EC1.14.11.12	Secondary_other
+md:M00928	EC1.14.11.15	Secondary_other
+md:M00929	EC5.5.1.13	Secondary_other
+md:M00929	EC4.2.3.19	Secondary_other
+md:M00929	EC1.14.14.86	Secondary_other
+md:M00930	EC4.2.1.151	Secondary_other
+md:M00930	EC2.5.1.120	Secondary_other
+md:M00930	EC3.5.4.40	Secondary_other
+md:M00930	EC3.2.2.26	Secondary_other
+md:M00930	EC1.21.98.1	Secondary_other
+md:M00931	EC4.2.1.151	Secondary_other
+md:M00931	EC2.5.1.120	Secondary_other
+md:M00931	EC3.2.2.9	Secondary_other
+md:M00931	EC3.2.2.30	Secondary_other
+md:M00931	EC1.21.98.1	Secondary_other
+md:M00932	EC5.4.4.2	Secondary_other
+md:M00932	EC2.2.1.9	Secondary_other
+md:M00932	EC4.2.99.20	Secondary_other
+md:M00932	EC4.2.1.113	Secondary_other
+md:M00932	EC6.2.1.26	Secondary_other
+md:M00932	EC4.1.3.36	Secondary_other
+md:M00932	EC3.1.2.28	Secondary_other
+md:M00932	EC2.5.1.130	Secondary_other
+md:M00932	EC1.6.5.12	Secondary_other
+md:M00932	EC2.1.1.329	Secondary_other
+md:M00933	EC2.5.1.117	Secondary_other
+md:M00933	EC2.1.1.295	Secondary_other
+md:M00934	EC2.1.1.238	Secondary_other
+md:M00934	EC2.1.1.237	Secondary_other
+md:M00935	EC4.2.3.153	Secondary_other
+md:M00935	EC2.6.1.108	Secondary_other
+md:M00935	EC2.7.4.31	Secondary_other
+md:M00935	EC4.1.1.25	Secondary_other
+md:M00935	EC4.1.1.11	Secondary_other
+md:M00935	EC6.3.4.24	Secondary_other
+md:M00935	EC2.5.1.131	Secondary_other
+md:M00936	EC4.1.1.28	Secondary_other
+md:M00936	EC4.1.1.105	Secondary_other
+md:M00936	EC2.3.1.87	Secondary_other
+md:M00936	EC2.1.1.4	Secondary_other
+md:M00936	EC2.1.1.68	Secondary_other
