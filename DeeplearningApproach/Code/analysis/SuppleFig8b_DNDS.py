@@ -119,7 +119,7 @@ def median(lst):
         return (sortedLst[index] + sortedLst[index + 1])/2.0
 
 def species_clade() :
-    with open("../../../BayesianApporach/Data/343_phenotype_clade.tsv", 'r') as infile :
+    with open("../../../BayesianApproach/Data/343_phenotype_clade.tsv", 'r') as infile :
         lines = infile.readlines()[1:]
 
     species = list()

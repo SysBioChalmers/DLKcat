@@ -21,7 +21,7 @@ import matplotlib.pyplot as plt
 from matplotlib import rc
 
 def plot_spe_gen() :
-    with open('../../../BayesianApporach/Results/kcat_gen_spe.txt') as infile :
+    with open('../../../BayesianApproach/Results/kcat_gen_spe.txt') as infile :
         alllines = infile.readlines()[1:]
 
     # all_clades = ['Outgroup', 'Lipomycetaceae', 'Trigonopsidaceae', 'Dipodascaceae/Trichomonascaceae', 'Alloascoideaceae', 'Sporopachydermia clade',

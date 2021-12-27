@@ -31,9 +31,9 @@ Usage
   - Preliminary step is to run the deep learning step for the prediction of the kcat. Check the `deeplearningApproach folder  <https://github.com/SysBioChalmers/DLKcat/tree/master/DeeplearningApproach>`_ for how th prediction was done. All predicted kcat files can be found in the `zenode link <https://doi.org/10.5281/zenodo.5164210>`_ folder, please download the raw results from the `zenode link <https://doi.org/10.5281/zenodo.5164210>`_  and combine that with the ``Results`` folder. 
  
   - This step is run on cluster, please adapt the unction ``initcluster.m`` for setting up the cluster path. create your own bash file for runing jobs on th cluster.
-  - run the ``classicDLModelGeneration_cluster.m`` to collect enzymedata which contains kcat and protein info and generate Classical-ecGEM and DL-ecGEM. Species should be input as the index order in the `Strain.txt <https://github.com/SysBioChalmers/DLKcat/blob/master/BayesianApporach/Code/ecGEMconstruction/Strain.txt>`_.
+  - run the ``classicDLModelGeneration_cluster.m`` to collect enzymedata which contains kcat and protein info and generate Classical-ecGEM and DL-ecGEM. Species should be input as the index order in the `Strain.txt <https://github.com/SysBioChalmers/DLKcat/blob/master/BayesianApproach/Code/ecGEMconstruction/Strain.txt>`_.
   
-  - run the ``BayesianModelGeneration_cluster.m`` to get the Posterior_mean-ecGEM. Species should be input as the index order in the `Strain.txt <https://github.com/SysBioChalmers/DLKcat/blob/master/BayesianApporach/Code/ecGEMconstruction/Strain.txt>`_.
+  - run the ``BayesianModelGeneration_cluster.m`` to get the Posterior_mean-ecGEM. Species should be input as the index order in the `Strain.txt <https://github.com/SysBioChalmers/DLKcat/blob/master/BayesianApproach/Code/ecGEMconstruction/Strain.txt>`_.
   
   - run the ``getEmodel.m`` to get GECKO version ecGEMs from the enzymedata and GEM. After that, all GECKO functions can be used for further analysis. all ecGEMs are stored in the `zenode link <https://doi.org/10.5281/zenodo.5164210>`_.
 
