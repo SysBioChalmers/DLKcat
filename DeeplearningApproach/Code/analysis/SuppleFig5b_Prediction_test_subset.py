@@ -43,8 +43,8 @@ def main() :
 
     print('The data point number: %s' % number)
     print('r is: %.2f' % correlation)
-    # print('p value is: %s' % p_value)
-    print('p value is: %.4f' % p_value)
+    print('p value is: %s' % p_value)
+    # print('p value is: %.4f' % p_value)
     print('R2 is: %.2f' % r2)
     print('RMSE is: %.2f' % rmse)
     print('\n')
@@ -52,7 +52,7 @@ def main() :
     # Results:
     # The data point number: 577
     # r is: 0.70
-    # p value is: 0.0000
+    # p value is: 7.984030757647275e-88
     # R2 is: 0.49
     # RMSE is: 1.03
 
@@ -81,10 +81,16 @@ def main() :
 
     # plt.scatter(data = allData, x = 'Predicted value', y = 'Experimental value')
     # sns.regplot(data = allData, x = 'Experimental value', y = 'Predicted value', color='#2166ac', scatter_kws={"s": 1})
-    ax = plt.scatter(x = experimental_values, y = predicted_values, c=experimental_predicted, s=3, edgecolor='')
+    ax = plt.scatter(x = experimental_values, y = predicted_values, c=experimental_predicted, s=3, edgecolor=[])
+
+    # https://stackoverflow.com/questions/53935805/specify-range-of-colors-for-density-plot-in-matplotlib
+    cbar = plt.colorbar(ax)
+    cbar.ax.tick_params(labelsize=6)
+    cbar.set_ticks([0.05, 0.10, 0.15])
+    cbar.set_label('Density', size=7)
 
     plt.text(-4.7, 6.1, 'r = %.2f' % correlation, fontweight ="normal", fontsize=6)
-    plt.text(-4.7, 5.1, 'p value = 0', fontweight ="normal", fontsize=6)
+    plt.text(-4.7, 5.1, 'P value = 8.0e-88', fontweight ="normal", fontsize=6)
     plt.text(-4.7, 4.0, 'N = 577', fontweight ="normal", fontsize=6)
 
     plt.rcParams['font.family'] = 'Helvetica'

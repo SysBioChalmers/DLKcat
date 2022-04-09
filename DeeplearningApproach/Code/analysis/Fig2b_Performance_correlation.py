@@ -252,7 +252,9 @@ def main() :
 
             predicted_values.append(math.log10(Kcat_value))
 
+    # https://stackoverflow.com/questions/33405715/what-is-the-non-correlation-test-in-scipy-stats-pearsonrx-y
     # correlation, p_value = stats.pearsonr(x, y)
+    # scipy.stats.pearsonr uses an approximation based on Student's t-distribution
     correlation, p_value = stats.pearsonr(experimental_values, predicted_values)
 
     # https://blog.csdn.net/u012735708/article/details/84337262?utm_medium=distribute.pc_relevant.none-
@@ -300,10 +302,15 @@ def main() :
 
     # plt.scatter(data = allData, x = 'Predicted value', y = 'Experimental value')
     # sns.regplot(data = allData, x = 'Experimental value', y = 'Predicted value', color='#2166ac', scatter_kws={"s": 1})
-    ax = plt.scatter(x = experimental_values, y = predicted_values, c=experimental_predicted, s=3, edgecolor='')
+    ax = plt.scatter(x = experimental_values, y = predicted_values, c=experimental_predicted, s=3, edgecolor=[])
+
+    # https://stackoverflow.com/questions/53935805/specify-range-of-colors-for-density-plot-in-matplotlib
+    cbar = plt.colorbar(ax)
+    cbar.ax.tick_params(labelsize=6)
+    cbar.set_label('Density', size=7)
 
     plt.text(-6.7, 6.0, 'r = %.2f' % correlation, fontweight ="normal", fontsize=6)
-    plt.text(-6.7, 5.0, 'p value = 0', fontweight ="normal", fontsize=6)
+    plt.text(-6.7, 5.0, 'P value = 0', fontweight ="normal", fontsize=6)
     plt.text(-6.7, 3.9, 'N = 16,838', fontweight ="normal", fontsize=6)
 
     plt.rcParams['font.family'] = 'Helvetica'
