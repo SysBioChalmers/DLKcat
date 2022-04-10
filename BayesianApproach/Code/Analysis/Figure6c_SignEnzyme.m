@@ -33,7 +33,7 @@ rxnTarget = [rxnTarget;model.rxns(find(sol.x > 0.0001))];
     tmp = regexprep(tmp,'_(\d)','');
     rxnTarget = strcat(pre,'_',tmp);
 inputpath = '../../Results/model_build_files/model_dl';
-inputpath = '../../Results/model_build_files/model_Bayesian';
+%inputpath = '../../Results/model_build_files/model_Bayesian';
 
 [siginificantEnzyme,pvalue,kcatresult,pathwayEnzyme] = kcatSignAnalysis(crabtree,nocrabtree,inputpath,0.05,rxnTarget);
 % pathwayEnzyme is the filtered result with the significant rxns in the

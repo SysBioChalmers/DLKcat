@@ -1,7 +1,7 @@
 % This is to plot the figure S9
 
 %% Figure Sa
-fid2 = fopen('../../Data/physiology/343_phenotype_clade.tsv');
+fid2 = fopen('../../Data/343_phenotype_clade.tsv');
 format = '%s %s %s';
 temp = textscan(fid2,format,'Delimiter','\t','HeaderLines',1);
 for i = 1:length(temp)
@@ -20,7 +20,8 @@ for i = 1:length(clades)
 end
 
 % with data
-[~,idx] = ismember(species,Strain_information(:,1));
+load('species_withdata.mat')
+[~,idx] = ismember(species_withdata,Strain_information(:,1));
 x = Strain_information(idx,:);
 for i = 1:length(clades)
 idx = ismember(x(:,2),clades(i));

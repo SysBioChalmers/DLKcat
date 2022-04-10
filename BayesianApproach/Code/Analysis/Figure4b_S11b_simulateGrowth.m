@@ -56,7 +56,7 @@ for i = 1:length(species)
     figure
      hold on
     for j = [1,3,7,8]
-        scatter(exp(:,1),exp(:,j+1),30,'o','LineWidth',0.75,'MarkerFaceColor',color(j,:),'MarkerEdgeColor','k','MarkerEdgeAlpha',0.3);
+        scatter(exp(:,1),exp(:,j+1),10,'o','LineWidth',0.75,'MarkerFaceColor',color(j,:),'MarkerEdgeColor','k','MarkerEdgeAlpha',0.3);
     end
 
 

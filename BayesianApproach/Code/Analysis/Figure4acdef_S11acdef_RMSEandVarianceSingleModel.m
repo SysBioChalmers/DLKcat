@@ -31,7 +31,7 @@ for k = 1:length(species)
     saveas(fig1,['RMSE_DROP',species{k},'.pdf']);
     clear theta
     
-    % plot varinence change
+    % plot varinence change Fig e
     color = [33, 102, 172;178, 24, 43]./255;
     num = nfound;
     figure
@@ -155,10 +155,10 @@ for j = 1:length(species)
     figure
     hold on;
     [x,y] = sort(theta_all);
-    h = scatter(score(:,1),score(:,2),20,'o','filled','LineWidth',0.75,'MarkerEdgeColor',[55,55,55]./255,'MarkerFaceColor',[55,55,55]./255,'MarkerFaceAlpha',0.3);legend off;
-    h = scatter(score(y(end-100:end),1),score(y(end-100:end),2),20,'o','filled','LineWidth',0.75,'MarkerEdgeColor',[33, 102, 172]/255,'MarkerFaceColor',[33, 102, 172]/255,'MarkerFaceAlpha',0.3);legend off;
-    h = scatter(score(y(1:100),1),score(y(1:100),2),40,'o','filled','LineWidth',0.75,'MarkerEdgeColor',[178, 24, 43]/255,'MarkerFaceColor',[178, 24, 43]/255,'MarkerFaceAlpha',0.3);legend off;
-    leg = legend({'Intermediates','Prior','Posterior'});
+    h = scatter(score(y(101:end-100),1),score(y(101:end-100),2),10,'o','filled','LineWidth',0.5,'MarkerEdgeColor',[189,189,189]./255,'MarkerFaceColor',[189,189,189]./255,'MarkerFaceAlpha',0);legend off;
+    h = scatter(score(y(end-100:end),1),score(y(end-100:end),2),10,'o','filled','LineWidth',0.5,'MarkerEdgeColor',[2, 102, 172]/255,'MarkerFaceColor',[33, 102, 172]/255,'MarkerFaceAlpha',0.1);legend off;
+    h = scatter(score(y(1:100),1),score(y(1:100),2),10,'o','filled','LineWidth',0.5,'MarkerEdgeColor',[178, 24, 43]/255,'MarkerFaceColor',[178, 24, 43]/255,'MarkerFaceAlpha',0.1);legend off;
+    leg = legend({'Intermediates','Prior','Posterior'},'Location','southwest');
     set(leg,'box','off');
     set(gca, 'XColor','k');
     set(gca, 'YColor','k');

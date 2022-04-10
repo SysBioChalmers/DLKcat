@@ -46,7 +46,7 @@ fill(X_plot, Y_plot , 1, ...
     'facealpha', 0.3);
 set(gca,'FontSize',6,'FontName','Helvetica');
 ylabel('RMSE in each generation','FontSize',7,'FontName','Helvetica','Color','k');
-xlabel('No. generation','FontSize',7,'FontName','Helvetica','Color','k');
+xlabel('Generation','FontSize',7,'FontName','Helvetica','Color','k');
 set(gcf,'position',[0 200 150 150]);
 set(gca,'position',[0.2 0.2 0.6 0.6]);
 box off
