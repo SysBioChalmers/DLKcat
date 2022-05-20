@@ -9,7 +9,7 @@ DLKcat
 Introduction
 ------------
 
-The **DLkcat** toolbox is a Matlab/Python package for prediction of
+The **DLKcat** toolbox is a Matlab/Python package for prediction of
 kcats and generation of the ecGEMs. The repo is divided into two parts:
 `DeeplearningApproach` and `BayesianApproach`. `DeeplearningApproach`
 supplies a deep-learning based prediction tool for kcat prediction,
