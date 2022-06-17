@@ -37,7 +37,7 @@ Usage
 Citation
 -----
 
-- Currently, please cite the preprint paper [Deep learning based kcat prediction enables improved enzyme constrained model reconstruction](https://www.biorxiv.org/content/10.1101/2021.08.06.455417v1)""
+- Please cite the paper [Deep learning-based kcat prediction enables improved enzyme-constrained model reconstruction](https://www.nature.com/articles/s41929-022-00798-z)""
 
 
 Contact
