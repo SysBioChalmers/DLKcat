@@ -40,6 +40,10 @@ Citation
 - Please cite the paper [Deep learning-based kcat prediction enables improved enzyme-constrained model reconstruction](https://www.nature.com/articles/s41929-022-00798-z)""
 
 
+Notes
+-------
+We noticed there is a mismatch of reference list in Supplementary Table 2 of the publication, therefore we made an update for that. New supplementary Tables can be found [here](https://github.com/SysBioChalmers/DLKcat/tree/master/DeeplearningApproach/Results/figures)
+
 Contact
 -------
 
