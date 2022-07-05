@@ -38,6 +38,11 @@ mkdir('../../Results/model_build_files/model_dl/')
     %File = lower(File);
     [Header, Sequence] = fastaread(File);
     Header = Header';
+    % Fix the issue for S. cerevisiae fasta file Header issue
+    if any(contains(Header,'Saccharomyces_cerevisiae@')) 
+        Header = strrep(Header,'Saccharomyces_cerevisiae@','');
+    end
+
     cd(current_path)
     
     % calculate MW for the sequence
