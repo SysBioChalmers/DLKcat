@@ -11,8 +11,8 @@ function [kcat_subunit,kcat_subunit_conf,kcat_all] = searchkcat_predict(rxn,subu
 if idx_rxn ~= 0
     % match substrate
     subunits_file = split(data(idx_rxn,6),';');
-    sub_file = split(data(idx_rxn,3),';');
-    sub = split(sub,'; ');
+    sub_file = split(data(idx_rxn,3),';'); % sub_file is from the prediction result
+    sub = split(sub,'; '); % sub is from the rxn
     tmp = setdiff(sub_file,sub);
     if ~isempty(tmp)
         warning(['predictedkcat file does not contain the sub in the model, please check the sub:',cell2mat(join(tmp,';')),' in rxn',cell2mat(rxn)]);
@@ -27,17 +27,18 @@ if idx_rxn ~= 0
     kcat_all = cellfun(@str2num,split(kcat_tmp(~emptykcatidx),','));
     
     % filter unwanted kcats for currency mets usch as h2O ATP nadph nadh
+    sub_new = sub_file;
     if length(intersect(sub_prod,conserveMets.pair)) >= 2
-        sub_file = setdiff(sub_file,conserveMets.pair);% only remove conservedMets from sub if there are paired for example NADH and NAD, then it can save kcats prediction for NAD synthesis pathway
+        sub_new = setdiff(sub_new,conserveMets.pair);% only remove conservedMets from sub if there are paired for example NADH and NAD, then it can save kcats prediction for NAD synthesis pathway
     end
-    sub_new = setdiff(sub_file,conserveMets.currency);
+    sub_new = setdiff(sub_new,conserveMets.currency);
     
     if isempty(sub_new)
-        sub_new = sub;
+        sub_new = sub_file;
         warning(['keep the sub '  cell2mat(join(sub_file,';')),' for the rxn ',cell2mat(rxn)])
     end
-    [~,idx_sub] = ismember(sub_new,sub_file); % ge tidx for non-currency mets
-   kcat_subunit = kcat_subunit(idx_sub(idx_sub~=0),:);
+    [~,idx_sub] = ismember(sub_new,sub_file); % get idx for non-currency mets
+    kcat_subunit = kcat_subunit(idx_sub(idx_sub~=0),:);
     kcat_subunit = max(kcat_subunit,[],1); % find max kcats for all subs for each subunit
     
     % get idx for subunit
