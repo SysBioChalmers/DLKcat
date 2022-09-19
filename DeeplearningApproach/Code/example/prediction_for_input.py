@@ -229,7 +229,7 @@ def main() :
             # print(smiles)
 
             try :
-                if "." not in smiles :
+                if smiles != None and "." not in smiles :
                     # i += 1
                     # print('This is',i)
 
@@ -264,12 +264,19 @@ def main() :
                     line_item = [name,smiles,sequence,Kcat_value]
 
                     outfile.write('\t'.join(line_item)+'\n')
+                else :
+                    Kcat_value = 'None'
+                    smiles = 'None'
+                    print('Warning: No SMILES found for', name)
+                    line_item = [name,smiles,sequence,Kcat_value]
+                    outfile.write('\t'.join(line_item)+'\n')
+
             except :
                 Kcat_value = 'None'
                 line_item = [name,smiles,sequence,Kcat_value]
                 outfile.write('\t'.join(line_item)+'\n')
 
-    print('Prediction success!')
+    print('Prediction Done!')
 
 
 if __name__ == '__main__' :
