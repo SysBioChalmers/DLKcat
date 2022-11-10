@@ -251,9 +251,9 @@ def main() :
                     # print(words)
                     # proteins.append(words)
 
-                    fingerprints = torch.LongTensor(fingerprints)
-                    adjacency = torch.FloatTensor(adjacency)
-                    words = torch.LongTensor(words)
+                    fingerprints = torch.LongTensor(fingerprints).to(device)
+                    adjacency = torch.FloatTensor(adjacency).to(device)
+                    words = torch.LongTensor(words).to(device)
 
                     inputs = [fingerprints, adjacency, words]
 
