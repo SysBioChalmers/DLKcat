@@ -249,7 +249,7 @@ def main() :
             # print(sequence_info)
 
             if len(smiles_info) :
-                file.write(line.strip() + '\t')
+                file.write(line.strip('\n') + '\t')
 
             n = 0
             for smiles in smiles_info :
