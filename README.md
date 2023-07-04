@@ -8,7 +8,7 @@ DLKcat
 
 Introduction
 ------------
-[中文版](https://github.com/jingerhuang/DLKcat/blob/jingerhuang-patch-1/README_ZH.md))
+[中文版](https://github.com/jingerhuang/DLKcat/blob/jingerhuang-patch-1/README_ZH.md)
 
 The **DLKcat** toolbox is a Matlab/Python package for prediction of
 kcats and generation of the ecGEMs. The repo is divided into two parts:
