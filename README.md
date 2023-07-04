@@ -8,6 +8,7 @@ DLKcat
 
 Introduction
 ------------
+[中文版](https://github.com/SysBioChalmers/DLKcat/blob/master/README_ZH.md)
 
 The **DLKcat** toolbox is a Matlab/Python package for prediction of
 kcats and generation of the ecGEMs. The repo is divided into two parts:
@@ -52,4 +53,4 @@ Contact
 -   Le Yuan ([@le-yuan](https://github.com/le-yuan)), Chalmers
     University of Technology, Gothenburg, Sweden
 
-Last update: 2022-04-09
+Last update: 2023-07-04
