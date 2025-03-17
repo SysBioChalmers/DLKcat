@@ -27,22 +27,22 @@ Usage
   - (2). Download required Python package
   .. code-block:: linux
 
-         pip install numpy requests torch torchvision rdkit-pypi sklearn
+         pip install "numpy<2" requests torch torchvision rdkit-pypi scikit-learn
 
-  - (3). Change directory to ``DeeplearningApproach`` under the DLKcat package
+  - (3). Change directory to `` ``DeeplearningApproach/Data`` under the DLKcat package
   .. code-block:: linux
 
-         cd DLKcat/DeeplearningApproach
+         cd DLKcat/DeeplearningApproach/Data
 
-  - (4). Unzip the ``input.zip`` file under the ``Data`` directory
+  - (4). Unzip the ``input.zip`` file
   .. code-block:: linux
 
-         unzip Data/input.zip
+         unzip input.zip
 
   - (5). Change directory to the ``Code/example`` under the DLKcat package
   .. code-block:: linux
 
-         cd Code/example 
+         cd ../Code/example 
 
   - (6). Now you can use the trained deep learning model for your prediction via one command line. Here, one input file is needed to be prepared, please check the ``Code/example/input.tsv``. For the input file, protein sequence should be provided, and users also need to provide substrate (compound) name or substrate (compound) SMILES, but substrate SMILES is recommended. If it is difficult to find the substrate SMILES, please provide the substrate name and leave the substrate SMILES blank
   .. code-block:: linux
